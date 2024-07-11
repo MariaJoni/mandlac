@@ -6,6 +6,8 @@ import Details from './pages/details'
 import Hospitality from './pages/hospitality'
 import Contact from './pages/contact'
 import Home from './pages/home';
+import Footer from './pages/footer';
+import Blog from './pages/blog';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,11 +18,13 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </Router>
+        <Footer />
         {/* <Home /> */}
-        <Details />
-        <Contact />
+        {/* <Details /> */}
+        {/* <Contact /> */}
       </div>
     </div>
   )
