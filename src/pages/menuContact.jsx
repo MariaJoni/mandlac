@@ -72,7 +72,7 @@ function MenuContact() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default MenuContact
+export default MenuContact;
