@@ -76,12 +76,19 @@ function Header() {
 
   const Research = ["Mandlac Research", "Mandlac Innovation"]
 
+  const handleNavigate = (sector) => {
+    if (sector === "Hospitality") {
+      navigate("hospitality")
+      setMenuOpen(false)
+    }
+  }
+
 
   return (
     <div className="relative">
       <div className="flex flex-col md:flex-row w-full bg-[#ffeb9b] justify-between items-center border-b-2 border-gray-200 p-2">
         <div className="flex justify-between w-full md:w-auto items-center">
-          <img src={nipponLogo} className="w-28 ml-2 mb-2 md:mb-0" alt="Logo" />
+          <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 ml-2 mb-2 md:mb-0 cursor-pointer" alt="Logo" />
           <button
             className="md:hidden text-2xl"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -102,7 +109,7 @@ function Header() {
                     <div className={`${activeSection === 'Industries' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Industries')}>Industries <IoIosArrowForward /></div>
                     <div className={`${activeSection === 'Services' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Services')}>Services <IoIosArrowForward /></div>
                     <div className={`${activeSection === 'Products' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Products')}>Products <IoIosArrowForward /></div>
-                    <div className={`${activeSection === 'Research and innovation' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Research')}>Research and innovation <IoIosArrowForward /></div>
+                    <div className={`${activeSection === 'Research' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Research')}>Research and innovation <IoIosArrowForward /></div>
                   </div>
                   <div className='w-[60%] ml-4'>
                     {activeSection === 'Overview' && (
@@ -116,7 +123,7 @@ function Header() {
                       <div>
                         <ul>
                           {industrySectors.map((sector, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
+                            <li onClick={() => handleNavigate(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
                           ))}
                         </ul>
                       </div>
@@ -157,7 +164,7 @@ function Header() {
                 <li className="font-semibold flex items-center" variant="link">Who we are <IoIosArrowDown /></li>
               </HoverCardTrigger>
               <HoverCardContent className="w-screen h-64 mt-8">
-                <div className='flex items-center justify-center mt-20 font-bold text-[40px]'>
+                <div className='flex items-center font-serif justify-center mt-20 font-bold text-[40px]'>
                   coming soon...
                 </div>
               </HoverCardContent>
@@ -206,7 +213,7 @@ function Header() {
                       <div>
                         <ul>
                           {industrySectors.map((sector, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
+                            <li onClick={() => handleNavigate(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
                           ))}
                         </ul>
                       </div>

@@ -164,29 +164,30 @@ function Details() {
 
   return (
     <div className='details'>
-      <div className='flex w-[90%] mt-10 mb-0 ml-auto mr-auto gap-3'>
-        <div className='w-[40%]'>
+      <div className='flex flex-col h-[1200px] sm:h-[1000px] md:h-[700px] md:flex-row w-[90%] mt-10 mb-0 ml-auto mr-auto gap-3'>
+        <div className='md:w-[40%] w-full'>
           {sections.map((section) => (
             <div
               key={section.title}
               onClick={() => handleSectionClick(section)}
-              className={`${selectedSection === section.title ? 'font-bold bg-green-50' : ''} p-3`}
+              className={`${selectedSection === section.title ? 'font-bold bg-green-50' : ''} p-3 cursor-pointer`}
             >
               {section.title}
             </div>
           ))}
         </div>
-        <div className='w-[50%]'>
+        <div className='md:w-[60%] w-full'>
           {sections.map((section) => (
             selectedSection === section.title && (
-              <div key={section.title}>
+              <div key={section.title} className='p-3'>
                 {section.content}
               </div>
             )
           ))}
         </div>
       </div>
-    </div >
+    </div>
+
   );
 }
 
