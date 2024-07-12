@@ -29,7 +29,7 @@
 .details {
   background-color: transparent;
   background: linear-gradient(180deg, #EDF8EB00 0%, #edf8eb 100%);
-  height: 800px;
+  /* height: 800px; */
   display: flex;
 }
 
@@ -55,3 +55,33 @@
   background: linear-gradient(180deg, #FFCC006B 0%, #FFCC0000 100%);
   height: 700px;
 }
+
+.recent_project {
+  background-color: transparent;
+  background: linear-gradient(180deg, #edf8eb 0%, #EDF8EB00 100%);
+  height: 700px;
+}
+
+
+.client {
+  background-image: url('./assets/Blog.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  /* margin: 0 10px; */
+}
+
+.silders {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .slick-list {
+  background: red;
+  border-radius: 10px;
+  padding-left: 100px !important;
+}
+
+.slick-slider {
+  margin: 100px;
+} */
