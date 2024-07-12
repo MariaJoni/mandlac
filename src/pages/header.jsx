@@ -7,6 +7,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+import { Button } from '@/components/ui/button';
 import {
   Accordion,
   AccordionContent,
@@ -99,7 +100,7 @@ function Header() {
           <ul className="flex flex-row gap-4 md:gap-8 items-center">
             <HoverCard>
               <HoverCardTrigger asChild>
-                <li className="font-semibold flex items-center cursor-pointer" variant="link">What we do <IoIosArrowDown /></li>
+                <li className="font-semibold flex items-center" variant="link">What we do <IoIosArrowDown /></li>
               </HoverCardTrigger>
               <HoverCardContent className="w-screen h-64 mt-8">
                 <div className='flex items-start w-[85%] mt-0 mb-0 ml-auto mr-auto'>
@@ -160,7 +161,7 @@ function Header() {
             </HoverCard>
             <HoverCard>
               <HoverCardTrigger asChild>
-                <li className="font-semibold flex items-center cursor-pointer" variant="link">Who we are <IoIosArrowDown /></li>
+                <li className="font-semibold flex items-center" variant="link">Who we are <IoIosArrowDown /></li>
               </HoverCardTrigger>
               <HoverCardContent className="w-screen h-64 mt-8">
                 <div className='flex items-center font-serif justify-center mt-20 font-bold text-[40px]'>
@@ -168,8 +169,8 @@ function Header() {
                 </div>
               </HoverCardContent>
             </HoverCard>
-            <li onClick={() => navigate('/blog')} className="font-semibold cursor-pointer">Blog</li>
-            <li onClick={() => navigate('/menuContact')} className="font-semibold cursor-pointer">Contact</li>
+            <li onClick={() => navigate('/blog')} className="font-semibold">Blog</li>
+            <li className="font-semibold">Contact</li>
           </ul>
         </div>
         <div className="flex items-center gap-4">
