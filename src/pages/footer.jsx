@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <div className=' bg-black text-white'>
-      <div className='py-8 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%] mt-0 mb-0 mr-auto ml-auto'>
+      <div className='py-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%] mt-0 mb-0 mr-auto ml-auto'>
         <div>
           <h2 className='text-[25px] font-normal mb-3'>About</h2>
           <p className='w-[90%]'>Mandlac pioneers IoT innovation, offering customizable smart water management solutions for residential, commercial, and multi-apartment buildings, revolutionizing everyday interactions with technology.</p>
