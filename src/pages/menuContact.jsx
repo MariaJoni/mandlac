@@ -9,8 +9,8 @@ import { Button } from "@/components/ui/button";
 function MenuContact() {
   return (
     <div className="h-full w-full">
-      <div className="bg-[url('./assets/Blog.png')] w-full h-[350px] bg-no-repeat bg-cover relative z-10 ">
-        <div className="absolute top-10 left-10 md:left-32 lg:left-32 md:top-32 lg:top-32 pt-2 pb-2 pl-1 pr-10 md:pt-5 md:pb-5 md:pl-3 text-white bg-[#565857] flex items-center gap-3 w-[200px] font-semibold text-[20px]">
+      <div className="bg-[url('./assets/Blog.png')] w-full h-[250px] md:h-[300px] lg:h-[350px] bg-no-repeat bg-cover relative -z-10 ">
+        <div className="absolute -z-20 top-10 left-10 md:left-32 lg:left-32 md:top-32 lg:top-32 pt-2 pb-2 pl-1 pr-10 md:pt-5 md:pb-5 md:pl-3 text-white bg-[#565857] flex items-center gap-3 w-[200px] font-semibold text-[20px]">
           <MdConnectWithoutContact className="text-amber-400 h-8 w-8" /> Contact
           Us
         </div>

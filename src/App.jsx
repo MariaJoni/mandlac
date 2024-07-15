@@ -13,7 +13,7 @@ import MenuContact from "./pages/menuContact";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="h-full w-full overflow-x-hidden">
+    <div className="h-full w- overflow-x-hidden">
       <Router>
         <Header />
         <Routes>

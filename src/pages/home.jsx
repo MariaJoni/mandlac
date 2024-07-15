@@ -49,6 +49,7 @@ import blog_news_2 from "../assets/blog_news_2.webp";
 import { FaArrowRight, FaCalendarAlt, FaUser } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Main from "./main";
 
 function Home() {
   useEffect(() => {
@@ -223,11 +224,11 @@ function Home() {
 
   return (
     <>
-      <div>
-        <img src={Banner} alt="" />
+      <div className="h-full w-full">
+        <Main />
       </div>
       <>
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold">
+        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center font-bold">
           Transform your Business with <br /> Advanced Technologies
         </h2>
         <p className="text-center mt-5 font-medium text-[16px]">
@@ -361,8 +362,16 @@ function Home() {
           data-aos="fade-left"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
         >
-          <img src={project_img1} alt="" className="h-auto w-screen col-span-1 row-span-2" />
-          <img src={project_img2} alt="" className="h-auto w-screen col-span-1 row-span-2" />
+          <img
+            src={project_img1}
+            alt=""
+            className="h-auto w-screen col-span-1 row-span-2"
+          />
+          <img
+            src={project_img2}
+            alt=""
+            className="h-auto w-screen col-span-1 row-span-2"
+          />
           <div className="col-span-1 lg:col-span-1 row-span-2 flex flex-col space-y-4">
             <img src={project_img3} alt="" className="h-52 lg:h-full" />
             <img src={project_img4} alt="" className="h-52 lg:h-full" />
@@ -398,5 +407,4 @@ function Home() {
     </>
   );
 }
-
 export default Home;
