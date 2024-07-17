@@ -1,5 +1,4 @@
 import React from 'react'
-import '../App.css'
 import HomeImg from "../assets/homeImg.jpg"
 import { IoIosArrowForward } from "react-icons/io";
 import Details from './details';
