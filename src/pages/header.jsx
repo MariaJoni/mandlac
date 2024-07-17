@@ -2,80 +2,20 @@ import React, { useState } from 'react';
 import nipponLogo from "../assets/MandlacLogo.png";
 import { IoIosArrowDown, IoIosClose, IoIosMenu } from 'react-icons/io';
 import { IoSearchOutline } from "react-icons/io5";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import { Button } from '@/components/ui/button';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-
+import { industrySectors, Products, Research, Services } from './contents';
 
 function Header() {
   const navigate = useNavigate()
   const [menuOpen, setMenuOpen] = useState(false);
-
   const [activeSection, setActiveSection] = useState('Overview');
 
   const handleClick = (section) => {
     setActiveSection(section);
   };
-
-  const industrySectors = [
-    "Hospitality",
-    "Institutions",
-    "Robotics",
-    "Airports",
-    "Distribution",
-    "Insurance",
-    "Retails",
-    "Aviation",
-    "OilGas",
-    "Lifescience",
-    "Travel",
-    "Automotive",
-    "Fisheries",
-    "Railways",
-    "Manufacturing",
-    "Banking",
-    "Government",
-    "Media",
-    "Pharmaceuticals",
-    "Biotechnology",
-    "Healthcare",
-    "Mining",
-    "Telecommunications",
-    "CapitalMarkets",
-    "ConsumerGoods",
-    "EnergyUtilities"
-  ];
-
-  const Services = [
-    "BigData",
-    "AIML",
-    "CloudSolution",
-    "IoTSolutions",
-    "MobileAppDevelopment",
-    "WebAppDevelopment",
-    "GeoSpatial"
-  ];
-
-  const Products = ["Biometric",
-    "Fire Alarm",
-    "Smart Home",
-    "Smart Locker",
-    "Smart Water Tank",
-    "Vital Sense"]
-
-  const Research = ["Mandlac Research", "Mandlac Innovation"]
 
   const handleNavigateIndustry = (sector) => {
     navigate(`/Industries/${sector}`);
@@ -128,7 +68,7 @@ function Header() {
                       Research and innovation <IoIosArrowForward />
                     </div>
                   </div>
-                  <div className='w-[60%] ml-4'>
+                  <div className='w-[70%] ml-8'>
                     {activeSection === 'Overview' && (
                       <div>
                         <p className='text-[24px] mt-4 font-light'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
@@ -137,40 +77,34 @@ function Header() {
                       </div>
                     )}
                     {activeSection === 'Industries' && (
-                      <div>
-                        <ul>
-                          {industrySectors.map((sector, index) => (
-                            <li onClick={() => handleNavigateIndustry(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      <ul>
+                        {industrySectors.sort((a, b) => a.name.localeCompare(b.name)).map((sector, index) => (
+                          <li onClick={() => handleNavigateIndustry(sector.navigate)} className="text-[18px] font-normal cursor-pointer me-4 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400 inline-flex items-center justify-center" key={index} >
+                            {sector.name}
+                          </li>
+                        ))}
+                      </ul>
                     )}
                     {activeSection === 'Services' && (
-                      <div>
-                        <ul>
-                          {Services.map((service, index) => (
-                            <li onClick={() => handleNavigateServices(service)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{service}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      <ul className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3'>
+                        {Services.sort((a, b) => a.name.localeCompare(b.name)).map((service, index) => (
+                          <li onClick={() => handleNavigateServices(service.navigate)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400 items-center justify-center' key={index}>{service.name}</li>
+                        ))}
+                      </ul>
                     )}
                     {activeSection === 'Products' && (
-                      <div>
-                        <ul>
-                          {Products.map((product, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{product}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      <ul className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3'>
+                        {Products.map((product, index) => (
+                          <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  items-center justify-center' key={index}>{product.name}</li>
+                        ))}
+                      </ul>
                     )}
                     {activeSection === 'Research' && (
-                      <div>
-                        <ul>
-                          {Research.map((item, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      <ul className='flex flex-col'>
+                        {Research.map((item, index) => (
+                          <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400 items-center justify-center' key={index}>{item.name}</li>
+                        ))}
+                      </ul>
                     )}
                   </div>
                 </div>
@@ -189,7 +123,7 @@ function Header() {
               </PopoverContent>
             </Popover>
             <li onClick={() => navigate('/blog')} className="font-semibold cursor-pointer">Blog</li>
-            <li onClick={() => navigate('/menuContact')} className="font-semibold cursor-pointer">Contact</li>
+            <li onClick={() => navigate('/contact')} className="font-semibold cursor-pointer">Contact</li>
           </ul>
         </div>
         <div className="flex items-center gap-4 mr-4">
@@ -197,7 +131,6 @@ function Header() {
           <span className="bg-black text-white p-2 md:p-3 rounded">Get Connected</span>
         </div>
       </div>
-
       <div
         className={`fixed overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}
         style={{ width: '80%', transition: 'transform 0.3s ease-in-out' }}
@@ -219,59 +152,41 @@ function Header() {
                   <AccordionItem value="item-1">
                     <AccordionTrigger>Overview</AccordionTrigger>
                     <AccordionContent>
-                      <div >
-                        <p className='text-[24px] mt-8 font-light'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
-                        <p className='mt-4 text-[14px]'>Our customizable solutions encompass both hardware and software services, ensuring that our products seamlessly integrate into your operations while meeting your specific requirements.</p>
-                        <div className='border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded'>Discover More</div>
-                      </div>
+                      <p className='text-[18px] mt-4 font-semibold'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
+                      <p className='mt-4 text-[14px]'>Our customizable solutions encompass both hardware and software services, ensuring that our products seamlessly integrate into your operations while meeting your specific requirements.</p>
+                      <div className='border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded'>Discover More</div>
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-2">
                     <AccordionTrigger>Industries</AccordionTrigger>
                     <AccordionContent>
-                      <div>
-                        <ul>
-                          {industrySectors.map((sector, index) => (
-                            <li onClick={() => handleNavigateIndustry(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      {industrySectors.map((sector, index) => (
+                        <li onClick={() => handleNavigateIndustry(sector.navigate)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector.name}</li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-3">
                     <AccordionTrigger>Services</AccordionTrigger>
                     <AccordionContent>
-                      <div>
-                        <ul>
-                          {Services.map((service, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{service}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      {Services.map((service, index) => (
+                        <li onClick={() => handleNavigateServices(service.navigate)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{service.name}</li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="item-3">
+                  <AccordionItem value="item-4">
                     <AccordionTrigger>Products</AccordionTrigger>
                     <AccordionContent>
-                      <div>
-                        <ul>
-                          {Products.map((product, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{product}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      {Products.map((product, index) => (
+                        <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{product.name}</li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
-                  <AccordionItem value="item-3">
+                  <AccordionItem value="item-5">
                     <AccordionTrigger>Research and innovation</AccordionTrigger>
                     <AccordionContent>
-                      <div>
-                        <ul>
-                          {Research.map((item, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
+                      {Research.map((item, index) => (
+                        <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{item.name}</li>
+                      ))}
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -284,8 +199,6 @@ function Header() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          {/* <li className="font-semibold flex items-center">What we do <IoIosArrowDown /></li>
-          <li className="font-semibold flex items-center">Who we are <IoIosArrowDown /></li> */}
           <li className="font-semibold">Blog</li>
           <li className="font-semibold">Contact</li>
         </ul>

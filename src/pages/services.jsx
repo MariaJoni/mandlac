@@ -8,11 +8,16 @@ import IoT_Solutions from '../assets/services/IoT_Solutions.jpg';
 import Geo_Spatial from '../assets/services/GeoSpatial.jpg';
 import Cloud_Solution from '../assets/services/Cloud_Solution.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
-import Contact from './contact';
-import Details from './details';
+import { TiTick } from 'react-icons/ti';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import sectorMappings from './contents';
 
 function Services() {
   const { sector } = useParams();
+  const SectorComponent = sectorMappings[sector.toLowerCase()];
+  const [selectedSection, setSelectedSection] = useState(SectorComponent[0].title);
   const data = [
     { menu: "BigData", img: Big_Data, title: "Mandlac Solutions for Big Data", contant: "In today’s digital landscape, businesses face a common struggle: harnessing the immense potential of Big Data while navigating its inherent challenges. We specialize in harnessing the power of Big Data to help businesses make informed decisions, optimize operations, and uncover new opportunities. Our comprehensive Big Data services provide the tools and expertise you need to turn data into actionable insights. " },
     { menu: "MobileAppDevelopment", img: Mobile_App_Development, title: "Mandlac Solutions for Mobile App Development", contant: "In the current mobile-centric era, businesses must provide seamless and engaging mobile experiences for their users. We specialize in developing innovative and user-friendly apps for both Android and iOS platforms. Our services are designed to help businesses boost engagement and achieve their goals. With our comprehensive mobile app development solutions, you can transform your app ideas into reality with the expertise and tools we provide." },
@@ -24,7 +29,10 @@ function Services() {
   ]
 
   const selectedIndustry = data.find(item => item.menu.toLowerCase() === sector.toLowerCase());
-  console.log(selectedIndustry);
+
+  const handleSectionClick = (title) => {
+    setSelectedSection(title);
+  };
 
   return (
     <>
@@ -42,8 +50,65 @@ function Services() {
           </div>
         </div>
       </div>
-      <Details />
-      <Contact />
+      <div className='flex bg-transparent bg-gradient-to-b from-[#EDF8EB00] to-[#edf8eb] h-auto'>
+        <div className='flex flex-col h-auto mb-10 md:flex-row w-[90%] mt-107 ml-auto mr-auto gap-3'>
+          <div className='md:w-[40%] w-full'>
+            {SectorComponent.map((section) => (
+              <div key={section.title} onClick={() => handleSectionClick(section.title)} className={`${selectedSection === section.title ? 'font-bold bg-green-50' : ''} p-3 cursor-pointer`} >
+                {section.title}
+              </div>
+            ))}
+          </div>
+          <div className='md:w-[60%] w-full'>
+            {SectorComponent.map((section) => (
+              selectedSection === section.title && (
+                <div key={section.title} className='p-3'>
+                  {section.content}
+                </div>
+              )
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className='bg-[#fff6e4] pb-10'>
+        <div className='w-[90%] mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='flex flex-col lg:flex-row gap-4 w-full mb-0'>
+            <div className='w-full lg:w-[40%] mt-10'>
+              <h1 className='font-bold text-3xl lg:text-[40px]'>Explore Our Solutions</h1>
+              <p className='font-medium mt-4'>We’re happy to answer any questions you may have and help you determine which of our services best fit your needs</p>
+              <div className='flex items-center gap-3 mt-5'>
+                <TiTick className='bg-amber-300 rounded-sm' />Ready to boost your online presence
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />Don't miss Join our exclusive insights
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />Transform your business with our IoT solutions
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />See results like never before. Click to schedule
+              </div>
+            </div>
+            <div className='w-full lg:w-[60%] mt-10 lg:mt-10 bg-white p-10'>
+              <p className='text-2xl lg:text-[35px] font-bold'>Get In Touch With Us</p>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3'>
+                <Input type="text" placeholder="Your Name" />
+                <Input type="email" placeholder="Enter Email" />
+              </div>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3'>
+                <Input type="text" placeholder="Subject" />
+                <Input type="tel" placeholder="Phone Number" />
+              </div>
+              <div className='mt-3'>
+                <Textarea placeholder="Type your message here." />
+              </div>
+              <div className='flex justify-center lg:justify-start'>
+                <Button className="mt-5 font-bold text-lg lg:text-[20px] px-10">Send</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

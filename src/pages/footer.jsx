@@ -28,7 +28,7 @@ function Footer() {
             <li onClick={() => navigate('/')} className='pb-2 cursor-pointer hover:text-amber-300'>What we do</li>
             <li onClick={() => navigate('/')} className='pb-2 cursor-pointer hover:text-amber-300'>Who we are</li>
             <li onClick={() => navigate('/blog')} className='pb-2 cursor-pointer hover:text-amber-300'>Blog</li>
-            <li onClick={() => navigate('/menuContact')} className='pb-2 cursor-pointer hover:text-amber-300'>Contact</li>
+            <li onClick={() => navigate('/contact')} className='pb-2 cursor-pointer hover:text-amber-300'>Contact</li>
           </ul>
         </div>
         <div>

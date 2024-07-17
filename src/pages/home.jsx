@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Banner from "../assets/Banner-1.png";
-import software_services from "../assets/Software_Services.png";
-import IoT_Services from "../assets/IoT_Services.png";
-import Geo_Spatial from "../assets/Geo_Spatial.png";
+import sparkler from "../assets/sparkler.png";
+import bannerLeft from "../assets/bannerLeft.svg";
+import bannerRight from "../assets/bannerRight.svg";
+import homebgremovebg from "../assets/homebgremovebg.png";
 import Advertising from "../assets/img/Advertising.png";
 import Airport from "../assets/img/Airport.png";
 import Aviation from "../assets/img/Aviation.png";
@@ -38,18 +38,14 @@ import Smart_Home from "../assets/projects/Smart Home.jpg";
 import Smart_Locker from "../assets/projects/Smart Locker.jpg";
 import Smart_Water_Tank from "../assets/projects/Smart Water Tank.png";
 import Vital_Sense from "../assets/projects/Vital Sense.jpg";
-import client_1 from "../assets/clients/client_1.png";
-import client_2 from "../assets/clients/client_2.png";
 import project_img1 from "../assets/recent_project/project_img1.png";
 import project_img2 from "../assets/recent_project/project_img2.png";
 import project_img3 from "../assets/recent_project/project_img3.png";
 import project_img4 from "../assets/recent_project/project_img4.png";
-import blog_news_1 from "../assets/blog_news_1.jpg";
-import blog_news_2 from "../assets/blog_news_2.webp";
 import { FaArrowRight, FaCalendarAlt, FaUser } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Main from "./main";
+import { client, news, services, industriesSlide, clientSlide } from "./contents";
 
 function Home() {
   useEffect(() => {
@@ -60,27 +56,6 @@ function Home() {
     });
   }, []);
 
-  const client = [
-    {
-      img: client_1,
-      name: "James Anderson",
-      contant:
-        "Working with Mandlac has been a game-changer for our household. Their smart water tank management system has not only simplified our water usage but also provided peace of mind knowing that our water supply is efficiently managed. The ability to control everything through their user-friendly mobile app is incredibly convenient. Plus, their team’s dedication to customization ensures that the system perfectly fits our needs. Overall, we couldn’t be happier with Mandlac’s innovative solutions and excellent customer service.",
-    },
-    {
-      img: client_2,
-      name: "Aaliyah",
-      contant:
-        "Partnering with Mandlac has elevated our hotel's operations to a whole new level. Their IoT smart products, particularly the water tank management system and automatic valve shut-off, have optimized our water usage efficiency and streamlined our maintenance processes. The customization options on both hardware and software fronts have allowed us to tailor the system to our unique requirements seamlessly. The convenience of controlling everything through their mobile app has impressed both our staff and guests alike. Mandlac's commitment to innovation and customer satisfaction truly sets them apart in the industry.",
-    },
-    {
-      img: client_1,
-      name: "James Anderson",
-      contant:
-        "Working with Mandlac has been a game-changer for our household. Their smart water tank management system has not only simplified our water usage but also provided peace of mind knowing that our water supply is efficiently managed. The ability to control everything through their user-friendly mobile app is incredibly convenient. Plus, their team’s dedication to customization ensures that the system perfectly fits our needs. Overall, we couldn’t be happier with Mandlac’s innovative solutions and excellent customer service.",
-    },
-  ];
-
   const [expanded, setExpanded] = useState(Array(client.length).fill(false));
 
   const handleReadMore = (index) => {
@@ -88,30 +63,6 @@ function Home() {
     newExpanded[index] = !newExpanded[index];
     setExpanded(newExpanded);
   };
-
-  const services = [
-    {
-      img: software_services,
-      bg: "#edf8ea",
-      title: "Software Services",
-      contant:
-        "Our software solutions are designed to drive innovation and efficiency in your business. With our expertise in custom development, integration, and cutting -",
-    },
-    {
-      img: IoT_Services,
-      bg: "#fff6e4",
-      title: "IoT Services",
-      contant:
-        "Our IoT solutions are designed to transform the way you do business. By connecting devices, data, and people, we enable smarter operations and innovative  ",
-    },
-    {
-      img: Geo_Spatial,
-      bg: "#f2f2fe",
-      title: "Geo-Spatial",
-      contant:
-        "Our geospatial solutions harness the power of location data to provide you with actionable insights and precision mapping. From accurate  data collection",
-    },
-  ];
 
   const Industries = [
     { img: Advertising, title: "Advertising" },
@@ -151,120 +102,91 @@ function Home() {
     { img: Vital_Sense, title: "Vital_Sense" },
   ];
 
-  const news = [
-    {
-      img: blog_news_1,
-      post: "By Admin",
-      date: "9 July, 2024",
-      title: "Nurturing Ethical and Responsible AI in the Digital Age",
-    },
-    {
-      img: blog_news_2,
-      post: "By Admin",
-      date: "9 July, 2024",
-      title: "Nurturing Ethical and Responsible AI in the Digital Age",
-    },
-    {
-      img: blog_news_1,
-      post: "By Admin",
-      date: "9 July, 2024",
-      title: "Nurturing Ethical and Responsible AI in the Digital Age",
-    },
-  ];
-
-  var settings1 = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    className: "silders",
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    rows: 2,
-    slidesPerRow: 5,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesPerRow: 4,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesPerRow: 2,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesPerRow: 1,
-        },
-      },
-    ],
-  };
-
   return (
     <>
       <div className="h-full w-full">
-        <Main />
+        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex lg:relative justify-center">
+          <div className="mt-10 flex flex-col items-center">
+            <div className="flex gap-2 items-center p-2 justify-center bg-[#fff6ce] rounded-[20px] my-2">
+              <img src={sparkler} alt="Sparkler" className="h-5 w-5" />
+              <span className="md:ml-3 font-normal text-[14px] md:text-[20px]">
+                We Provide IoT innovations for Industrial Projects
+              </span>
+              <img src={sparkler} alt="Sparkler" className="h-5 w-5" />
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="font-bold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem]">
+                Discover Mandlac and
+              </span>
+              <span className="font-bold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem]">
+                Experience the Future of IOT
+              </span>
+            </div>
+            <div className="flex flex-col text-[15px] lg:text-[20px] items-center mt-10 w-[80%] ">
+              At the forefront of innovation, Mandlac is dedicated to
+              revolutionizing the way we interact with technology.
+
+              Leveraging cutting-edge IoT technologies, we empower businesses to
+              optimize operations, enhance efficiency, and drive growth in today’s
+              increasingly connected world.
+            </div>
+            <div className="mt-14 mb-20">
+              <img src={homebgremovebg} alt="banner" />
+            </div>
+          </div>
+
+          <span className="absolute left-0 top-56 md:left-0 md:top-44 lg:left-3 lg:top-36">
+            <img
+              src={bannerLeft}
+              alt="speaker"
+              className="w-[5rem] h-[11rem] md:w-[7rem] md:h-[11rem] lg:w-[9rem] lg:h-[12rem]"
+            />
+          </span>
+          <span className="absolute right-0 top-72">
+            <img
+              src={bannerRight}
+              alt="speaker"
+              className="w-[5rem] h-[8rem] md:w-[9rem] md:h-[10] lg:w-[10rem] lg:h-[12rem]"
+            />
+          </span>
+        </div>
       </div>
-      <>
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center font-bold">
-          Transform your Business with <br /> Advanced Technologies
-        </h2>
-        <p className="text-center mt-5 font-medium text-[16px]">
-          We’re pioneers in the field of IoT, harnessing the latest advancements
-          in technology to develop cutting-edge solutions that drive efficiency,{" "}
-          <br /> sustainability, and growth. From smart monitoring to precise
-          controlling and seamless management systems, we specialize in <br />{" "}
-          revolutionizing how industries operate in the digital age.At Mandlac,
-          our clients are at the center of everything we do. We believe in
-          delivering <br /> on our promises, exceeding expectations, and
-          building long-lasting partnerships based on trust, integrity, and
-          mutual success.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-[80%] ml-auto mr-auto mb-10 mt-10">
-          {services.map((article, index) => (
-            <div
-              key={index}
-              className={`p-2`}
-              style={{ backgroundColor: article.bg }}
-            >
-              <img
-                src={article.img}
-                alt="Article Image"
-                className="w-[70px] h-[70px] rounded mr-4"
-              />
-              <div>
-                <h3 className="text-[25px] font-bold p-4">{article.title}</h3>
-                <p className="pl-4 pr-4">{article.contant}</p>
-                <div className="pl-4 mt-4 mb-4 font-semibold">
-                  READ MORE ...
-                </div>
+      <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center font-bold">
+        Transform your Business with <br /> Advanced Technologies
+      </h2>
+      <p className="text-center mt-5 font-medium text-[16px]">
+        We’re pioneers in the field of IoT, harnessing the latest advancements
+        in technology to develop cutting-edge solutions that drive efficiency,{" "}
+        <br /> sustainability, and growth. From smart monitoring to precise
+        controlling and seamless management systems, we specialize in <br />{" "}
+        revolutionizing how industries operate in the digital age.At Mandlac,
+        our clients are at the center of everything we do. We believe in
+        delivering <br /> on our promises, exceeding expectations, and
+        building long-lasting partnerships based on trust, integrity, and
+        mutual success.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-[80%] ml-auto mr-auto mb-10 mt-10">
+        {services.map((article, index) => (
+          <div
+            key={index}
+            className={`p-2`}
+            style={{ backgroundColor: article.bg }}
+          >
+            <img
+              src={article.img}
+              alt="Article Image"
+              className="w-[70px] h-[70px] rounded mr-4"
+            />
+            <div>
+              <h3 className="text-[25px] font-bold p-4">{article.title}</h3>
+              <p className="pl-4 pr-4">{article.contant}</p>
+              <div className="pl-4 mt-4 mb-4 font-semibold">
+                READ MORE ...
               </div>
             </div>
-          ))}
-        </div>
-      </>
+          </div>
+        ))}
+      </div>
       <div className="w-[90%] ml-auto mr-auto mb-20">
         <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold ">
           Solutions Built Specifically <br /> for your Industries
@@ -274,7 +196,7 @@ function Home() {
           services, ensuring that our products seamlessly integrate into your{" "}
           <br /> operations while meeting your specific requirements.
         </p>
-        <Slider {...settings} className="py-8">
+        <Slider {...industriesSlide} className="py-8">
           {Industries.map((data, i) => (
             <div key={i} className="p-4">
               <div className="flex flex-col items-center justify-center h-full p-4 bg-white shadow-md rounded-md">
@@ -325,7 +247,7 @@ function Home() {
           Happy Client Stories
         </h2>
         <div className="w-[90%] mx-auto">
-          <Slider {...settings1}>
+          <Slider {...clientSlide}>
             {client.map((data, i) => (
               <div key={i} className="px-4 mt-10 mb-10">
                 <div className="bg-white p-4 shadow-md rounded-md h-full">

@@ -1,26 +1,20 @@
 import React, { useEffect } from 'react';
 import { FaSearch } from "react-icons/fa";
-import blog_news_1 from '../assets/blog_news_1.jpg';
-import blog_news_2 from '../assets/blog_news_2.webp';
 import { FaUser } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { news } from './contents';
 
 function Blog() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration
-      easing: 'ease-out', // Easing function
-      once: true, // Animation only happens once
+      duration: 1000,
+      easing: 'ease-out',
+      once: true,
     });
   }, []);
-
-  const news = [
-    { img: blog_news_1, post: "By Admin", date: "9 July, 2024", title: "Nurturing Ethical and Responsible AI in the Digital Age" },
-    { img: blog_news_2, post: "By Admin", date: "9 July, 2024", title: "Nurturing Ethical and Responsible AI in the Digital Age" }
-  ];
 
   return (
     <div className='w-full'>
