@@ -6,7 +6,7 @@ import homebgremovebg from "../assets/homebgremovebg.png";
 
 function Main() {
   return (
-    <div className="Hospitality flex lg:relative justify-center">
+    <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex lg:relative justify-center">
       <div className="mt-10 flex flex-col items-center">
         <div className="flex gap-2 items-center p-2 justify-center bg-[#fff6ce] rounded-[20px] my-2">
           <img src={sparkler} alt="Sparkler" className="h-5 w-5" />
@@ -23,18 +23,15 @@ function Main() {
             Experience the Future of IOT
           </span>
         </div>
-        <div className="flex flex-col items-center mt-10">
-          <span className="w-[min(800px,100%)] text-c text-[15px] px-5 lg:px-8 lg:text-[20px] font-normal lg:tracking-[1px]">
-            At the forefront of innovation, Mandlac is dedicated to
-            revolutionizing the way we interact with technology.
-          </span>
-          <span className="text-[15px] px-5 lg:px-8 lg:text-[20px] font-normal lg:tracking-[1px]">
-            Leveraging cutting-edge IoT technologies, we empower businesses to
-            optimize operations, enhance efficiency, and drive growth in today’s
-            increasingly connected world.
-          </span>
+        <div className="flex flex-col text-[15px] lg:text-[20px] items-center mt-10 w-[80%] ">
+          At the forefront of innovation, Mandlac is dedicated to
+          revolutionizing the way we interact with technology.
+
+          Leveraging cutting-edge IoT technologies, we empower businesses to
+          optimize operations, enhance efficiency, and drive growth in today’s
+          increasingly connected world.
         </div>
-        <div className="mt-20 w-[85%] h-[250px] md:w-[75%] md:h-[300px] lg:w-[75%] lg:h-[400px]">
+        <div className="mt-14 mb-20">
           <img src={homebgremovebg} alt="banner" />
         </div>
       </div>
