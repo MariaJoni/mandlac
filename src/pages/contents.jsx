@@ -1,3 +1,132 @@
+import blog_news_1 from '../assets/blog_news_1.jpg';
+import blog_news_2 from '../assets/blog_news_2.webp';
+import client_1 from "../assets/clients/client_1.png";
+import client_2 from "../assets/clients/client_2.png";
+import software_services from "../assets/Software_Services.png";
+import IoT_Services from "../assets/IoT_Services.png";
+import Geo_Spatial from "../assets/Geo_Spatial.png";
+
+export const clientSlide = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  className: "silders",
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
+export const industriesSlide = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  rows: 2,
+  slidesPerRow: 5,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesPerRow: 4,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesPerRow: 2,
+      },
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesPerRow: 1,
+      },
+    },
+  ],
+};
+
+export const industrySectors = [
+  { name: "Hospitality", navigate: "Hospitality" },
+  { name: "Institutions", navigate: "Institutions" },
+  { name: "Robotics", navigate: "Robotics" },
+  { name: "Airports", navigate: "Airports" },
+  { name: "Distribution", navigate: "Distribution" },
+  { name: "Insurance", navigate: "Insurance" },
+  { name: "Retails", navigate: "Retails" },
+  { name: "Aviation", navigate: "Aviation" },
+  { name: "Oil & Gas", navigate: "OilGas" },
+  { name: "Life Science", navigate: "Lifescience" },
+  { name: "Travel", navigate: "Travel" },
+  { name: "Automotive", navigate: "Automotive" },
+  { name: "Fisheries", navigate: "Fisheries" },
+  { name: "Railways", navigate: "Railways" },
+  { name: "Manufacturing", navigate: "Manufacturing" },
+  { name: "Banking", navigate: "Banking" },
+  { name: "Government", navigate: "Government" },
+  { name: "Media", navigate: "Media" },
+  { name: "Pharmaceuticals", navigate: "Pharmaceuticals" },
+  { name: "Biotechnology", navigate: "Biotechnology" },
+  { name: "Healthcare", navigate: "Healthcare" },
+  { name: "Mining", navigate: "Mining" },
+  { name: "Telecommunications", navigate: "Telecommunications" },
+  { name: "Capital Markets", navigate: "CapitalMarkets" },
+  { name: "Consumer Goods", navigate: "ConsumerGoods" },
+  { name: "Energy & Utilities", navigate: "EnergyUtilities" }
+];
+
+export const Services = [
+  { name: "Big Data", navigate: "BigData" },
+  { name: "AI & ML", navigate: "AIML" },
+  { name: "Cloud Solution", navigate: "CloudSolution" },
+  { name: "IoT Solutions", navigate: "IoTSolutions" },
+  { name: "Mobile App Development", navigate: "MobileAppDevelopment" },
+  { name: "Web App Development", navigate: "WebAppDevelopment" },
+  { name: "Geo Spatial", navigate: "GeoSpatial" }
+];
+
+export const Products = [
+  { name: "Biometric", navigate: "Biometric" },
+  { name: "Fire Alarm", navigate: "FireAlarm" },
+  { name: "Smart Home", navigate: "SmartHome" },
+  { name: "Smart Locker", navigate: "SmartLocker" },
+  { name: "Smart Water Tank", navigate: "SmartWaterTank" },
+  { name: "Vital Sense", navigate: "VitalSense" }
+];
+
+export const Research = [
+  { name: "Mandlac Research", navigate: "MandlacResearch" },
+  { name: "Mandlac Innovation", navigate: "MandlacInnovation" },
+]
+
+export const news = [
+  { img: blog_news_1, post: "By Admin", date: "9 July, 2024", title: "Nurturing Ethical and Responsible AI in the Digital Age" },
+  { img: blog_news_2, post: "By Admin", date: "9 July, 2024", title: "Nurturing Ethical and Responsible AI in the Digital Age" },
+  { img: blog_news_1, post: "By Admin", date: "9 July, 2024", title: "Nurturing Ethical and Responsible AI in the Digital Age", },
+];
+
+export const client = [
+  { img: client_1, name: "James Anderson", contant: "Working with Mandlac has been a game-changer for our household. Their smart water tank management system has not only simplified our water usage but also provided peace of mind knowing that our water supply is efficiently managed. The ability to control everything through their user-friendly mobile app is incredibly convenient. Plus, their team’s dedication to customization ensures that the system perfectly fits our needs. Overall, we couldn’t be happier with Mandlac’s innovative solutions and excellent customer service." },
+  { img: client_2, name: "Aaliyah", contant: "Partnering with Mandlac has elevated our hotel's operations to a whole new level. Their IoT smart products, particularly the water tank management system and automatic valve shut-off, have optimized our water usage efficiency and streamlined our maintenance processes. The customization options on both hardware and software fronts have allowed us to tailor the system to our unique requirements seamlessly. The convenience of controlling everything through their mobile app has impressed both our staff and guests alike. Mandlac's commitment to innovation and customer satisfaction truly sets them apart in the industry." },
+  { img: client_1, name: "James Anderson", contant: "Working with Mandlac has been a game-changer for our household. Their smart water tank management system has not only simplified our water usage but also provided peace of mind knowing that our water supply is efficiently managed. The ability to control everything through their user-friendly mobile app is incredibly convenient. Plus, their team’s dedication to customization ensures that the system perfectly fits our needs. Overall, we couldn’t be happier with Mandlac’s innovative solutions and excellent customer service." },
+];
+
+export const services = [
+  { img: software_services, bg: "#edf8ea", title: "Software Services", contant: "Our software solutions are designed to drive innovation and efficiency in your business. With our expertise in custom development, integration, and cutting -" },
+  { img: IoT_Services, bg: "#fff6e4", title: "IoT Services", contant: "Our IoT solutions are designed to transform the way you do business. By connecting devices, data, and people, we enable smarter operations and innovative  " },
+  { img: Geo_Spatial, bg: "#f2f2fe", title: "Geo-Spatial", contant: "Our geospatial solutions harness the power of location data to provide you with actionable insights and precision mapping. From accurate  data collection", },
+];
+
 export const Hospitality = [
   {
     title: 'Reservation and Booking Management',

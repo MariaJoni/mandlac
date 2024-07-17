@@ -1,8 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HomeImg from "../assets/homeImg.jpg"
 import { IoIosArrowForward } from "react-icons/io";
-import Details from './details';
-import Contact from './contact';
 import Hospitality from '../assets/industries/Hospitality.jpg';
 import Airports from '../assets/industries/Airports.png';
 import Aviation from '../assets/industries/Aviation.jpg';
@@ -30,9 +28,17 @@ import Manufacturing from '../assets/industries/Manufacturing.jpg';
 import Pharmaceuticals from '../assets/industries/Pharmaceuticals.jpg';
 import Tele_communications from '../assets/industries/Tele communications.jpg';
 import { useParams } from 'react-router-dom';
+import { TiTick } from 'react-icons/ti';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import sectorMappings from './contents';
 
 function Industries() {
   const { sector } = useParams();
+  const SectorComponent = sectorMappings[sector.toLowerCase()];
+  const [selectedSection, setSelectedSection] = useState(SectorComponent[0].title);
+
   const data = [
     { menu: "Hospitality", img: Hospitality, title: "Mandlac Solutions for Hospitality", contant: "Mandlac Software Services offers tailored solutions to meet the diverse needs of the hospitality industry, driving efficiency, guest satisfaction, revenue optimization, and brand reputation management." },
     { menu: "Airports", img: Airports, title: "Mandlac Solutions for Smart Airports", contant: "Mandlac Software Services offers tailored solutions to meet the diverse needs of the airports industry, driving passenger satisfaction, operational efficiency, safety and security, revenue generation, and environmental sustainability." },
@@ -64,6 +70,10 @@ function Industries() {
 
   const selectedIndustry = data.find(item => item.menu.toLowerCase() === sector.toLowerCase());
 
+  const handleSectionClick = (title) => {
+    setSelectedSection(title);
+  };
+
   return (
     <>
       <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex">
@@ -78,8 +88,65 @@ function Industries() {
           </div>
         </div>
       </div>
-      <Details />
-      <Contact />
+      <div className='flex bg-transparent bg-gradient-to-b from-[#EDF8EB00] to-[#edf8eb] h-auto'>
+        <div className='flex flex-col h-auto mb-10 md:flex-row w-[90%] mt-107 ml-auto mr-auto gap-3'>
+          <div className='md:w-[40%] w-full'>
+            {SectorComponent.map((section) => (
+              <div key={section.title} onClick={() => handleSectionClick(section.title)} className={`${selectedSection === section.title ? 'font-bold bg-green-50' : ''} p-3 cursor-pointer`} >
+                {section.title}
+              </div>
+            ))}
+          </div>
+          <div className='md:w-[60%] w-full'>
+            {SectorComponent.map((section) => (
+              selectedSection === section.title && (
+                <div key={section.title} className='p-3'>
+                  {section.content}
+                </div>
+              )
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className='bg-[#fff6e4] pb-10'>
+        <div className='w-[90%] mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='flex flex-col lg:flex-row gap-4 w-full mb-0'>
+            <div className='w-full lg:w-[40%] mt-10'>
+              <h1 className='font-bold text-3xl lg:text-[40px]'>Explore Our Solutions</h1>
+              <p className='font-medium mt-4'>We’re happy to answer any questions you may have and help you determine which of our services best fit your needs</p>
+              <div className='flex items-center gap-3 mt-5'>
+                <TiTick className='bg-amber-300 rounded-sm' />Ready to boost your online presence
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />Don't miss Join our exclusive insights
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />Transform your business with our IoT solutions
+              </div>
+              <div className='flex items-center gap-3 mt-2'>
+                <TiTick className='bg-amber-300 rounded-sm' />See results like never before. Click to schedule
+              </div>
+            </div>
+            <div className='w-full lg:w-[60%] mt-10 lg:mt-10 bg-white p-10'>
+              <p className='text-2xl lg:text-[35px] font-bold'>Get In Touch With Us</p>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3'>
+                <Input type="text" placeholder="Your Name" />
+                <Input type="email" placeholder="Enter Email" />
+              </div>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-3'>
+                <Input type="text" placeholder="Subject" />
+                <Input type="tel" placeholder="Phone Number" />
+              </div>
+              <div className='mt-3'>
+                <Textarea placeholder="Type your message here." />
+              </div>
+              <div className='flex justify-center lg:justify-start'>
+                <Button className="mt-5 font-bold text-lg lg:text-[20px] px-10">Send</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
