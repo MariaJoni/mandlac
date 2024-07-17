@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/accordion"
 import { IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 
 
 function Header() {
@@ -32,13 +33,13 @@ function Header() {
     "Hospitality",
     "Institutions",
     "Robotics",
-    "Airport",
+    "Airports",
     "Distribution",
     "Insurance",
     "Retails",
     "Aviation",
-    "Oil & Gas",
-    "Life Science",
+    "OilGas",
+    "Lifescience",
     "Travel",
     "Automotive",
     "Fisheries",
@@ -48,23 +49,23 @@ function Header() {
     "Government",
     "Media",
     "Pharmaceuticals",
-    "Bio-technology",
+    "Biotechnology",
     "Healthcare",
     "Mining",
     "Telecommunications",
-    "Capital Markets",
-    "Consumer Goods",
-    "Energy & Utilities"
+    "CapitalMarkets",
+    "ConsumerGoods",
+    "EnergyUtilities"
   ];
 
   const Services = [
-    "Big Data",
-    "AI / ML",
-    "Cloud Solution",
-    "IoT Solutions",
-    "Mobile App Development",
-    "Web App Development",
-    "Geo-Spatial"
+    "BigData",
+    "AIML",
+    "CloudSolution",
+    "IoTSolutions",
+    "MobileAppDevelopment",
+    "WebAppDevelopment",
+    "GeoSpatial"
   ];
 
   const Products = ["Biometric",
@@ -76,17 +77,21 @@ function Header() {
 
   const Research = ["Mandlac Research", "Mandlac Innovation"]
 
-  const handleNavigate = (sector) => {
-    if (sector === "Hospitality") {
-      navigate("hospitality")
-      setMenuOpen(false)
-    }
+  const handleNavigateIndustry = (sector) => {
+    navigate(`/Industries/${sector}`);
+    setMenuOpen(false)
+    location.reload();
   }
 
+  const handleNavigateServices = (service) => {
+    navigate(`/Services/${service}`);
+    setMenuOpen(false)
+    location.reload();
+  }
 
   return (
     <div className="relative">
-      <div className="flex flex-col md:flex-row w-full bg-[#ffeb9b] justify-between items-center border-b-2 border-gray-200 p-2">
+      <div className="flex flex-col md:flex-row hover:bg-white transition-300 w-full bg-[#ffeb9b] justify-between items-center border-b-2 border-gray-200 p-2">
         <div className="flex justify-between w-full md:w-auto items-center">
           <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 ml-2 mb-2 md:mb-0 cursor-pointer" alt="Logo" />
           <button
@@ -98,23 +103,35 @@ function Header() {
         </div>
         <div className={`hidden md:flex flex-row gap-4 md:gap-8 items-center`}>
           <ul className="flex flex-row gap-4 md:gap-8 items-center">
-            <HoverCard>
-              <HoverCardTrigger asChild>
-                <li className="font-semibold flex items-center cursor-pointer" variant="link">What we do <IoIosArrowDown /></li>
-              </HoverCardTrigger>
-              <HoverCardContent className="w-screen h-64 mt-8">
-                <div className='flex items-start w-[85%] mt-0 mb-0 ml-auto mr-auto'>
+            <Popover>
+              <PopoverTrigger asChild>
+                <li className="font-semibold flex items-center cursor-pointer" variant="link">
+                  What we do <IoIosArrowDown />
+                </li>
+              </PopoverTrigger>
+              <PopoverContent className="w-screen h-80 mt-8">
+                <div className='flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto'>
                   <div className="w-[30%] border-r-2">
-                    <div className={`${activeSection === 'Overview' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Overview')}>Overview  <IoIosArrowForward /></div>
-                    <div className={`${activeSection === 'Industries' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Industries')}>Industries <IoIosArrowForward /></div>
-                    <div className={`${activeSection === 'Services' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Services')}>Services <IoIosArrowForward /></div>
-                    <div className={`${activeSection === 'Products' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Products')}>Products <IoIosArrowForward /></div>
-                    <div className={`${activeSection === 'Research' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Research')}>Research and innovation <IoIosArrowForward /></div>
+                    <div className={`${activeSection === 'Overview' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Overview')}>
+                      Overview <IoIosArrowForward />
+                    </div>
+                    <div className={`${activeSection === 'Industries' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Industries')}>
+                      Industries <IoIosArrowForward />
+                    </div>
+                    <div className={`${activeSection === 'Services' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Services')}>
+                      Services <IoIosArrowForward />
+                    </div>
+                    <div className={`${activeSection === 'Products' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Products')}>
+                      Products <IoIosArrowForward />
+                    </div>
+                    <div className={`${activeSection === 'Research' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Research')}>
+                      Research and innovation <IoIosArrowForward />
+                    </div>
                   </div>
                   <div className='w-[60%] ml-4'>
                     {activeSection === 'Overview' && (
-                      <div >
-                        <p className='text-[24px] mt-8 font-light'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
+                      <div>
+                        <p className='text-[24px] mt-4 font-light'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
                         <p className='mt-4 text-[14px]'>Our customizable solutions encompass both hardware and software services, ensuring that our products seamlessly integrate into your operations while meeting your specific requirements.</p>
                         <div className='border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded'>Discover More</div>
                       </div>
@@ -123,7 +140,7 @@ function Header() {
                       <div>
                         <ul>
                           {industrySectors.map((sector, index) => (
-                            <li onClick={() => handleNavigate(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
+                            <li onClick={() => handleNavigateIndustry(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
                           ))}
                         </ul>
                       </div>
@@ -132,7 +149,7 @@ function Header() {
                       <div>
                         <ul>
                           {Services.map((service, index) => (
-                            <li className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{service}</li>
+                            <li onClick={() => handleNavigateServices(service)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{service}</li>
                           ))}
                         </ul>
                       </div>
@@ -157,23 +174,25 @@ function Header() {
                     )}
                   </div>
                 </div>
-              </HoverCardContent>
-            </HoverCard>
-            <HoverCard>
-              <HoverCardTrigger asChild>
-                <li className="font-semibold flex items-center cursor-pointer" variant="link">Who we are <IoIosArrowDown /></li>
-              </HoverCardTrigger>
-              <HoverCardContent className="w-screen h-64 mt-8">
+              </PopoverContent>
+            </Popover>
+            <Popover>
+              <PopoverTrigger asChild>
+                <li className="font-semibold flex items-center cursor-pointer" variant="link">
+                  Who we are <IoIosArrowDown />
+                </li>
+              </PopoverTrigger>
+              <PopoverContent className="w-screen h-80 mt-8">
                 <div className='flex items-center font-serif justify-center mt-20 font-bold text-[40px]'>
                   coming soon...
                 </div>
-              </HoverCardContent>
-            </HoverCard>
+              </PopoverContent>
+            </Popover>
             <li onClick={() => navigate('/blog')} className="font-semibold cursor-pointer">Blog</li>
             <li onClick={() => navigate('/menuContact')} className="font-semibold cursor-pointer">Contact</li>
           </ul>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 mr-4">
           <span className="text-lg"><IoSearchOutline /></span>
           <span className="bg-black text-white p-2 md:p-3 rounded">Get Connected</span>
         </div>
@@ -213,7 +232,7 @@ function Header() {
                       <div>
                         <ul>
                           {industrySectors.map((sector, index) => (
-                            <li onClick={() => handleNavigate(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
+                            <li onClick={() => handleNavigateIndustry(sector)} className='text-[18px] font-normal cursor-pointer me-2 px-3 py-2 mb-1 rounded dark:bg-gray-700 dark:text-blue-400  inline-flex items-center justify-center' key={index}>{sector}</li>
                           ))}
                         </ul>
                       </div>

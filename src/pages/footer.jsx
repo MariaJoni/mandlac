@@ -5,8 +5,10 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+  const navigate = useNavigate()
   return (
     <div className=' bg-black text-white'>
       <div className='py-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%] mt-0 mb-0 mr-auto ml-auto'>
@@ -23,10 +25,10 @@ function Footer() {
         <div>
           <h2 className='text-[25px] font-normal mb-3'>Explore</h2>
           <ul>
-            <li className='pb-2'>What we do</li>
-            <li className='pb-2'>Who we are</li>
-            <li className='pb-2'>Blog</li>
-            <li className='pb-2'>Contact</li>
+            <li onClick={() => navigate('/')} className='pb-2 cursor-pointer hover:text-amber-300'>What we do</li>
+            <li onClick={() => navigate('/')} className='pb-2 cursor-pointer hover:text-amber-300'>Who we are</li>
+            <li onClick={() => navigate('/blog')} className='pb-2 cursor-pointer hover:text-amber-300'>Blog</li>
+            <li onClick={() => navigate('/menuContact')} className='pb-2 cursor-pointer hover:text-amber-300'>Contact</li>
           </ul>
         </div>
         <div>
