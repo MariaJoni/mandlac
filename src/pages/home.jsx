@@ -289,7 +289,7 @@ function Home() {
           ))}
         </Slider>
       </div>
-      <div className="mandlac_project mb-[950px] md:mb-[0px]">
+      <div className="bg-transparent bg-gradient-to-b from-[#FFCC006B] to-[#FFCC0000] h-auto">
         <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold ">
           Mandlac Product Range
         </h2>
@@ -324,35 +324,36 @@ function Home() {
         <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold">
           Happy Client Stories
         </h2>
-        <Slider {...settings1}>
-          {client.map((data, i) => (
-            <div key={i} className="px-4 mt-10 mb-10">
-              <div className="bg-white p-4 shadow-md rounded-md h-full">
-                <div className="flex items-center mb-4">
-                  <img
-                    src={data.img}
-                    alt={data.name}
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
-                  <h3 className="text-lg font-semibold">{data.name}</h3>
+        <div className="w-[90%] mx-auto">
+          <Slider {...settings1}>
+            {client.map((data, i) => (
+              <div key={i} className="px-4 mt-10 mb-10">
+                <div className="bg-white p-4 shadow-md rounded-md h-full">
+                  <div className="flex items-center mb-4">
+                    <img
+                      src={data.img}
+                      alt={data.name}
+                      className="w-12 h-12 rounded-full mr-4"
+                    />
+                    <h3 className="text-lg font-semibold">{data.name}</h3>
+                  </div>
+                  <p
+                    className={`text-sm text-gray-600 ${expanded[i] ? "line-clamp-none" : "line-clamp-3"
+                      }`}
+                  >
+                    {data.contant}
+                  </p>
+                  <button
+                    className="text-[#4EB3A4] mt-2"
+                    onClick={() => handleReadMore(i)}
+                  >
+                    {expanded[i] ? "Read Less" : "Read More"}
+                  </button>
                 </div>
-                <p
-                  className={`text-sm text-gray-600 ${
-                    expanded[i] ? "line-clamp-none" : "line-clamp-3"
-                  }`}
-                >
-                  {data.contant}
-                </p>
-                <button
-                  className="text-[#4EB3A4] mt-2"
-                  onClick={() => handleReadMore(i)}
-                >
-                  {expanded[i] ? "Read Less" : "Read More"}
-                </button>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
       <div className="w-[90%] mx-auto">
         <h2 className="text-2xl md:text-3xl lg:text-4xl text-center mt-20 font-bold">
@@ -380,7 +381,6 @@ function Home() {
       </div>
       <div className="mt-[40px]">
         <h2 className="text-[30px] font-semibold text-center mb-10">
-          {" "}
           News & Articles
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-2 w-[90%] ml-auto mr-auto mb-10">
@@ -389,7 +389,7 @@ function Home() {
               <img
                 src={article.img}
                 alt="Article Image"
-                className="w-[100%] h-[250px] rounded mr-4 blog_img"
+                className="w-[100%] h-[250px] rounded mr-4 transition-transform duration-300 ease-in-out hover:scale-110"
               />
               <div>
                 <div className="text-sm text-gray-500 flex items-center gap-4">
