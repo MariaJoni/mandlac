@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { MdEmail } from "react-icons/md";
 import { GiRotaryPhone } from "react-icons/gi";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { FaFacebookSquare, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className=' bg-black text-white'>
       <div className='py-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%] mt-0 mb-0 mr-auto ml-auto'>
@@ -61,4 +64,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;
