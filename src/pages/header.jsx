@@ -34,12 +34,7 @@ function Header() {
       <div className="flex flex-col md:flex-row hover:bg-white transition-300 w-full bg-[#ffeb9b] justify-between items-center border-b-2 border-gray-200 p-2">
         <div className="flex justify-between w-full md:w-auto items-center">
           <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 ml-2 mb-2 md:mb-0 cursor-pointer" alt="Logo" />
-          <button
-            className="md:hidden text-2xl"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            <IoIosMenu />
-          </button>
+          <button className="md:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>  <IoIosMenu />  </button>
         </div>
         <div className={`hidden md:flex flex-row gap-4 md:gap-8 items-center`}>
           <ul className="flex flex-row gap-4 md:gap-8 items-center">
@@ -136,12 +131,7 @@ function Header() {
         style={{ width: '80%', transition: 'transform 0.3s ease-in-out' }}
       >
         <div className="flex justify-end p-4">
-          <button
-            className="text-3xl"
-            onClick={() => setMenuOpen(false)}
-          >
-            <IoIosClose />
-          </button>
+          <button className="text-3xl" onClick={() => setMenuOpen(false)}><IoIosClose /></button>
         </div>
         <ul className="flex flex-col w-[80%] mt-0 ml-auto mb-0 mr-auto gap-4">
           <Accordion type="single" collapsible className="w-full">
