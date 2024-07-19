@@ -31,9 +31,9 @@ function Header() {
 
   return (
     <div className="relative">
-      <div className="flex flex-col md:flex-row hover:bg-white transition-300 w-full bg-[#ffeb9b] justify-between items-center border-b-2 border-gray-200 p-2">
+      <div className="flex flex-col md:flex-row hover:bg-white transition-300 w-full bg-[#ffeb9b] justify-between items-center border-b-1 border-gray-300 shadow-sm p-2 h-24 fixed z-50">
         <div className="flex justify-between w-full md:w-auto items-center">
-          <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 ml-2 mb-2 md:mb-0 cursor-pointer" alt="Logo" />
+          <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 mb-2 md:mb-0 cursor-pointer lg  :ml-[100px]" alt="Logo" />
           <button className="md:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>  <IoIosMenu />  </button>
         </div>
         <div className={`hidden md:flex flex-row gap-4 md:gap-8 items-center`}>
@@ -47,19 +47,19 @@ function Header() {
               <PopoverContent className="w-screen h-80 mt-8">
                 <div className='flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto'>
                   <div className="w-[30%] border-r-2">
-                    <div className={`${activeSection === 'Overview' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Overview')}>
+                    <div className={`${activeSection === 'Overview' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer`} onClick={() => handleClick('Overview')}>
                       Overview <IoIosArrowForward />
                     </div>
-                    <div className={`${activeSection === 'Industries' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Industries')}>
+                    <div className={`${activeSection === 'Industries' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer`} onClick={() => handleClick('Industries')}>
                       Industries <IoIosArrowForward />
                     </div>
-                    <div className={`${activeSection === 'Services' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Services')}>
+                    <div className={`${activeSection === 'Services' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer`} onClick={() => handleClick('Services')}>
                       Services <IoIosArrowForward />
                     </div>
-                    <div className={`${activeSection === 'Products' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Products')}>
+                    <div className={`${activeSection === 'Products' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer`} onClick={() => handleClick('Products')}>
                       Products <IoIosArrowForward />
                     </div>
-                    <div className={`${activeSection === 'Research' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center`} onClick={() => handleClick('Research')}>
+                    <div className={`${activeSection === 'Research' ? 'bg-[#FFFCEE]' : ''} flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer`} onClick={() => handleClick('Research')}>
                       Research and innovation <IoIosArrowForward />
                     </div>
                   </div>
@@ -68,7 +68,7 @@ function Header() {
                       <div>
                         <p className='text-[24px] mt-4 font-light'>Mandlac is a comprehensive platform designed to facilitate the deployment, management, and operation of IoT systems</p>
                         <p className='mt-4 text-[14px]'>Our customizable solutions encompass both hardware and software services, ensuring that our products seamlessly integrate into your operations while meeting your specific requirements.</p>
-                        <div className='border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded'>Discover More</div>
+                        <div className='border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded cursor-pointer'>Discover More</div>
                       </div>
                     )}
                     {activeSection === 'Industries' && (
@@ -121,13 +121,13 @@ function Header() {
             <li onClick={() => navigate('/contact')} className="font-semibold cursor-pointer">Contact</li>
           </ul>
         </div>
-        <div className="flex items-center gap-4 mr-4">
+        <div className="absolute top-10 right-12 lg:mr-[100px] sm:static flex items-center gap-4">
           <span className="text-lg"><IoSearchOutline /></span>
-          <span className="bg-black text-white p-2 md:p-3 rounded">Get Connected</span>
+          <span className="bg-black text-white text-[14px] p-1 md:p-2 rounded">Get Connected</span>
         </div>
       </div>
       <div
-        className={`fixed overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}
+        className={`fixed mt-24 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}
         style={{ width: '80%', transition: 'transform 0.3s ease-in-out' }}
       >
         <div className="flex justify-end p-4">
