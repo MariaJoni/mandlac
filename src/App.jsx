@@ -9,7 +9,7 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <div className="h-full w- overflow-x-hidden">
+    <div className="h-full w-full overflow-x-hidden">
       <Router>
         <Header />
         <Routes>
