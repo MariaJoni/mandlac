@@ -122,9 +122,9 @@ export const client = [
 ];
 
 export const services = [
-  { img: software_services, bg: "#edf8ea", title: "Software Services", contant: "Our software solutions are designed to drive innovation and efficiency in your business. With our expertise in custom development, integration, and cutting -" },
-  { img: IoT_Services, bg: "#fff6e4", title: "IoT Services", contant: "Our IoT solutions are designed to transform the way you do business. By connecting devices, data, and people, we enable smarter operations and innovative  " },
-  { img: Geo_Spatial, bg: "#f2f2fe", title: "Geo-Spatial", contant: "Our geospatial solutions harness the power of location data to provide you with actionable insights and precision mapping. From accurate  data collection", },
+  { img: software_services, bg: "#edf8ea", title: "Software Services", contant: "Our software solutions are designed to drive innovation and efficiency in your business. With our expertise in custom development, integration, and cutting-edge technologies, we empower your business to achieve new heights." },
+  { img: IoT_Services, bg: "#fff6e4", title: "IoT Services", contant: "Our IoT solutions are designed to transform the way you do business. By connecting devices, data, and people, we enable smarter operations and innovative insights. Whether you're looking to improve efficiency, enhance security, or drive new revenue streams, our IoT solutions have you covered." },
+  { img: Geo_Spatial, bg: "#f2f2fe", title: "Geo-Spatial", contant: "Our geospatial solutions harness the power of location data to provide you with actionable insights and precision mapping. From accurate data collection to advanced analysis, we offer comprehensive solutions that empower your business to make informed decisions and optimize operations.", },
 ];
 
 export const Hospitality = [
