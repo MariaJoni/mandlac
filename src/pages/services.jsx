@@ -37,7 +37,7 @@ function Services() {
   return (
     <>
       <div>
-        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex">
+        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex mt-20">
           <div className='content flex flex-col-reverse md:flex-row items-center md:items-start w-[90%] mx-auto mt-20 mb-20'>
             <div className='md:w-1/2 w-full text-center md:text-left'>
               <h1 className='text-[32px] md:text-[40px] font-bold mt-5 md:mt-0'>{selectedIndustry.title}</h1>

@@ -76,15 +76,15 @@ function Industries() {
 
   return (
     <>
-      <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex">
+      <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] h-auto flex mt-20">
         <div className='content flex flex-col-reverse md:flex-row items-center md:items-start w-[90%] mx-auto'>
-          <div className='md:w-1/2 w-full text-center md:text-left my-20'>
+          <div className='md:w-1/2 w-full text-center md:text-left mt-0 lg:mt-32'>
             <h1 className='text-[32px] md:text-[40px] font-bold mt-5 md:mt-0'>{selectedIndustry.title}</h1>
             <p className='mt-4'>{selectedIndustry.contant}</p>
             <p className='mt-8 md:mt-18 flex justify-center md:justify-start items-center font-semibold text-[20px] gap-2'>Let’s talk <span className='bg-amber-400 rounded-full p-2'><IoIosArrowForward /></span></p>
           </div>
-          <div className="md:w-1/2 w-full my-20">
-            <img src={selectedIndustry.img} alt="Home" className='w-full h-auto' />
+          <div className="md:w-1/2 w-full my-10 lg:my-20">
+            <img src={selectedIndustry.img} alt="Home" className='w-full' />
           </div>
         </div>
       </div>

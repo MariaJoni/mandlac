@@ -114,7 +114,7 @@ function Home() {
   return (
     <>
       <div className="h-full w-full">
-        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-32 md:mt-28 lg:mt-24 h-auto flex lg:relative justify-center">
+        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-24 h-auto flex lg:relative justify-center">
           <div className="mt-10 flex flex-col items-center">
             <div className="flex items-center gap-2 px-3 py-1 justify-center bg-[#fff6ce] rounded-[20px] my-2">
               <img src={star} alt="star" className="h-3 w-3 lg:h-5 lg:w-5" />
@@ -143,10 +143,10 @@ function Home() {
             </div>
           </div>
 
-          <span className="absolute -left-10 lg:left-0 top-80 lg:top-60">
+          <span className="absolute -left-10 lg:left-0 top-80 lg:top-60 -z-10">
             <img src={bannerLeft} alt="speaker" className="w-[9rem] lg:w-[14rem]" />
           </span>
-          <span className="absolute right-0 lg:right-0 top-80 lg:top-60">
+          <span className="absolute right-0 lg:right-0 top-80 lg:top-60 -z-10">
             <img src={bannerRight} alt="speaker" className="w-[5rem] lg:w-[8rem]" />
           </span>
         </div>
@@ -200,10 +200,10 @@ function Home() {
           services, ensuring that our products seamlessly integrate into your{" "}
           <br /> operations while meeting your specific requirements.
         </p>
-        <Slider {...industriesSlide} className="py-8">
+        <Slider {...industriesSlide} className="py-8 -z-10">
           {Industries.map((data, i) => (
             <div key={i} className="p-4">
-              <div className="flex flex-col items-center justify-center h-full p-4 bg-white shadow-md rounded-md">
+              <div className="flex flex-col items-center justify-center h-full p-4 bg-[#F7F7F7] rounded-md">
                 <img
                   src={data.img}
                   alt={data.title}
@@ -246,7 +246,7 @@ function Home() {
           Happy Client Stories
         </h2>
         <div className="w-[90%] mx-auto">
-          <Slider {...clientSlide}>
+          <Slider {...clientSlide} className="-z-10">
             {client.map((data, i) => (
               <div key={i} className="px-4 mt-10 mb-10">
                 <div className="bg-white shadow-md rounded-md h-full">
@@ -305,13 +305,13 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-[40px]">
+      <div className="mt-[40px -z-10">
         <h2 className="text-[30px] font-semibold text-center mb-10">
           News & Articles
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-2 w-[90%] ml-auto mr-auto mb-10">
           {news.map((article, index) => (
-            <div data-aos="fade-left" key={index} className="border p-2">
+            <div data-aos="fade-left -z-10" key={index} className="border p-2">
               <img
                 src={article.img}
                 alt="Article Image"

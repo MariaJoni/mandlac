@@ -33,7 +33,7 @@ function Header() {
     <div className="relative">
       <div className="flex flex-col md:flex-row hover:bg-white transition-300 w-full bg-[#ffeb9b] justify-between items-center border-b-1 border-gray-300 shadow-sm p-2 h-24 fixed z-50">
         <div className="flex justify-between w-full md:w-auto items-center">
-          <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 mb-2 md:mb-0 cursor-pointer lg  :ml-[100px]" alt="Logo" />
+          <img onClick={() => navigate("/")} src={nipponLogo} className="w-28 mb-2 md:mb-0 cursor-pointer lg:ml-[100px]" alt="Logo" />
           <button className="md:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>  <IoIosMenu />  </button>
         </div>
         <div className={`hidden md:flex flex-row gap-4 md:gap-8 items-center`}>
@@ -123,18 +123,20 @@ function Header() {
         </div>
         <div className="absolute top-10 right-12 lg:mr-[100px] sm:static flex items-center gap-4">
           <span className="text-lg"><IoSearchOutline /></span>
-          <span className="bg-black text-white text-[14px] p-1 md:p-2 rounded">Get Connected</span>
+          <span onClick={() => navigate('/contact')} className="bg-black text-white cursor-pointer text-[14px] p-1 md:p-2 rounded">Get Connected</span>
         </div>
       </div>
       <div
-        className={`fixed mt-24 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}
+        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}
         style={{ width: '80%', transition: 'transform 0.3s ease-in-out' }}
       >
-        <div className="flex justify-end p-4">
-          <button className="text-3xl" onClick={() => setMenuOpen(false)}><IoIosClose /></button>
+        <div className=''>
+          <div className="text-3xl absolute right-0 rounded-lg" onClick={() => setMenuOpen(false)}>
+            <IoIosClose />
+          </div>
         </div>
-        <ul className="flex flex-col w-[80%] mt-0 ml-auto mb-0 mr-auto gap-4">
-          <Accordion type="single" collapsible className="w-full">
+        <ul className="flex flex-col w-[80%] mt-4 ml-auto mb-0 mr-auto gap-4">
+          <Accordion type="single" collapsible className="w-[90%]">
             <AccordionItem value="item-1">
               <AccordionTrigger>What we do</AccordionTrigger>
               <AccordionContent>
@@ -189,7 +191,7 @@ function Header() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <li className="font-semibold">Blog</li>
+          <li className="font-semibold mb-3">Blog</li>
           <li className="font-semibold">Contact</li>
         </ul>
       </div>
