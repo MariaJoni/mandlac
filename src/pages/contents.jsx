@@ -30,6 +30,7 @@ export const industriesSlide = {
   dots: true,
   infinite: true,
   speed: 500,
+  draggable: true,
   autoplay: true,
   autoplaySpeed: 4000,
   rows: 2,
