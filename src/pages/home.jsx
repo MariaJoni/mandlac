@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import star from "../assets/star.png";
 import bannerLeft from "../assets/bannerLeft.svg";
 import bannerRight from "../assets/bannerRight.svg";
-import homeVector from "../assets/homeVector.png";
+import homeVector from "../assets/homeVector.svg";
 import Advertising from "../assets/img/Advertising.png";
 import Airport from "../assets/img/Airport.png";
 import Aviation from "../assets/img/Aviation.png";
@@ -42,12 +42,21 @@ import project_img1 from "../assets/recent_project/project_img1.png";
 import project_img2 from "../assets/recent_project/project_img2.png";
 import project_img3 from "../assets/recent_project/project_img3.png";
 import project_img4 from "../assets/recent_project/project_img4.png";
+import person from "../assets/person.png";
+import calander from "../assets/calander.png";
 import { FaArrowRight, FaCalendarAlt, FaUser } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import "../App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { client, news, services, industriesSlide, clientSlide } from "./contents";
+import {
+  client,
+  news,
+  services,
+  industriesSlide,
+  clientSlide,
+} from "./contents";
+import { Button } from "@/components/ui/button";
 
 function Home() {
   useEffect(() => {
@@ -59,7 +68,9 @@ function Home() {
   }, []);
 
   const [expanded, setExpanded] = useState(Array(client.length).fill(false));
-  const [technologiesexpanded, setTechnologieExpanded] = useState(Array(services.length).fill(false));
+  const [technologiesexpanded, setTechnologieExpanded] = useState(
+    Array(services.length).fill(false)
+  );
 
   const handleReadMore = (index) => {
     const newExpanded = [...expanded];
@@ -79,26 +90,26 @@ function Home() {
     { img: Aviation, title: "Aviation" },
     { img: Automotive, title: "Automotive" },
     { img: Banking, title: "Banking" },
-    { img: Bio_technology, title: "Bio_technology" },
-    { img: Capital_Markets, title: "Capital_Markets" },
-    { img: Consumer_Goods, title: "Consumer_Goods" },
+    { img: Bio_technology, title: "Bio technology" },
+    { img: Capital_Markets, title: "Capital Markets" },
+    { img: Consumer_Goods, title: "Consumer Goods" },
     { img: Distribution, title: "Distribution" },
-    { img: Energy_Utilities, title: "Energy_Utilities" },
+    { img: Energy_Utilities, title: "Energy Utilities" },
     { img: Fisheries, title: "Fisheries" },
     { img: Government, title: "Government" },
     { img: Healthcare, title: "Healthcare" },
     { img: Hospitality, title: "Hospitality" },
     { img: Institutions, title: "Institutions" },
-    { img: Life_Sciences, title: "Life_Sciences" },
+    { img: Life_Sciences, title: "Life Sciences" },
     { img: Manufacturing, title: "Manufacturing" },
     { img: Media, title: "Media" },
     { img: Mining, title: "Mining" },
-    { img: Oil_Gas, title: "Oil_Gas" },
+    { img: Oil_Gas, title: "Oil Gas" },
     { img: Pharmaceuticals, title: "Pharmaceuticals" },
     { img: Railways, title: "Railways" },
     { img: Retails, title: "Retails" },
     { img: Robot, title: "Robotics" },
-    { img: Tele_Communications, title: "Tele_Communications" },
+    { img: Tele_Communications, title: "Tele Communications" },
     { img: Travel, title: "Travel" },
   ];
 
@@ -135,19 +146,27 @@ function Home() {
               At the forefront of innovation, Mandlac is dedicated to
               revolutionizing the way we interact with technology. <br />
               Leveraging cutting-edge IoT technologies, we empower businesses to
-              optimize operations, enhance efficiency, and drive growth in today’s
-              increasingly connected world.
+              optimize operations, enhance efficiency, and drive growth in
+              today’s increasingly connected world.
             </div>
-            <div className="mt-14 mb-20">
-              <img src={homeVector} style={{ backgroundColor: 'transparent' }} alt="banner" />
+            <div className="mt-20 lg:mt-32 mb-20 w-full">
+              <img src={homeVector} alt="banner" className="mx-10 lg:mx-52" />
             </div>
           </div>
 
           <span className="absolute -left-10 lg:left-0 top-80 lg:top-60 -z-10">
-            <img src={bannerLeft} alt="speaker" className="w-[9rem] lg:w-[14rem]" />
+            <img
+              src={bannerLeft}
+              alt="speaker"
+              className="w-[9rem] lg:w-[14rem]"
+            />
           </span>
           <span className="absolute right-0 lg:right-0 top-80 lg:top-60 -z-10">
-            <img src={bannerRight} alt="speaker" className="w-[5rem] lg:w-[8rem]" />
+            <img
+              src={bannerRight}
+              alt="speaker"
+              className="w-[5rem] lg:w-[8rem]"
+            />
           </span>
         </div>
       </div>
@@ -161,9 +180,8 @@ function Home() {
         controlling and seamless management systems, we specialize in <br />{" "}
         revolutionizing how industries operate in the digital age.At Mandlac,
         our clients are at the center of everything we do. We believe in
-        delivering <br /> on our promises, exceeding expectations, and
-        building long-lasting partnerships based on trust, integrity, and
-        mutual success.
+        delivering <br /> on our promises, exceeding expectations, and building
+        long-lasting partnerships based on trust, integrity, and mutual success.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-[80%] ml-auto mr-auto mb-10 mt-10">
         {services.map((article, index) => (
@@ -179,8 +197,15 @@ function Home() {
             />
             <div>
               <h3 className="text-[25px] font-bold p-4">{article.title}</h3>
-              <p className={`text-sm text-gray-600 ${technologiesexpanded[index] ? "line-clamp-none" : "line-clamp-3"
-                }`}>{article.contant}</p>
+              <p
+                className={`text-sm text-gray-600 ${
+                  technologiesexpanded[index]
+                    ? "line-clamp-none"
+                    : "line-clamp-3"
+                }`}
+              >
+                {article.contant}
+              </p>
               <button
                 className="text-[#4EB3A4] mt-2"
                 onClick={() => handleReadMoreTechnologies(index)}
@@ -251,18 +276,31 @@ function Home() {
               <div key={i} className="px-4 mt-10 mb-10">
                 <div className="bg-white shadow-md rounded-md h-full">
                   <div className="relative bg-[#D0A600]">
-                    <h3 className="text-[24px] ml-10 z-20 text-white py-4 font-semibold relative">{data.name}</h3>
-                    <div className="slide-shape absolute w-[200px] h-[100px] lg:w-[250px] lg:h-[100px] bg-[#D0A600] top-8 right-0 z-10">
-                    </div>
-                    <img src={data.img} alt={data.name} className="absolute right-4 w-[120px] h-[120px] lg:right-10 top-10 z-30" />
+                    <h3 className="text-[24px] ml-10 z-20 text-white py-4 font-semibold relative">
+                      {data.name}
+                    </h3>
+                    <div className="slide-shape absolute w-[200px] h-[100px] lg:w-[250px] lg:h-[100px] bg-[#D0A600] top-8 right-0 z-10"></div>
+                    <img
+                      src={data.img}
+                      alt={data.name}
+                      className="absolute right-4 w-[120px] h-[120px] lg:right-10 top-10 z-30"
+                    />
                   </div>
                   <div className="flex justify-between mx-auto w-[90%]">
-                    <p className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%]  ${expanded[i] ? "line-clamp-none" : "line-clamp-5"}`}>
+                    <p
+                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%]  ${
+                        expanded[i] ? "line-clamp-none" : "line-clamp-5"
+                      }`}
+                    >
                       {data.contant}
                     </p>
                     <div className="mt-[110px] lg:mt-[118px]">
                       <div className="flex mr-5 lg:mr-8">
-                        <FaStar className="text-[#FFB342]" /> <FaStar className="text-[#FFB342]" /> <FaStar className="text-[#FFB342]" /><FaStar className="text-[#FFB342]" /> <FaStar className="text-[#FFB342]" />
+                        <FaStar className="text-[#FFB342]" />{" "}
+                        <FaStar className="text-[#FFB342]" />{" "}
+                        <FaStar className="text-[#FFB342]" />
+                        <FaStar className="text-[#FFB342]" />{" "}
+                        <FaStar className="text-[#FFB342]" />
                       </div>
                       <div className="text-14px text-[#606060]">
                         4.9 Reviews
@@ -270,7 +308,7 @@ function Home() {
                     </div>
                   </div>
                   <button
-                    className="text-black text-[18px] font-semibold mt-2 ml-5 lg:ml-10 mb-5"
+                    className="text-black text-[18px] cursor-pointer font-semibold mt-2 ml-5 lg:ml-10 mb-5"
                     onClick={() => handleReadMore(i)}
                   >
                     {expanded[i] ? "Read Less" : "Read More"}
@@ -305,27 +343,32 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-[40px -z-10">
+      <div className="mt-[40px] -z-10">
         <h2 className="text-[30px] font-semibold text-center mb-10">
           News & Articles
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-2 w-[90%] ml-auto mr-auto mb-10">
           {news.map((article, index) => (
-            <div data-aos="fade-left -z-10" key={index} className="border p-2">
+            <div data-aos="fade-left -z-10" key={index} className=" bg-gray-50 border border-gray-200 hover:border-2 hover:border-yellow-400 group p-3">
               <img
                 src={article.img}
                 alt="Article Image"
-                className="w-[100%] h-[250px] rounded mr-4 transition-transform duration-300 ease-in-out hover:scale-110"
+                className="w-[100%] h-[250px] rounded mr-4"
               />
-              <div>
-                <div className="text-sm text-gray-500 flex items-center gap-4">
-                  <FaUser /> {article.post} <FaCalendarAlt /> {article.date}
+                <div className="text-sm text-gray-500 flex items-center gap-4 mt-2">
+                  <span className="flex gap-4">
+                    <img src={person} alt="personlogo" className=" w-3 h-4" />
+                    {article.post}
+                  </span>
+                  <span className="flex gap-4">
+                    <img src={calander} alt="calanderlogo" className=" w-3 h-4" />
+                    {article.date}{" "}
+                  </span>
                 </div>
                 <h3 className="text-lg font-semibold p-4">{article.title}</h3>
-                <div className="flex items-end border w-[150px] p-2 ml-5 hover:bg-amber-400 hover:text-white mb-10">
-                  READ MORE ... | <FaArrowRight />
-                </div>
-              </div>
+                <Button className="bg-white text-black flex min-w-max items-center gap-4 p-2 group-hover:bg-yellow-500 group-hover:text-white border-2  mb-10 rounded-none text-xs">
+                  READ MORE <span>|</span>  <FaArrowRight />
+                </Button>
             </div>
           ))}
         </div>
