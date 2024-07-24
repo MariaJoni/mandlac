@@ -139,7 +139,7 @@ function Home() {
                 Discover Mandlac and
               </span>
               <span className="font-bold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem]">
-                Experience the Future of IOT
+                Experience the Future of IoT
               </span>
             </div>
             <div className="flex flex-col text-[15px] lg:text-[20px] items-center text-center mt-5 w-[70%] ">
@@ -198,11 +198,10 @@ function Home() {
             <div>
               <h3 className="text-[25px] font-bold p-4">{article.title}</h3>
               <p
-                className={`text-sm text-gray-600 ${
-                  technologiesexpanded[index]
-                    ? "line-clamp-none"
-                    : "line-clamp-3"
-                }`}
+                className={`text-sm text-gray-600 ${technologiesexpanded[index]
+                  ? "line-clamp-none"
+                  : "line-clamp-3"
+                  }`}
               >
                 {article.contant}
               </p>
@@ -225,7 +224,7 @@ function Home() {
           services, ensuring that our products seamlessly integrate into your{" "}
           <br /> operations while meeting your specific requirements.
         </p>
-        <Slider {...industriesSlide} className="py-8 -z-10">
+        <Slider {...industriesSlide} className="py-8">
           {Industries.map((data, i) => (
             <div key={i} className="p-4">
               <div className="flex flex-col items-center justify-center h-full p-4 bg-[#F7F7F7] rounded-md">
@@ -271,7 +270,7 @@ function Home() {
           Happy Client Stories
         </h2>
         <div className="w-[90%] mx-auto">
-          <Slider {...clientSlide} className="-z-10">
+          <Slider {...clientSlide} className="">
             {client.map((data, i) => (
               <div key={i} className="px-4 mt-10 mb-10">
                 <div className="bg-white shadow-md rounded-md h-full">
@@ -288,18 +287,16 @@ function Home() {
                   </div>
                   <div className="flex justify-between mx-auto w-[90%]">
                     <p
-                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%]  ${
-                        expanded[i] ? "line-clamp-none" : "line-clamp-5"
-                      }`}
+                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%] ${expanded[i] ? "line-clamp-none" : "line-clamp-5"}`}
                     >
                       {data.contant}
                     </p>
                     <div className="mt-[110px] lg:mt-[118px]">
                       <div className="flex mr-5 lg:mr-8">
-                        <FaStar className="text-[#FFB342]" />{" "}
-                        <FaStar className="text-[#FFB342]" />{" "}
                         <FaStar className="text-[#FFB342]" />
-                        <FaStar className="text-[#FFB342]" />{" "}
+                        <FaStar className="text-[#FFB342]" />
+                        <FaStar className="text-[#FFB342]" />
+                        <FaStar className="text-[#FFB342]" />
                         <FaStar className="text-[#FFB342]" />
                       </div>
                       <div className="text-14px text-[#606060]">
@@ -355,20 +352,20 @@ function Home() {
                 alt="Article Image"
                 className="w-[100%] h-[250px] rounded mr-4"
               />
-                <div className="text-sm text-gray-500 flex items-center gap-4 mt-2">
-                  <span className="flex gap-4">
-                    <img src={person} alt="personlogo" className=" w-3 h-4" />
-                    {article.post}
-                  </span>
-                  <span className="flex gap-4">
-                    <img src={calander} alt="calanderlogo" className=" w-3 h-4" />
-                    {article.date}{" "}
-                  </span>
-                </div>
-                <h3 className="text-lg font-semibold p-4">{article.title}</h3>
-                <Button className="bg-white text-black flex min-w-max items-center gap-4 p-2 group-hover:bg-yellow-500 group-hover:text-white border-2  mb-10 rounded-none text-xs">
-                  READ MORE <span>|</span>  <FaArrowRight />
-                </Button>
+              <div className="text-sm text-gray-500 flex items-center gap-4 mt-2">
+                <span className="flex gap-4">
+                  <img src={person} alt="personlogo" className=" w-3 h-4" />
+                  {article.post}
+                </span>
+                <span className="flex gap-4">
+                  <img src={calander} alt="calanderlogo" className=" w-3 h-4" />
+                  {article.date}{" "}
+                </span>
+              </div>
+              <h3 className="text-lg font-semibold p-4">{article.title}</h3>
+              <Button className="bg-white text-black flex min-w-max items-center gap-4 p-2 group-hover:bg-yellow-500 group-hover:text-white border-2  mb-10 rounded-none text-xs">
+                READ MORE <span>|</span>  <FaArrowRight />
+              </Button>
             </div>
           ))}
         </div>

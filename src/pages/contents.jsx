@@ -5,9 +5,26 @@ import client_2 from "../assets/clients/client_2.png";
 import software_services from "../assets/Software_Services.png";
 import IoT_Services from "../assets/IoT_Services.png";
 import Geo_Spatial from "../assets/Geo_Spatial.png";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+
+const PreviousArrow = ({ className, style, onClick }) => (
+  <FaArrowLeft
+    className={className}
+    style={{ ...style, color: "white", fontSize: "24px", backgroundColor: "black", borderRadius: "5px", marginLeft: "10px" }}
+    onClick={onClick}
+  />
+);
+
+const NextArrow = ({ className, style, onClick }) => (
+  <FaArrowRight
+    className={className}
+    style={{ ...style, color: "white", fontSize: "24px", backgroundColor: "black", borderRadius: "5px", marginRight: "10px" }}
+    onClick={onClick}
+  />
+);
 
 export const clientSlide = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 2,
@@ -15,6 +32,8 @@ export const clientSlide = {
   autoplay: true,
   autoplaySpeed: 4000,
   className: "silders",
+  prevArrow: <PreviousArrow />,
+  nextArrow: <NextArrow />,
   responsive: [
     {
       breakpoint: 768,
@@ -26,13 +45,16 @@ export const clientSlide = {
   ],
 };
 
+
 export const industriesSlide = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   draggable: true,
   autoplay: true,
   autoplaySpeed: 4000,
+  prevArrow: <PreviousArrow />,
+  nextArrow: <NextArrow />,
   rows: 2,
   slidesPerRow: 5,
   responsive: [
