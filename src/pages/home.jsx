@@ -3,32 +3,32 @@ import star from "../assets/star.png";
 import bannerLeft from "../assets/bannerLeft.svg";
 import bannerRight from "../assets/bannerRight.svg";
 import homeVector from "../assets/homeVector.svg";
-import Advertising from "../assets/img/Advertising.png";
-import Airport from "../assets/img/Airport.png";
-import Aviation from "../assets/img/Aviation.png";
-import Automotive from "../assets/img/Automotive.png";
-import Banking from "../assets/img/Banking.png";
-import Bio_technology from "../assets/img/Bio_technology.png";
-import Capital_Markets from "../assets/img/Capital_Markets.png";
-import Consumer_Goods from "../assets/img/Consumer Goods.png";
-import Distribution from "../assets/img/Distribution.png";
-import Energy_Utilities from "../assets/img/Energy & Utilities.png";
-import Fisheries from "../assets/img/Fisheries.png";
-import Government from "../assets/img/Government.png";
-import Healthcare from "../assets/img/Healthcare.png";
-import Hospitality from "../assets/img/Hospitality.png";
-import Institutions from "../assets/img/Institutions.png";
-import Life_Sciences from "../assets/img/Life Sciences.png";
-import Manufacturing from "../assets/img/Manufacturing.png";
-import Media from "../assets/img/Media.png";
-import Mining from "../assets/img/Mining.png";
-import Oil_Gas from "../assets/img/Oil & Gas.png";
-import Pharmaceuticals from "../assets/img/Pharmaceuticals.png";
-import Railways from "../assets/img/Railways.png";
-import Retails from "../assets/img/Retails.png";
-import Robot from "../assets/img/robot.png";
-import Tele_Communications from "../assets/img/tele.png";
-import Travel from "../assets/img/Travel.png";
+import Advertising from "../assets/img/Advertising.svg";
+import Airport from "../assets/img/Airport.svg";
+import Aviation from "../assets/img/Aviation.svg";
+import Automotive from "../assets/img/Automotive.svg";
+import Banking from "../assets/img/Banking.svg";
+import Bio_technology from "../assets/img/Bio-technology.svg";
+import Capital_Markets from "../assets/img/Capital Markets.svg";
+import Consumer_Goods from "../assets/img/Consumer Goods.svg";
+import Distribution from "../assets/img/Distribution.svg";
+import Energy_Utilities from "../assets/img/Energy & Utilities.svg";
+import Fisheries from "../assets/img/Fisheries.svg";
+import Government from "../assets/img/Government.svg";
+import Healthcare from "../assets/img/Healthcare.svg";
+import Hospitality from "../assets/img/Hospitality.svg";
+import Institutions from "../assets/img/Institutions.svg";
+import Life_Sciences from "../assets/img/Life Sciences.svg";
+import Manufacturing from "../assets/img/Manufacturing.svg";
+import Media from "../assets/img/Media.svg";
+import Mining from "../assets/img/Mining.svg";
+import Oil_Gas from "../assets/img/Oil & Gas.svg";
+import Pharmaceuticals from "../assets/img/Pharmaceuticals.svg";
+import Railways from "../assets/img/Railways.svg";
+import Retails from "../assets/img/Retails.svg";
+import Robot from "../assets/img/Robotics.svg";
+import Tele_Communications from "../assets/img/TeleCommunication.svg";
+import Travel from "../assets/img/Travel.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -57,6 +57,7 @@ import {
   clientSlide,
 } from "./contents";
 import { Button } from "@/components/ui/button";
+import "../index.css";
 
 function Home() {
   useEffect(() => {
@@ -90,11 +91,11 @@ function Home() {
     { img: Aviation, title: "Aviation" },
     { img: Automotive, title: "Automotive" },
     { img: Banking, title: "Banking" },
-    { img: Bio_technology, title: "Bio technology" },
+    { img: Bio_technology, title: "Bio-technology" },
     { img: Capital_Markets, title: "Capital Markets" },
     { img: Consumer_Goods, title: "Consumer Goods" },
     { img: Distribution, title: "Distribution" },
-    { img: Energy_Utilities, title: "Energy Utilities" },
+    { img: Energy_Utilities, title: "Energy & Utilities" },
     { img: Fisheries, title: "Fisheries" },
     { img: Government, title: "Government" },
     { img: Healthcare, title: "Healthcare" },
@@ -104,7 +105,7 @@ function Home() {
     { img: Manufacturing, title: "Manufacturing" },
     { img: Media, title: "Media" },
     { img: Mining, title: "Mining" },
-    { img: Oil_Gas, title: "Oil Gas" },
+    { img: Oil_Gas, title: "Oil & Gas" },
     { img: Pharmaceuticals, title: "Pharmaceuticals" },
     { img: Railways, title: "Railways" },
     { img: Retails, title: "Retails" },
@@ -123,117 +124,127 @@ function Home() {
   ];
 
   return (
-    <>
-      <div className="h-full w-full">
-        <div className="bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-24 h-auto flex lg:relative justify-center">
-          <div className="mt-10 flex flex-col items-center">
-            <div className="flex items-center gap-2 px-3 py-1 justify-center bg-[#fff6ce] rounded-[20px] my-2">
-              <img src={star} alt="star" className="h-3 w-3 lg:h-5 lg:w-5" />
-              <span className="font-normal text-[14px] lg:text-[18px]">
-                We Provide IoT innovations for Industrial Projects
-              </span>
-              <img src={star} alt="star" className="h-3 w-3 lg:h-5 lg:w-5" />
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="font-bold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem]">
-                Discover Mandlac and
-              </span>
-              <span className="font-bold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem]">
-                Experience the Future of IoT
-              </span>
-            </div>
-            <div className="flex flex-col text-[15px] lg:text-[20px] items-center text-center mt-5 w-[70%] ">
-              At the forefront of innovation, Mandlac is dedicated to
-              revolutionizing the way we interact with technology. <br />
-              Leveraging cutting-edge IoT technologies, we empower businesses to
-              optimize operations, enhance efficiency, and drive growth in
-              today’s increasingly connected world.
-            </div>
-            <div className="mt-20 lg:mt-32 mb-20 w-full">
-              <img src={homeVector} alt="banner" className="mx-10 lg:mx-52" />
-            </div>
+    <div className="w-full h-auto">
+      <div className="w-full h-full bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-24 flex lg:relative justify-center">
+        <div className="mt-10 flex flex-col items-center">
+          <div className="flex items-center gap-2 px-3 py-1 justify-center bg-[#fff6ce] rounded-[20px] my-2 lg:w-[474px] lg:h-12">
+            <img src={star} alt="star" className="h-3 w-3 lg:h-4 lg:w-4" />
+            <span className="font-normal font-roboto text-[14px] lg:text-[18px]">
+              We Provide IoT innovations for Industrial Projects
+            </span>
+            <img src={star} alt="star" className="h-3 w-3 lg:h-4 lg:w-4" />
           </div>
-
-          <span className="absolute -left-10 lg:left-0 top-80 lg:top-60 -z-10">
-            <img
-              src={bannerLeft}
-              alt="speaker"
-              className="w-[9rem] lg:w-[14rem]"
-            />
+          <div className="flex flex-col items-center">
+            <span className="font-mulish font-extrabold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[60px]">
+              Discover Mandlac and
+            </span>
+            <span className="font-mulish font-extrabold text-[#020202] text-[1.5rem] md:text-[3rem] lg:text-[60px]">
+              Experience the Future of IoT
+            </span>
+          </div>
+          <div className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%]">
+            At the forefront of innovation, Mandlac is dedicated to
+            revolutionizing the way we interact with technology. <br />
+            Leveraging cutting-edge IoT technologies, we empower businesses to
+            optimize operations, enhance efficiency, and drive growth in today’s
+            increasingly connected world.
+          </div>
+          <div className="mt-20 lg:mt-16 mb-20 w-full">
+            <img src={homeVector} alt="banner" className="mx-10 lg:mx-52" />
+          </div>
+        </div>
+        <span className="absolute -left-10 lg:left-0 top-80 lg:top-60 -z-10">
+          <img
+            src={bannerLeft}
+            alt="speaker"
+            className="w-[9rem] lg:w-[14rem]"
+          />
+        </span>
+        <span className="absolute right-0 lg:right-0 top-80 lg:top-60 -z-10">
+          <img
+            src={bannerRight}
+            alt="speaker"
+            className="w-[5rem] lg:w-[8rem]"
+          />
+        </span>
+      </div>
+      <div className="w-full h-auto flex flex-col items-center">
+        <div className="flex flex-col items-center gap-4">
+          <span className="text-2xl md:text-3xl lg:text-[40px] text-center font-extrabold font-mulish">
+            Transform your Business with
           </span>
-          <span className="absolute right-0 lg:right-0 top-80 lg:top-60 -z-10">
-            <img
-              src={bannerRight}
-              alt="speaker"
-              className="w-[5rem] lg:w-[8rem]"
-            />
+          <span className="text-2xl md:text-3xl lg:text-[40px] text-center font-extrabold font-mulish">
+            Advanced Technologies
           </span>
         </div>
-      </div>
-      <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center font-bold">
-        Transform your Business with <br /> Advanced Technologies
-      </h2>
-      <p className="text-center mt-5 font-medium text-[16px]">
-        We’re pioneers in the field of IoT, harnessing the latest advancements
-        in technology to develop cutting-edge solutions that drive efficiency,{" "}
-        <br /> sustainability, and growth. From smart monitoring to precise
-        controlling and seamless management systems, we specialize in <br />{" "}
-        revolutionizing how industries operate in the digital age.At Mandlac,
-        our clients are at the center of everything we do. We believe in
-        delivering <br /> on our promises, exceeding expectations, and building
-        long-lasting partnerships based on trust, integrity, and mutual success.
-      </p>
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-[80%] ml-auto mr-auto mb-10 mt-10">
-        {services.map((article, index) => (
-          <div
-            key={index}
-            className={`p-2`}
-            style={{ backgroundColor: article.bg }}
-          >
-            <img
-              src={article.img}
-              alt="Article Image"
-              className="w-[70px] h-[70px] rounded mr-4"
-            />
-            <div>
-              <h3 className="text-[25px] font-bold p-4">{article.title}</h3>
-              <p
-                className={`text-sm text-gray-600 ${technologiesexpanded[index]
-                  ? "line-clamp-none"
-                  : "line-clamp-3"
+        <p className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%]">
+          We’re pioneers in the field of IoT, harnessing the latest advancements
+          in technology to develop cutting-edge solutions that drive
+          efficiency,sustainability, <br /> and growth. From smart monitoring to
+          precise controlling and seamless management systems, we specialize in
+          revolutionizing how industries operate in <br /> the digital age.At
+          Mandlac, our clients are at the center of everything we do. We believe
+          in delivering on our promises, exceeding expectations, and <br />
+          building long-lasting partnerships based on trust, integrity, and
+          mutual success.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-[80%] ml-auto mr-auto mb-10 mt-10">
+          {services.map((article, index) => (
+            <div
+              key={index}
+              className={`p-5`}
+              style={{ backgroundColor: article.bg }}
+            >
+              <img
+                src={article.img}
+                alt="Article Image"
+                className="w-[70px] h-[70px] rounded"
+              />
+              <div>
+                <h3 className="text-2xl font-bold font-roboto mt-3">
+                  {article.title}
+                </h3>
+                <p
+                  className={`text-base font-normal font-roboto mt-3 ${
+                    technologiesexpanded[index]
+                      ? "line-clamp-none"
+                      : "line-clamp-3"
                   }`}
-              >
-                {article.contant}
-              </p>
-              <button
-                className="text-[#4EB3A4] mt-2"
-                onClick={() => handleReadMoreTechnologies(index)}
-              >
-                {technologiesexpanded[index] ? "Read Less" : "Read More"}
-              </button>
+                >
+                  {article.contant}
+                </p>
+                <button
+                  className="font-roboto font-semibold text-lg mt-6"
+                  onClick={() => handleReadMoreTechnologies(index)}
+                >
+                  {technologiesexpanded[index] ? "Read Less" : "Read More"}
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <div className="w-[90%] ml-auto mr-auto mb-20">
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold ">
+        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] font-mulish text-center mt-10 font-extrabold">
           Solutions Built Specifically <br /> for your Industries
         </h2>
-        <p className="text-center mt-5 font-medium text-[16px] mb-20">
+        <p className="text-center mt-5 font-normal text-lg  mb-20">
           Our customizable solutions encompass both hardware and software
           services, ensuring that our products seamlessly integrate into your{" "}
           <br /> operations while meeting your specific requirements.
         </p>
-        <Slider {...industriesSlide} className="py-8">
+        <Slider {...industriesSlide} className="py-4">
           {Industries.map((data, i) => (
-            <div key={i} className="p-4">
-              <div className="flex flex-col items-center justify-center h-full p-4 bg-[#F7F7F7] rounded-md">
+            <div key={i} className="p-5">
+              <div className="flex flex-col gap-10 items-center justify-center h-full p-4 bg-[#F7F7F7] hover:border border-yellow-300 hover:shadow-md">
                 <img
                   src={data.img}
                   alt={data.title}
-                  className="w-20 h-20 mb-4"
+                  className="w-14 h-12 my-4"
                 />
-                <h3 className="text-lg font-semibold">{data.title}</h3>
+                <h3 className="font-roboto font-medium text-xl text-center">
+                  {data.title}
+                </h3>
               </div>
             </div>
           ))}
@@ -287,7 +298,9 @@ function Home() {
                   </div>
                   <div className="flex justify-between mx-auto w-[90%]">
                     <p
-                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%] ${expanded[i] ? "line-clamp-none" : "line-clamp-5"}`}
+                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%] ${
+                        expanded[i] ? "line-clamp-none" : "line-clamp-5"
+                      }`}
                     >
                       {data.contant}
                     </p>
@@ -320,10 +333,7 @@ function Home() {
         <h2 className="text-2xl md:text-3xl lg:text-4xl text-center mt-20 font-bold">
           Checkout our Recently <br /> Completed Projects
         </h2>
-        <div
-          data-aos="fade-left"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
           <img
             src={project_img1}
             alt=""
@@ -346,7 +356,10 @@ function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-2 w-[90%] ml-auto mr-auto mb-10">
           {news.map((article, index) => (
-            <div data-aos="fade-left -z-10" key={index} className=" bg-gray-50 border border-gray-200 hover:border-2 hover:border-yellow-400 group p-3">
+            <div
+              key={index}
+              className=" bg-gray-50 border border-gray-200 hover:border-2 hover:border-yellow-400 group p-3"
+            >
               <img
                 src={article.img}
                 alt="Article Image"
@@ -364,13 +377,13 @@ function Home() {
               </div>
               <h3 className="text-lg font-semibold p-4">{article.title}</h3>
               <Button className="bg-white text-black flex min-w-max items-center gap-4 p-2 group-hover:bg-yellow-500 group-hover:text-white border-2  mb-10 rounded-none text-xs">
-                READ MORE <span>|</span>  <FaArrowRight />
+                READ MORE <span>|</span> <FaArrowRight />
               </Button>
             </div>
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Home;
