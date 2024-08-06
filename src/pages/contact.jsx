@@ -5,19 +5,19 @@ import { MdConnectWithoutContact } from "react-icons/md";
 import { ImMail4 } from "react-icons/im";
 import { GiRotaryPhone } from "react-icons/gi";
 import { Button } from "@/components/ui/button";
-import AOS from 'aos';
+import AOS from "aos";
 
 function Contact() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      easing: 'ease-out',
+      easing: "ease-out",
       once: true,
     });
   }, []);
 
   return (
-    <div className="h-full w-full mt-20">
+    <div className="h-auto w-full mt-24">
       <div className="bg-[url('./assets/Blog.png')] w-full h-[250px] md:h-[300px] lg:h-[350px] bg-no-repeat bg-cover relative -z-10 ">
         <div className="absolute -z-20 top-10 left-10 md:left-32 lg:left-32 md:top-32 lg:top-32 pt-2 pb-2 pl-1 pr-10 md:pt-5 md:pb-5 md:pl-3 text-white bg-[#565857] flex items-center gap-3 w-[200px] font-semibold text-[20px]">
           <MdConnectWithoutContact className="text-amber-400 h-8 w-8" /> Contact
@@ -29,16 +29,20 @@ function Contact() {
       </div>
       <div className="px-10 md:px-20 flex justify-center items-center my-20 w-full">
         <div className="flex flex-col sm:flex-row gap-2 rounded-md w-[min(1200px,100%)] shadow-md">
-          <iframe data-aos="fade-right"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7879.560307208574!2d77.348635!3d9.083782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06859791071e9d%3A0x6ec4a53af155e48c!2sMandlac%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1720720750791!5m2!1sen!2sin"
-            width="100%"
-            height="450"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className="sm:w-1/2"
-          />
-          <div data-aos="fade-left" className="w-full sm:w-1/2  flex flex-col">
+          <div className="sm:w-1/2 h-full p-5">
+            <iframe
+              data-aos="fade-right"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7879.560307208574!2d77.348635!3d9.083782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06859791071e9d%3A0x6ec4a53af155e48c!2sMandlac%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1720720750791!5m2!1sen!2sin"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="h-[450px] w-full shadow-md"
+            />
+          </div>
+          <div
+            // data-aos="fade-left"
+            className="w-full sm:w-1/2  flex flex-col p-2"
+          >
             <p className="mt-10 md:mt-16 ml-10 md:ml-0 font-bold text-[20px] md:text-[30px] lg:text-[40px] my-1">
               Get In Touch With Us
             </p>
@@ -56,10 +60,10 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div data-aos="fade-left" className="flex flex-col bg-slate-100">
+      <div className="flex flex-col bg-slate-100">
         <div className="flex flex-col  items-center">
-          <p className="text-gray-300 text-2xl mt-2">Contact Us</p>
-          <h2 className="mt-5 font-semibold text-[45px] lg:my-5">
+          <p className="text-gray-300 text-[35px] mt-2">Contact Us</p>
+          <h2 className="mt-5 font-semibold text-[30px] lg:my-5">
             Write a Message
           </h2>
         </div>

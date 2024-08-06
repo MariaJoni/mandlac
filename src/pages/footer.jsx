@@ -18,11 +18,11 @@ function Footer() {
   }, [location]);
 
   return (
-    <div className=" bg-black text-white">
-      <div className="py-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%] mt-0 mb-0 mr-auto ml-auto">
-        <div>
-          <h2 className="text-[25px] font-normal mb-3">About</h2>
-          <p className="w-[90%]">
+    <div className="bg-black text-white w-full h-auto flex flex-col justify-center items-center">
+      <div className="py-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 gap-2 w-[90%]">
+        <div className="">
+          <h2 className="text-xl font-roboto font-semibold mb-3">About</h2>
+          <p className="w-[90%] font-roboto font-normal text-base">
             Mandlac pioneers IoT innovation, offering customizable smart water
             management solutions for residential, commercial, and
             multi-apartment buildings, revolutionizing everyday interactions
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-[25px] font-normal mb-3">Explore</h2>
+          <h2 className="text-xl font-roboto font-semibold mb-3">Explore</h2>
           <ul>
             <li
               onClick={() => navigate("/")}
@@ -65,7 +65,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="text-[25px] font-normal mb-3">Products</h2>
+          <h2 className="text-xl font-roboto font-semibold mb-3">Products</h2>
           <ul>
             <li className="pb-2">Biometric</li>
             <li className="pb-2">Fire Alarm</li>
@@ -75,7 +75,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="text-[25px] font-normal mb-3">Contact Us</h2>
+          <h2 className="text-xl font-roboto font-semibold mb-3">Contact Us</h2>
           <h4>Corporate Office</h4>
           <p className="text-[13px] mt-2 mb-2">
             HD-127 ,RMZ Latitude, 9th floor, WeWork, Hebbal, Bengaluru,
@@ -96,7 +96,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center border-t-2 pt-5 pb-3">
+      <div className="text-center w-full border-t-2 pt-5 pb-3">
         © 2024 MandLac . All Rights Reserved.
       </div>
     </div>
