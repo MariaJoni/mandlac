@@ -213,35 +213,35 @@ export const services = [
 
 export const Hospitality = [
   {
-    title: "Reservation and Booking Management",  
+    title: "Reservation and Booking Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Reservation and Booking Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined reservation process</li>
-          <li className="text-[20px]">Efficient booking management</li>
-          <li className="text-[20px]">Real-time availability updates</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined reservation process</li>
+          <li className="text-[18px] font-roboto">Efficient booking management</li>
+          <li className="text-[18px] font-roboto">Real-time availability updates</li>
+          <li className="text-[18px] font-roboto">
             Integration with distribution channels
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Reservation Systems: </span> Reservation
           Systems: Deployment of reservation systems that offer seamless booking
           experiences for guests, providing real-time availability updates and
           instant confirmation of bookings
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Booking Management Platforms: </span>
           Implementation of booking management platforms that centralize
           reservation data, streamline booking workflows, and integrate with
           distribution channels such as OTAs and GDSs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold"> Channel Manager Integration:</span>
           Integration with channel manager solutions that synchronize room
           inventory and rates across various distribution channels, ensuring
@@ -260,20 +260,20 @@ export const Hospitality = [
     title: "Guest Experience Enhancement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Guest Experience Enhancement</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Guest Experience Enhancement</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized guest interactions</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized guest interactions</li>
+          <li className="text-[18px] font-roboto">
             Efficient check-in and check-out processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Access to guest amenities and services
           </li>
-          <li className="text-[20px]">Prompt resolution of guest requests</li>
+          <li className="text-[18px] font-roboto">Prompt resolution of guest requests</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Guest Relationship Management (GRM) Systems:{" "}
           </span>{" "}
@@ -281,13 +281,13 @@ export const Hospitality = [
           enabling personalized interactions, customized recommendations, and
           targeted marketing campaigns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Mobile Check-In/Check-Out: </span>
           Implementation of mobile check-in/check-out solutions that allow
           guests to bypass front desk queues, complete registration formalities
           remotely, and receive digital room keys for seamless access.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">In-Room Technology Integration: </span>
           Integration with in-room technology solutions such as smart TVs, IoT
           devices, and mobile apps that enable guests to control room amenities,
@@ -306,32 +306,32 @@ export const Hospitality = [
     title: "Revenue Management and Pricing Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Revenue Management and Pricing Optimization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Dynamic pricing strategies</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Dynamic pricing strategies</li>
+          <li className="text-[18px] font-roboto">
             Revenue maximization through yield management
           </li>
-          <li className="text-[20px]">Forecasting and demand analysis</li>
-          <li className="text-[20px]">Competitive pricing intelligence</li>
+          <li className="text-[18px] font-roboto">Forecasting and demand analysis</li>
+          <li className="text-[18px] font-roboto">Competitive pricing intelligence</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Competitive pricing intelligence: </span>
           Deployment of RMS that analyze demand trends, competitor pricing, and
           market dynamics to optimize room rates, maximize revenue, and achieve
           occupancy targets.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Dynamic Pricing Algorithms: </span>
           Implementation of dynamic pricing algorithms that adjust room rates in
           real-time based on demand fluctuations, availability, and other market
           variables, ensuring competitiveness and profitability.{" "}
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Demand Forecasting Tools: </span>
           Integration of demand forecasting tools that use historical data and
           predictive analytics to forecast future demand patterns, enabling
@@ -352,36 +352,36 @@ export const Hospitality = [
     title: "Operational Efficiency and Staff Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Staff Management{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined operations and workflows</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined operations and workflows</li>
+          <li className="text-[18px] font-roboto">
             Efficient resource allocation and scheduling
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Staff training and performance management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Communication and collaboration among staff
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Property Management Systems (PMS):</span>
           Deployment of PMS that automate front and back-office operations,
           including room assignment, housekeeping, inventory management, and
           billing, improving operational efficiency and guest service.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Staff Scheduling Software: </span>
           Implementation of staff scheduling software that optimizes employee
           shifts, manages labor costs, and ensures adequate staffing levels
           based on occupancy forecasts and workload analysis.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Training and Performance Management Tools:{" "}
           </span>
@@ -402,32 +402,32 @@ export const Hospitality = [
     title: "Guest Feedback and Reputation Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Guest Feedback and Reputation Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collection of guest feedback and reviews
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring and response to online reputation
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Continuous improvement based on guest insights
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reputation building and brand management
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Guest Feedback Management Systems: </span>
           Deployment of guest feedback management systems that collect feedback
           through surveys, comment cards, and online reviews, enabling hotels to
           capture guest sentiment and identify areas for improvement.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Online Reputation Monitoring Tools:{" "}
           </span>
@@ -436,7 +436,7 @@ export const Hospitality = [
           allowing hotels to respond promptly and manage their online
           reputation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics for Guest Insights: </span>
           Integration with data analytics tools that analyze guest feedback and
           sentiment data to derive actionable insights, inform operational
@@ -461,36 +461,36 @@ const Airports = [
     title: "Passenger Experience Enhancement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Passenger Experience Enhancement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamless and efficient passenger flow{" "}
           </li>
-          <li className="text-[20px]">Personalized services and amenities</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized services and amenities</li>
+          <li className="text-[18px] font-roboto">
             Real-time flight information and updates
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Enhanced accessibility for passengers with disabilities
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Passenger Flow Management Systems: </span>{" "}
           Deployment of passenger flow management systems that optimize terminal
           layouts, streamline security checkpoints, and minimize wait times,
           enhancing the overall passenger experience.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Personalized Service Platforms: </span>
           Implementation of personalized service platforms that offer tailored
           recommendations, amenities, and assistance to passengers based on
           their preferences, travel history, and loyalty status.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Flight Information Displays: </span>
           Integration with flight information displays and mobile apps that
           provide real-time updates on flight schedules, gate assignments, and
@@ -510,33 +510,33 @@ const Airports = [
     title: "Operational Efficiency and Resource Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Resource Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient allocation of airport resources{" "}
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of runway and gate usage{" "}
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Maintenance of airport infrastructure and equipment
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of airside and landside operations{" "}
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Resource Allocation Systems: </span>{" "}
           Deployment of resource allocation systems that optimize the allocation
           of gates, check-in counters, and ground handling services based on
           flight schedules, passenger volumes, and aircraft sizes, maximizing
           operational efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Runway and Gate Management Software:{" "}
           </span>
@@ -544,7 +544,7 @@ const Airports = [
           runway usage, minimizes taxiing times, and coordinates gate
           assignments to reduce congestion and delays.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Infrastructure Maintenance Tools: </span>
           Integration with infrastructure maintenance tools that schedule
           preventive maintenance tasks, track equipment performance, and
@@ -565,38 +565,38 @@ const Airports = [
     title: "Safety and Security Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Safety and Security Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with aviation safety regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of advanced security measures
           </li>
-          <li className="text-[20px]">Emergency response preparedness</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Emergency response preparedness</li>
+          <li className="text-[18px] font-roboto">
             Passenger and baggage screening efficiency
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Management Systems: </span>
           Deployment of safety management systems that identify hazards, assess
           risks, and implement safety measures to ensure compliance with
           aviation safety regulations and standards, reducing the likelihood of
           accidents and incidents.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Security Screening Solutions: </span>
           Implementation of security screening solutions that enhance the
           efficiency and effectiveness of passenger and baggage screening
           processes, using advanced technologies such as biometrics, artificial
           intelligence, and machine learning.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Emergency Response Systems: </span>
           Integration with emergency response systems that facilitate
           communication, coordination, and response efforts during emergency
@@ -617,24 +617,24 @@ const Airports = [
     title: "Revenue Generation and Commercial Services",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Revenue Generation and Commercial Services{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Diversification of revenue streams</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Diversification of revenue streams</li>
+          <li className="text-[18px] font-roboto">
             Optimization of retail and dining offerings{" "}
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Marketing and promotion of airport amenities{" "}
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Passenger loyalty and engagement programs{" "}
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Commercial Revenue Management Systems:{" "}
           </span>
@@ -643,14 +643,14 @@ const Airports = [
           optimize retail and dining offerings, maximize revenue, and enhance
           the passenger experience.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marketing and Promotion Platforms: </span>
           Implementation of marketing and promotion platforms that target
           passengers with personalized offers, discounts, and incentives to
           encourage spending and loyalty, driving incremental revenue for
           airport retailers and service providers.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Digital Signage and Advertising Networks:{" "}
           </span>
@@ -673,22 +673,22 @@ const Airports = [
     title: "Environmental Sustainability Initiatives",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Environmental Sustainability Initiatives
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Reduction of environmental footprint</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Reduction of environmental footprint</li>
+          <li className="text-[18px] font-roboto">
             Adoption of green technologies and practices{" "}
           </li>
-          <li className="text-[20px]">Energy efficiency and waste reduction</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Energy efficiency and waste reduction</li>
+          <li className="text-[18px] font-roboto">
             Carbon offset and emissions management{" "}
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Environmental Impact Assessment Tools:{" "}
           </span>
@@ -697,14 +697,14 @@ const Airports = [
           improvement, and implement strategies to minimize environmental
           impact.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Green Technology Integration: </span>
           Implementation of green technology solutions such as solar power
           generation, LED lighting, and energy-efficient HVAC systems to reduce
           energy consumption, lower operating costs, and mitigate greenhouse gas
           emissions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Waste Management Systems: </span>
           Integration with waste management systems that optimize waste
           segregation, recycling, and disposal processes, diverting waste from
@@ -727,37 +727,37 @@ const Aviation = [
     title: "Flight Operations Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Flight Operations Management</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Flight Operations Management</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient flight scheduling and crew management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of flight routes and fuel consumption
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of flight operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with aviation regulations and safety standards
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Flight Planning Software: </span>{" "}
           Deployment of flight planning software that optimizes flight routes,
           considers weather conditions, and minimizes fuel consumption, reducing
           operational costs and environmental impact.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Crew Management Systems: </span>
           Integration with real-time monitoring tools that track flight status,
           aircraft performance, and airspace congestion, providing operators
           with actionable insights to optimize flight operations and improve
           on-time performance.{" "}
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-time Monitoring Tools: </span>
           Integration with flight information displays and mobile apps that
           provide real-time updates on flight schedules, gate assignments, and
@@ -778,39 +778,39 @@ const Aviation = [
     title: "Passenger Experience Enhancement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Passenger Experience Enhancement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamless and personalized travel experiences
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Streamlined booking and check-in processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Access to in-flight entertainment and amenities
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time updates and communication during travel
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Digital Passenger Services: </span>
           Deployment of digital passenger services that offer seamless booking,
           check-in, and boarding experiences, allowing passengers to manage
           their travel itinerary and preferences through mobile apps and
           self-service kiosks.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">In-flight Entertainment Systems: </span>
           Implementation of in-flight entertainment systems that provide
           passengers with access to movies, music, and other entertainment
           options, enhancing the onboard experience and satisfaction.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-time Communication Platforms: </span>
           Integration with real-time communication platforms that enable
           airlines to send updates, alerts, and personalized notifications to
@@ -833,39 +833,39 @@ const Aviation = [
     title: "Aircraft Maintenance and Engineering",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Proactive maintenance planning and execution
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with aviation safety regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of maintenance schedules and resource allocation
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with aircraft airworthiness requirements
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of predictive maintenance technologies
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Maintenance Planning Software: </span>
           Deployment of maintenance planning software that schedules and
           prioritizes maintenance tasks based on aircraft usage, component
           reliability, and regulatory requirements, optimizing maintenance
           efficiency and reducing downtime.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Resource Allocation Systems: </span>
           Implementation of resource allocation systems that optimize the
           allocation of maintenance personnel, spare parts, and equipment to
           ensure timely and cost-effective maintenance operations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Tools: </span>
           Integration with compliance management tools that track aircraft
           airworthiness requirements, maintenance records, and regulatory
@@ -887,26 +887,26 @@ const Aviation = [
     title: "Air Traffic Management and Navigation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Air Traffic Management and Navigation{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient airspace management and traffic flow
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of air traffic routes and capacity{" "}
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of air traffic movements
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of NextGen and SESAR technologies
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Air Traffic Flow Management Systems:{" "}
           </span>
@@ -914,13 +914,13 @@ const Aviation = [
           airspace capacity, reduce congestion, and minimize delays through
           collaborative decision-making and traffic flow coordination.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Route Optimization Software: </span>
           Implementation of route optimization software that analyzes air
           traffic patterns, weather conditions, and airspace restrictions to
           optimize flight routes and improve fuel efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-time Surveillance Solutions: </span>
           Integration with real-time surveillance solutions that track aircraft
           movements, detect conflicts, and provide air traffic controllers with
@@ -940,33 +940,33 @@ const Aviation = [
     title: "Environmental Sustainability Initiatives",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Environmental Sustainability Initiatives
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of aviation emissions and environmental impact
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adoption of sustainable aviation fuels and technologies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of noise abatement measures
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of green practices in aviation operations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Emissions Monitoring Systems: </span>
           Deployment of emissions monitoring systems that track and report
           aircraft emissions, fuel consumption, and environmental performance
           metrics, enabling airlines to measure, manage, and reduce their carbon
           footprint.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Sustainable Aviation Fuel Integration:{" "}
           </span>
@@ -975,7 +975,7 @@ const Aviation = [
           fuel suppliers, carbon offset programs, and financial incentives to
           transition to low-carbon alternatives.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Noise Abatement Technologies: </span>
           Integration with noise abatement technologies that mitigate aircraft
           noise impacts through sound insulation, flight path optimization, and
@@ -999,33 +999,33 @@ const Automotive = [
     title: "Enhanced Manufacturing and Production Efficiency",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Manufacturing and Production Efficiency
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined production processes</li>
-          <li className="text-[20px]">Streamlined production processes</li>
-          <li className="text-[20px]">Efficient design and prototyping</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined production processes</li>
+          <li className="text-[18px] font-roboto">Streamlined production processes</li>
+          <li className="text-[18px] font-roboto">Efficient design and prototyping</li>
+          <li className="text-[18px] font-roboto">
             Integrated product lifecycle management
           </li>
-          <li className="text-[20px]">Advanced robotics and automation</li>
+          <li className="text-[18px] font-roboto">Advanced robotics and automation</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Manufacturing Execution Systems (MES):{" "}
           </span>{" "}
           Custom solutions to track and control production processes in
           real-time, ensuring efficiency and quality.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">CAD/CAM Tools: </span>
           Provision of advanced design and manufacturing tools tailored to your
           needs, along with training for effective utilization.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Product Lifecycle Management (PLM):{" "}
           </span>
@@ -1045,37 +1045,37 @@ const Automotive = [
     title: "Optimized Supply Chain and Operations",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Optimized Supply Chain and Operations
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient logistics and inventory management
           </li>
-          <li className="text-[20px]">Improved supplier coordination</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Improved supplier coordination</li>
+          <li className="text-[18px] font-roboto">
             Real-time data insights and predictive analytics
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduced operational costs and lead times
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Supply Chain Management (SCM) Software:{" "}
           </span>
           Customized SCM solutions to optimize logistics, inventory management,
           and supplier coordination, improving transparency and efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Analytics Platforms: </span>
           Advanced analytics tools to provide deep insights into operations,
           facilitating data-driven decision-making and enhanced operational
           efficiency
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Supply Chain Solutions: </span>
           Implementation of powerful analytical tools to preemptively address
           potential supply chain issues, enhancing overall performance.
@@ -1087,29 +1087,29 @@ const Automotive = [
     title: "Advanced Vehicle Development and Connectivity",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Vehicle Development and Connectivity
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accurate simulation and testing of vehicle dynamics
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Development and testing of autonomous driving technologies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of smart vehicle connectivity features
           </li>
-          <li className="text-[20px]">Enhanced safety and performance</li>
+          <li className="text-[18px] font-roboto">Enhanced safety and performance</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Simulation Software: </span>
           Provision of simulation tools for precise and efficient testing of
           vehicle dynamics, aerodynamics, and crash performance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Autonomous Vehicle Software: </span>
           Development and testing of self-driving algorithms, ensuring safe and
           reliable autonomous vehicle capabilities.
@@ -1127,37 +1127,37 @@ const Automotive = [
     title: "Improved Customer Experience and Sales",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Improved Customer Experience and Sales{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized customer interactions</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized customer interactions</li>
+          <li className="text-[18px] font-roboto">
             Immersive and interactive shopping experiences
           </li>
-          <li className="text-[20px]">Engaging customer communities</li>
-          <li className="text-[20px]">Seamless online sales processes</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Engaging customer communities</li>
+          <li className="text-[18px] font-roboto">Seamless online sales processes</li>
+          <li className="text-[18px] font-roboto">
             Automated and targeted marketing campaigns
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM):
           </span>
           Deployment of CRM systems to manage customer interactions, track sales
           leads, and enhance customer service.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Digital Showrooms and Virtual Reality (VR):{" "}
           </span>
           Creation of immersive VR experiences for online car customization and
           shopping, providing a unique and engaging customer experience.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Community Platforms: </span>
           Building and managing platforms for customer engagement, fostering
           loyalty, and gathering valuable feedback.
@@ -1179,41 +1179,41 @@ const Automotive = [
     title: "Advanced After-Sales Services and Technologies",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced After-Sales Services and Technologies
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Real-time vehicle health monitoring</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Real-time vehicle health monitoring</li>
+          <li className="text-[18px] font-roboto">
             Efficient maintenance scheduling and tracking
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive analytics for maintenance and quality control
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Enhanced data security and transparency
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Interactive and engaging customer support tools
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Vehicle Diagnostics and Telematics:{" "}
           </span>
           Solutions for real-time monitoring and diagnostics, enhancing
           maintenance efficiency and customer satisfaction.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Maintenance and Service Management:{" "}
           </span>
           Deployment of software for scheduling and tracking vehicle
           maintenance, reducing downtime and improving reliability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Artificial Intelligence (AI) and Machine Learning (ML):{" "}
           </span>
@@ -1257,32 +1257,32 @@ const Banking = [
     title: "Enhanced Security and Fraud Prevention",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Security and Fraud Prevention
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Robust cybersecurity measures</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Robust cybersecurity measures</li>
+          <li className="text-[18px] font-roboto">
             Advanced fraud detection and prevention systems
           </li>
-          <li className="text-[20px]">Secure customer data management</li>
-          <li className="text-[20px]">Compliance with regulatory standards</li>
+          <li className="text-[18px] font-roboto">Secure customer data management</li>
+          <li className="text-[18px] font-roboto">Compliance with regulatory standards</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cybersecurity Solutions: </span>
           Implementation of advanced cybersecurity protocols, including
           encryption, multi-factor authentication, and intrusion detection
           systems, to protect sensitive financial data.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Systems: </span>
           Development of AI-powered fraud detection systems that monitor
           transactions in real-time to identify and prevent fraudulent
           activities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Management Solutions: </span>
           Secure data management platforms that ensure compliance with
           regulatory standards such as GDPR, CCPA, and PCI-DSS.
@@ -1299,34 +1299,34 @@ const Banking = [
     title: "Improved Customer Experience and Engagement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Improved Customer Experience and Engagement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized customer service</li>
-          <li className="text-[20px]">Seamless digital banking experiences</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized customer service</li>
+          <li className="text-[18px] font-roboto">Seamless digital banking experiences</li>
+          <li className="text-[18px] font-roboto">
             Effective customer relationship management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Engaging mobile and online banking platforms
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM):{" "}
           </span>
           Deployment of CRM systems tailored to banking needs, enabling
           personalized customer interactions and efficient service management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Digital Banking Platforms: </span>
           Development of user-friendly mobile and online banking applications
           that provide seamless access to banking services.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Service Automation: </span>
           Implementation of AI-powered chatbots and virtual assistants to
           provide 24/7 customer support and enhance customer engagement.
@@ -1343,31 +1343,31 @@ const Banking = [
     title: "Operational Efficiency and Automation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Automation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined internal processes</li>
-          <li className="text-[20px]">Efficient transaction processing</li>
-          <li className="text-[20px]">Automated compliance and reporting</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined internal processes</li>
+          <li className="text-[18px] font-roboto">Efficient transaction processing</li>
+          <li className="text-[18px] font-roboto">Automated compliance and reporting</li>
+          <li className="text-[18px] font-roboto">
             Cost reduction through process optimization
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Robotic Process Automation (RPA): </span>
           Deployment of RPA solutions to automate repetitive tasks such as
           transaction processing, data entry, and compliance reporting, reducing
           operational costs and improving efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Business Process Management (BPM): </span>
           Implementation of BPM software to optimize and streamline internal
           workflows, ensuring smoother operations. 4
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Core Banking Solutions: </span>
           Upgrading or implementing core banking systems that support efficient
           transaction processing and back-end operations.
@@ -1384,30 +1384,30 @@ const Banking = [
     title: "Digital Transformation and Innovation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Digital Transformation and Innovation{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Adoption of innovative technologies</li>
-          <li className="text-[20px]">Modernization of legacy systems</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Adoption of innovative technologies</li>
+          <li className="text-[18px] font-roboto">Modernization of legacy systems</li>
+          <li className="text-[18px] font-roboto">
             Integration of digital financial services
           </li>
-          <li className="text-[20px]">Enhanced mobile banking capabilities</li>
+          <li className="text-[18px] font-roboto">Enhanced mobile banking capabilities</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Legacy System Modernization: </span>
           Assisting in the transition from legacy systems to modern, scalable,
           and flexible IT infrastructures.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Blockchain Technology: </span>
           Implementation of blockchain solutions for secure and transparent
           transactions, smart contracts, and efficient record-keeping.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fintech Integration: </span>
           Developing APIs and platforms for seamless integration with fintech
           services and third-party applications.
@@ -1424,30 +1424,30 @@ const Banking = [
     title: "Advanced Analytics and Business Intelligence",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Analytics and Business Intelligence
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Data-driven decision making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision making</li>
+          <li className="text-[18px] font-roboto">
             Predictive analytics for market trends
           </li>
-          <li className="text-[20px]">Customer behavior analysis</li>
-          <li className="text-[20px]">Risk management and assessment</li>
+          <li className="text-[18px] font-roboto">Customer behavior analysis</li>
+          <li className="text-[18px] font-roboto">Risk management and assessment</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Business Intelligence (BI) Tools: </span>
           Implementation of BI platforms that provide comprehensive insights
           into business performance through interactive dashboards and reports.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Analytics: </span>
           Development of predictive analytics models to forecast market trends,
           customer behavior, and financial risks.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Analytics: </span>
           Solutions to analyze customer data, identify patterns, and enhance
           customer segmentation for targeted marketing campaigns.
@@ -1467,39 +1467,39 @@ const Biotechnology = [
     title: "Research and Development (R&D) Efficiency",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Research and Development (R&D) Efficiency
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accelerated drug discovery and development processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of research workflows and data analysis
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration and knowledge sharing among R&D teams
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of emerging technologies in biotech R&D
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Research Collaboration Platforms: </span>
           Deployment of research collaboration platforms that facilitate
           interdisciplinary collaboration, data sharing, and project management
           among R&D teams, accelerating the drug discovery and development
           process.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics Tools:</span>
           Implementation of data analytics tools that analyze large datasets,
           identify patterns, and generate insights to support decision-making in
           drug discovery, genomics, and bioprocessing research.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Virtual Research Environments: </span>
           Integration with virtual research environments that provide access to
           computational resources, modeling and simulation tools, and
@@ -1520,39 +1520,39 @@ const Biotechnology = [
     title: "Regulatory Compliance and Quality Assurance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Quality Assurance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with biopharmaceutical regulations and standards
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adherence to Good Manufacturing Practices (GMP)
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Quality control and assurance of biopharmaceutical products
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Documentation and reporting for regulatory audits
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Regulatory Compliance Software: </span>
           Deployment of regulatory compliance software that tracks regulatory
           requirements, manages documentation, and generates reports to ensure
           compliance with biopharmaceutical regulations and standards.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Quality Management Systems: </span>
           Implementation of quality management systems that establish
           standardized processes, perform quality checks, and document quality
           control measures to ensure the consistency and safety of
           biopharmaceutical products.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Audit Trail Solutions: </span>
           Integration with audit trail solutions that record and track changes
           to data, processes, and documentation, providing a transparent record
@@ -1572,40 +1572,40 @@ const Biotechnology = [
     title: "Bioprocess Optimization and Manufacturing",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Bioprocess Optimization and Manufacturing{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient bioprocessing and manufacturing operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of fermentation and cell culture processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Scale-up and scale-out strategies for biomanufacturing
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring and control of bioproduction facilities
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Process Monitoring Systems: </span>
           Deployment of process monitoring systems that provide real-time
           visibility into bioprocessing parameters, such as cell viability,
           productivity, and product quality, enabling proactive process control
           and optimization.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Scale-Up and Scale-Out Tools: </span>
           Implementation of scale-up and scale-out tools that simulate,
           optimize, and automate the scaling of biomanufacturing processes from
           lab-scale to commercial-scale production, minimizing time-to-market
           and production costs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Manufacturing Execution Systems: </span>
           Integration with manufacturing execution systems that manage
           production workflows, track material flows, and enforce batch records
@@ -1627,40 +1627,40 @@ const Biotechnology = [
     title: "Biobanking and Data Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Biobanking and Data Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Secure storage and management of biological samples
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Traceability and tracking of sample provenance
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of biobank data with research and clinical workflows
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with data privacy and security regulations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Biobank Management Systems: </span>
           Deployment of biobank management systems that track sample inventory,
           manage sample storage conditions, and record sample annotations,
           ensuring sample integrity and traceability throughout the biobanking
           lifecycle.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Sample Tracking Technologies: </span>
           Implementation of sample tracking technologies such as barcoding,
           RFID, and LIMS integration that enable automated sample
           identification, tracking, and retrieval, improving sample management
           efficiency and accuracy.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Integration Platforms: </span>
           Integration with data integration platforms that harmonize and
           integrate biobank data with research, clinical, and genomic datasets,
@@ -1683,40 +1683,40 @@ const Biotechnology = [
     title: "Personalized Medicine and Precision Healthcare",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Personalized Medicine and Precision Healthcare
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Development of targeted therapies and precision diagnostics
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of genomic data and biomarker analysis
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Patient stratification and treatment selection
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Patient stratification and treatment selection
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Precision Medicine Platforms: </span>
           Deployment of precision medicine platforms that integrate genomic
           data, biomarker analysis, and clinical information to stratify
           patients, identify therapeutic targets, and personalize treatment
           regimens for precision healthcare.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Genomic Data Analysis Tools: </span>
           Implementation of genomic data analysis tools that analyze
           next-generation sequencing (NGS) data, identify genetic variants, and
           interpret genomic findings to guide clinical decision-making and
           patient management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Patient Stratification Algorithms: </span>
           Integration with patient stratification algorithms that analyze
           patient characteristics, disease phenotypes, and treatment responses
@@ -1740,30 +1740,30 @@ const Capital_Markets = [
     title: "Trading and Investment Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Trading and Investment Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient trading execution</li>
-          <li className="text-[20px]">Real-time market data analysis</li>
-          <li className="text-[20px]">Portfolio management and optimization</li>
-          <li className="text-[20px]">Risk assessment and management</li>
+          <li className="text-[18px] font-roboto">Efficient trading execution</li>
+          <li className="text-[18px] font-roboto">Real-time market data analysis</li>
+          <li className="text-[18px] font-roboto">Portfolio management and optimization</li>
+          <li className="text-[18px] font-roboto">Risk assessment and management</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Algorithmic Trading Platforms: </span>
           Deployment of algorithmic trading platforms that automate trading
           strategies, execute orders at high speeds, and optimize trade
           execution for better returns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Market Data Analytics Tools: </span>
           Implementation of market data analytics tools that analyze real-time
           market data, identify trends, and provide insights for informed
           investment decisions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Portfolio Management Systems: </span>
           Integration of portfolio management systems that track and manage
           investments, optimize asset allocation, and rebalance portfolios to
@@ -1782,32 +1782,32 @@ const Capital_Markets = [
     title: "Regulatory Compliance and Reporting",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Reporting
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
-          <li className="text-[20px]">Automated reporting and documentation</li>
-          <li className="text-[20px]">Monitoring of regulatory changes</li>
-          <li className="text-[20px]">Prevention of fraud and market abuse</li>
+          <li className="text-[18px] font-roboto">Automated reporting and documentation</li>
+          <li className="text-[18px] font-roboto">Monitoring of regulatory changes</li>
+          <li className="text-[18px] font-roboto">Prevention of fraud and market abuse</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems: </span>
           Deployment of compliance management systems that automate compliance
           tracking, reporting, and documentation, ensuring adherence to
           regulatory requirements such as MiFID II and Dodd-Frank.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Regulatory Reporting Software: </span>
           Implementation of regulatory reporting software that generates and
           submits required reports to regulatory authorities, ensuring accuracy
           and timeliness in compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Regulatory Change Management Tools:{" "}
           </span>
@@ -1830,36 +1830,36 @@ const Capital_Markets = [
     title: "Data Management and Analytics",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Data Management and Analytics{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of financial data
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Advanced data analytics for decision-making
           </li>
-          <li className="text-[20px]">Integration of disparate data sources</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Integration of disparate data sources</li>
+          <li className="text-[18px] font-roboto">
             Protection of sensitive financial information
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Integration Platforms: </span>
           Deployment of data integration platforms that consolidate and
           harmonize financial data from multiple sources, enabling comprehensive
           analysis and reporting.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Analytics Tools: </span>
           Implementation of advanced analytics tools that utilize machine
           learning and predictive modeling to uncover insights, identify
           investment opportunities, and optimize trading strategies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Security Solutions: </span>
           Integration of data security solutions that encrypt sensitive
           financial data, enforce access controls, and monitor data usage to
@@ -1878,28 +1878,28 @@ const Capital_Markets = [
     title: "Wealth Management and Client Services",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Wealth Management and Client Services
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized wealth management services
           </li>
-          <li className="text-[20px]">Client relationship management</li>
-          <li className="text-[20px]">Investment advisory and planning</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Client relationship management</li>
+          <li className="text-[18px] font-roboto">Investment advisory and planning</li>
+          <li className="text-[18px] font-roboto">
             Digital self-service and mobile access
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Wealth Management Platforms: </span>
           Deployment of wealth management platforms that offer personalized
           investment advice, financial planning tools, and portfolio tracking
           capabilities to meet individual client needs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Client Relationship Management (CRM) Systems:{" "}
           </span>
@@ -1907,7 +1907,7 @@ const Capital_Markets = [
           client interactions, enabling personalized service and targeted
           marketing campaigns
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Digital Advisory Platforms: </span>
           Integration of digital advisory platforms that combine robo-advisors
           with human advisors to deliver tailored investment recommendations and
@@ -1926,32 +1926,32 @@ const Capital_Markets = [
     title: "Technology Innovation and Integration",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Technology Innovation and Integration
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Adoption of emerging technologies</li>
-          <li className="text-[20px]">Integration of legacy systems</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Adoption of emerging technologies</li>
+          <li className="text-[18px] font-roboto">Integration of legacy systems</li>
+          <li className="text-[18px] font-roboto">
             Scalability and flexibility in IT infrastructure
           </li>
-          <li className="text-[20px]">Collaboration with fintech partners</li>
+          <li className="text-[18px] font-roboto">Collaboration with fintech partners</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fintech Integration Solutions: </span>
           Deployment of fintech integration solutions that connect with
           innovative fintech platforms and services, enabling access to new
           products, markets, and technologies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Legacy System Modernization: </span>
           Implementation of legacy system modernization strategies that migrate
           legacy applications to modern architectures, ensuring compatibility,
           scalability, and agility in IT infrastructure.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cloud-Based Solutions: </span>
           Integration of cloud-based solutions that provide scalable and
           flexible computing resources, enabling cost-effective and efficient
@@ -1975,34 +1975,34 @@ const Institutions = [
     title: "Data Management and Security",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Data Management and Security</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Data Management and Security</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Secure storage and management of sensitive data
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with data protection regulations
           </li>
-          <li className="text-[20px]">Data access controls and encryption</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data access controls and encryption</li>
+          <li className="text-[18px] font-roboto">
             Protection against cyber threats and data breaches
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Management Systems: </span>
           Deployment of data management systems that centralize and organize
           institutional data, ensuring secure storage, efficient retrieval, and
           regulatory compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Security Software: </span>
           Implementation of data security software that encrypts sensitive data,
           monitors data access, and detects and responds to security threats,
           ensuring data integrity and confidentiality.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Access Control Solutions: </span>
           Integration with access control solutions that enforce user
           authentication, authorization, and role-based access controls,
@@ -2022,30 +2022,30 @@ const Institutions = [
     title: "Financial Management and Reporting",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Financial Management and Reporting
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accurate financial reporting and analysis
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Budgeting and forecasting capabilities
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with accounting standards and regulations
           </li>
-          <li className="text-[20px]">Audit trail and transaction tracking</li>
+          <li className="text-[18px] font-roboto">Audit trail and transaction tracking</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Financial Management Systems: </span>
           Deployment of financial management systems that automate accounting
           processes, manage budgets, and generate financial reports, ensuring
           accuracy, transparency, and compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Budgeting and Forecasting Software:{" "}
           </span>
@@ -2054,7 +2054,7 @@ const Institutions = [
           performance, enabling informed decision-making and resource
           allocation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Tools: </span>
           Integration with compliance management tools that track regulatory
           requirements, automate compliance checks, and generate audit reports
@@ -2073,38 +2073,38 @@ const Institutions = [
     title: "Stakeholder Engagement and Communication",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Stakeholder Engagement and Communication{" "}
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Effective communication with stakeholders
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration among internal teams and external partners
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Transparency in decision-making and operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Stakeholder feedback collection and analysis
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Stakeholder Engagement Platforms: </span>
           Deployment of stakeholder engagement platforms that facilitate
           communication, collaboration, and information sharing with
           stakeholders, enhancing transparency and fostering trust.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Collaboration Tools: </span>
           Implementation of collaboration tools that enable internal teams and
           external partners to work together seamlessly, share documents, and
           communicate in real-time, improving productivity and decision-making.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Transparency Initiatives: </span>
           Integration with transparency initiatives that provide stakeholders
           with access to relevant information, reports, and updates on
@@ -2123,34 +2123,34 @@ const Institutions = [
     title: "Operational Efficiency and Workflow Automation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Workflow Automation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined processes and workflows</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined processes and workflows</li>
+          <li className="text-[18px] font-roboto">
             Automation of routine tasks and procedures
           </li>
-          <li className="text-[20px]">Reduction of administrative overhead</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Reduction of administrative overhead</li>
+          <li className="text-[18px] font-roboto">
             Integration with existing systems and tools
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Workflow Automation Software: </span>
           Deployment of workflow automation software that digitizes and
           automates institutional processes, eliminates manual tasks, and
           accelerates decision-making and approvals.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Task Management Systems: </span>
           Implementation of task management systems that assign, track, and
           prioritize tasks across teams and departments, ensuring accountability
           and timely completion of tasks.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Administrative Overhead Reduction Tools:{" "}
           </span>
@@ -2173,35 +2173,35 @@ const Institutions = [
     title: "Risk Management and Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Risk Management and Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Identification and mitigation of operational risks
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements and industry standards
           </li>
-          <li className="text-[20px]">Risk assessment and scenario analysis</li>
-          <li className="text-[20px]">Internal controls and audit readiness</li>
+          <li className="text-[18px] font-roboto">Risk assessment and scenario analysis</li>
+          <li className="text-[18px] font-roboto">Internal controls and audit readiness</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Systems: </span>
           Deployment of risk management systems that identify, assess, and
           mitigate operational risks, monitor risk exposure, and implement risk
           mitigation strategies to protect institutional assets and reputation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Tracking Software: </span>
           Implementation of compliance tracking software that monitors
           regulatory requirements, automates compliance checks, and generates
           compliance reports to ensure adherence to industry standards and
           regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Assessment Tools: </span>
           Integration with risk assessment tools that conduct scenario analysis,
           quantify risk exposure, and prioritize risk mitigation efforts based
@@ -2223,38 +2223,38 @@ const Distribution = [
     title: "Inventory Management and Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Inventory Management and Optimization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient inventory tracking and management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of inventory levels and stock replenishment
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of stockouts and overstock situations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time visibility into inventory across multiple locations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Management Software:</span>
           Deployment of inventory management software that centralizes inventory
           data, tracks stock levels, and automates inventory replenishment
           processes, improving inventory accuracy and reducing carrying costs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Demand Forecasting Tools:</span>
           Implementation of demand forecasting tools that analyze historical
           sales data, market trends, and seasonal patterns to predict future
           demand, enabling proactive inventory planning and optimization.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Multi-location Inventory Tracking:</span>
           Development of solutions that provide real-time visibility into
           inventory levels across multiple warehouses, distribution centers, and
@@ -2270,32 +2270,32 @@ const Distribution = [
     title: "Order Fulfillment and Logistics Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Order Fulfillment and Logistics Optimization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Streamlined order processing and fulfillment
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of transportation routes and delivery schedules
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time tracking and monitoring of shipments
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of multi-channel sales and fulfillment processes
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Order Management Systems:</span>
           Deployment of order management systems that automate order processing,
           track order status, and manage order exceptions, improving order
           accuracy and reducing fulfillment times.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Transportation Management Software:{" "}
           </span>
@@ -2304,7 +2304,7 @@ const Distribution = [
           outbound shipments, reducing transportation costs and improving
           delivery reliability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-time Shipment Tracking:</span>
           Integration with real-time shipment tracking solutions that provide
           visibility into shipment status, delivery ETA, and exception alerts,
@@ -2326,24 +2326,24 @@ const Distribution = [
     title: "Supply Chain Visibility and Collaboration",
     content: (
       <>
-        <h2 className="font-bold text-[30px]"></h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto"></h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time visibility into supply chain operation
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration and communication with suppliers and partners
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Identification and mitigation of supply chain risks
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of supply chain data across the value chain
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supply Chain Visibility Platforms:</span>
           Deployment of supply chain visibility platforms that aggregate and
           analyze supply chain data from multiple sources, such as suppliers,
@@ -2351,14 +2351,14 @@ const Distribution = [
           real-time insights into inventory levels, order status, and shipment
           tracking.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supplier Collaboration Tools:</span>
           Implementation of supplier collaboration tools that facilitate
           communication, information sharing, and collaboration with suppliers
           and vendors, enabling proactive supplier management and issue
           resolution.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Systems:</span>
           Integration with risk management systems that assess supply chain
           risks, such as disruptions, delays, and quality issues, and implement
@@ -2378,37 +2378,37 @@ const Distribution = [
     title: "Customer Relationship Management (CRM)",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Customer Relationship Management (CRM)
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Enhanced customer engagement and satisfaction
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized sales and marketing strategies
           </li>
-          <li className="text-[20px]">Customer segmentation and targeting</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Customer segmentation and targeting</li>
+          <li className="text-[18px] font-roboto">
             Integration of customer data across channels
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">CRM Software:</span>
           Deployment of CRM software that centralizes customer data, tracks
           interactions, and automates sales and marketing processes, improving
           customer engagement and retention.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Segmentation Tools:</span>
           Implementation of customer segmentation tools that analyze customer
           behavior, preferences, and demographics to segment customers into
           target groups for personalized marketing campaigns and sales
           strategies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Omni-channel Integration Platforms:</span>
           Integration with omni-channel integration platforms that synchronize
           customer data, sales transactions, and marketing activities across
@@ -2429,39 +2429,39 @@ const Distribution = [
     title: "Compliance and Regulatory Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Compliance and Regulatory Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with industry regulations and standards
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Management of regulatory documentation and reporting
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Auditing and monitoring of compliance processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of compliance measures into operations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Software:</span>
           Deployment of compliance management software that centralizes
           regulatory requirements, tracks compliance tasks, and generates audit
           trails and reports for regulatory inspections and audits.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Document Control Systems</span>
           Implementation of document control systems that manage regulatory
           documentation, standard operating procedures (SOPs), and quality
           management documents, ensuring version control and access control for
           compliance purposes.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Audit and Inspection Tools:</span>
           Integration with audit and inspection tools that conduct internal
           audits, supplier audits, and regulatory inspections, capturing
@@ -2485,36 +2485,36 @@ export const Telecommunications = [
     title: "Network Optimization and Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Network Optimization and Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient network infrastructure management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time network monitoring and maintenance
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduced downtime and improved service reliability
           </li>
-          <li className="text-[20px]">Optimization of network performance</li>
+          <li className="text-[18px] font-roboto">Optimization of network performance</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Network Management Systems (NMS):</span>
           Deployment of NMS to monitor and manage network infrastructure,
           ensuring optimal performance and quick identification and resolution
           of issues.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Tools: </span>
           Implementation of real-time monitoring tools that provide continuous
           visibility into network operations, enabling proactive maintenance and
           minimizing downtime.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Maintenance Solutions: </span>
           Integration of predictive maintenance solutions that analyze network
           data to predict and prevent potential failures, ensuring uninterrupted
@@ -2536,20 +2536,20 @@ export const Telecommunications = [
     title: "Enhanced Customer Experience",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Enhanced Customer Experience</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Enhanced Customer Experience</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized customer interactions</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized customer interactions</li>
+          <li className="text-[18px] font-roboto">
             Efficient customer service and support
           </li>
-          <li className="text-[20px]">Seamless omnichannel experiences</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Seamless omnichannel experiences</li>
+          <li className="text-[18px] font-roboto">
             Insight into customer preferences and behavior
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:{" "}
           </span>
@@ -2557,7 +2557,7 @@ export const Telecommunications = [
           customer interactions, enabling personalized service and targeted
           marketing campaigns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Deployment of AI-powered chatbots and virtual assistants that offer
             instant support, resolve issues, and provide information, enhancing
@@ -2567,7 +2567,7 @@ export const Telecommunications = [
           instant support, resolve issues, and provide information, enhancing
           customer satisfaction.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Omnichannel Communication Platforms:
           </span>
@@ -2588,24 +2588,24 @@ export const Telecommunications = [
     title: "Advanced Data Analytics and Business Intelligence",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Data Analytics and Business Intelligence
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insights into operational performance and market trends
           </li>
-          <li className="text-[20px]">Data-driven decision-making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision-making</li>
+          <li className="text-[18px] font-roboto">
             Enhanced revenue management and growth strategies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Effective management of large datasets
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Business Intelligence (BI) Platforms:{" "}
           </span>
@@ -2613,13 +2613,13 @@ export const Telecommunications = [
           reports on operational performance, customer behavior, and market
           trends, supporting strategic decision-making.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Revenue Management Solutions: </span>
           Implementation of revenue management solutions that analyze billing
           data, customer usage patterns, and market conditions to optimize
           pricing strategies and identify revenue growth opportunities
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Big Data Analytics Tools: </span>
           Integration of big data analytics tools that process and analyze large
           volumes of data, providing actionable insights to drive innovation and
@@ -2638,36 +2638,36 @@ export const Telecommunications = [
     title: "Enhanced Security and Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Security and Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Protection of customer data and privacy
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
-          <li className="text-[20px]">Prevention of cyber threats and fraud</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Prevention of cyber threats and fraud</li>
+          <li className="text-[18px] font-roboto">
             Secure handling of financial transactions
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cybersecurity Solutions:</span>
           Deployment of cybersecurity solutions that protect network
           infrastructure and customer data through advanced threat detection,
           encryption, and access control mechanisms.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>
           Implementation of compliance management systems that automate
           compliance tracking, reporting, and documentation, ensuring adherence
           to regulatory requirements such as GDPR and CCPA.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Tools:</span>
           Integration of fraud detection tools that analyze transaction and
           network data to identify and prevent fraudulent activities,
@@ -2686,36 +2686,36 @@ export const Telecommunications = [
     title: "Innovative Service Offerings and Monetization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Innovative Service Offerings and Monetization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Development of new revenue streams</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Development of new revenue streams</li>
+          <li className="text-[18px] font-roboto">
             Efficient management of service offerings
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Customization and bundling of services
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Market differentiation and competitive advantage
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Service Management Platforms: </span>
           Deployment of service management platforms that streamline the
           development, management, and delivery of new telecom services,
           ensuring quick time-to-market.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Monetization Solutions: </span>
           Implementation of monetization solutions that enable telecom providers
           to create and manage diverse revenue streams, including subscription
           services, pay-per-use models, and premium offerings.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Segmentation Tools: </span>
           Integration of customer segmentation tools that analyze customer data
           to identify target segments and customize service offerings, enhancing
@@ -2737,20 +2737,20 @@ export const Travel = [
     title: "Enhanced Customer Experience",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Enhanced Customer Experience</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Enhanced Customer Experience</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized shopping experiences</li>
-          <li className="text-[20px]">Seamless omnichannel interactions</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized shopping experiences</li>
+          <li className="text-[18px] font-roboto">Seamless omnichannel interactions</li>
+          <li className="text-[18px] font-roboto">
             Efficient customer service and support
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insight into customer preferences and behavior
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:
           </span>{" "}
@@ -2758,13 +2758,13 @@ export const Travel = [
           customer interactions, enabling personalized service and targeted
           marketing campaigns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Personalized Booking Platforms:</span>{" "}
           Development of booking platforms that offer personalized travel
           recommendations and itineraries based on customer preferences and
           behavior.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">AI-Powered Customer Support:</span>{" "}
           Deployment of AI-powered chatbots and virtual assistants that offer
           instant support, resolve issues, and provide travel information,
@@ -2783,36 +2783,36 @@ export const Travel = [
     title: "Efficient Inventory and Resource Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Efficient Inventory and Resource Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time inventory visibility and management
           </li>
-          <li className="text-[20px]">Optimized resource allocation</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Optimized resource allocation</li>
+          <li className="text-[18px] font-roboto">
             Efficient management of travel packages and services
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Coordination with suppliers and partners
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Management Systems:</span>{" "}
           Deployment of inventory management systems that provide real-time
           visibility into available travel packages, accommodations, and
           services, ensuring efficient management and allocation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Resource Planning Systems:</span>{" "}
           Implementation of resource planning systems that optimize the
           allocation of resources such as flights, hotels, and tour guides,
           ensuring efficient use and reducing overbooking or shortages.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supplier Collaboration Platforms:</span>{" "}
           Development of platforms that facilitate communication and
           collaboration with suppliers, improving coordination, reducing lead
@@ -2831,24 +2831,24 @@ export const Travel = [
     title: "Advanced Data Analytics and Business Intelligence",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Data Analytics and Business Intelligence
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insights into market trends and customer behavior
           </li>
-          <li className="text-[20px]">Data-driven decision-making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision-making</li>
+          <li className="text-[18px] font-roboto">
             Enhanced revenue management and growth strategies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Effective management of large datasets
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Business Intelligence (BI) Platforms:
           </span>{" "}
@@ -2856,13 +2856,13 @@ export const Travel = [
           reports on operational performance, customer behavior, and market
           trends, supporting strategic decision-making.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Revenue Management Solutions:</span>{" "}
           Implementation of revenue management solutions that analyze booking
           data, customer usage patterns, and market conditions to optimize
           pricing strategies and identify revenue growth opportunities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Big Data Analytics Tools:</span>{" "}
           Integration of big data analytics tools that process and analyze large
           volumes of travel-related data, providing actionable insights to drive
@@ -2881,36 +2881,36 @@ export const Travel = [
     title: "Enhanced Security and Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Security and Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Protection of customer data and privacy
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
-          <li className="text-[20px]">Prevention of cyber threats and fraud</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Prevention of cyber threats and fraud</li>
+          <li className="text-[18px] font-roboto">
             Secure handling of financial transactions
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cybersecurity Solutions:</span> Deployment
           of cybersecurity solutions that protect travel platforms and customer
           data through advanced threat detection, encryption, and access control
           mechanisms.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Implementation of compliance management systems that automate
           compliance tracking, reporting, and documentation, ensuring adherence
           to regulatory requirements such as GDPR and PCI DSS.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Tools:</span> Integration
           of fraud detection tools that analyze transaction and booking data to
           identify and prevent fraudulent activities, safeguarding both the
@@ -2929,37 +2929,37 @@ export const Travel = [
     title: "Innovative Service Offerings and Customer Engagement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Innovative Service Offerings and Customer Engagement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Development of unique and appealing travel services
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of loyalty programs
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Engaging marketing and promotional strategies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Market differentiation and competitive advantage
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Service Management Platforms:</span>{" "}
           Deployment of service management platforms that streamline the
           development, management, and delivery of innovative travel services,
           ensuring quick time-to-market.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Loyalty Program Management Systems:</span>{" "}
           Implementation of loyalty program management systems that track and
           reward customer loyalty, enhancing customer retention and engagement.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marketing Automation Tools:</span>{" "}
           Integration of marketing automation tools that enable targeted
           campaigns, personalized promotions, and effective communication with
@@ -2981,39 +2981,39 @@ export const Pharmaceuticals = [
     title: "Regulatory Compliance and Quality Assurance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Quality Assurance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with pharmaceutical regulations and standards
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adherence to Good Manufacturing Practices (GMP)
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Quality control and assurance of pharmaceutical products
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Documentation and reporting for regulatory audits
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Regulatory Compliance Software:</span>{" "}
           Deployment of regulatory compliance software that tracks regulatory
           requirements, manages documentation, and generates reports to ensure
           compliance with pharmaceutical regulations and standards.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Quality Management Systems:</span>{" "}
           Implementation of quality management systems that establish
           standardized processes, perform quality checks, and document quality
           control measures to ensure the consistency and safety of
           pharmaceutical products.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Audit Trail Solutions:</span> Integration
           with audit trail solutions that record and track changes to data,
           processes, and documentation, providing a transparent record for
@@ -3033,39 +3033,39 @@ export const Pharmaceuticals = [
     title: "Research and Development (R&D) Innovation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Research and Development (R&D) Innovation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accelerated drug discovery and development processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of research workflows and data analysis
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration and knowledge sharing among R&D teams
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of emerging technologies in pharmaceutical R&D
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Research Collaboration Platforms:</span>{" "}
           Deployment of research collaboration platforms that enable
           interdisciplinary collaboration, data sharing, and project management
           among R&D teams, accelerating the drug discovery and development
           process.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics Tools:</span>{" "}
           Implementation of data analytics tools that analyze large datasets,
           identify patterns, and generate insights to support decision-making in
           drug discovery, clinical trials, and pharmaceutical research.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Virtual Research Environments:</span>{" "}
           Integration with virtual research environments that provide access to
           computational resources, modeling and simulation tools, and
@@ -3086,40 +3086,40 @@ export const Pharmaceuticals = [
     title: "Supply Chain Management and Logistics",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Supply Chain Management and Logistics
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient procurement and inventory management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of distribution networks and logistics
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Cold chain management for temperature-sensitive products
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Traceability and serialization of pharmaceutical products
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supply Chain Visibility Platforms:</span>{" "}
           Deployment of supply chain visibility platforms that provide real-time
           visibility into inventory levels, order status, and shipment tracking
           across the pharmaceutical supply chain, optimizing inventory
           management and reducing stockouts.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Logistics Optimization Software:</span>{" "}
           Implementation of logistics optimization software that optimizes
           transportation routes, mode selection, and carrier selection, reducing
           transportation costs and improving delivery reliability for
           pharmaceutical products.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cold Chain Monitoring Solutions:</span>{" "}
           Integration with cold chain monitoring solutions that track
           temperature, humidity, and other environmental conditions during
@@ -3142,41 +3142,41 @@ export const Pharmaceuticals = [
     title: "Pharmacovigilance and Drug Safety",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Pharmacovigilance and Drug Safety
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring and reporting of adverse drug reactions (ADRs)
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Pharmacovigilance activities for post-market surveillance
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Signal detection and risk assessment for drug safety
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration with regulatory authorities and healthcare
             professionals
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Adverse Event Reporting Tools:</span>{" "}
           Deployment of adverse event reporting tools that capture, analyze, and
           report adverse drug reactions (ADRs) and other safety-related
           information, ensuring timely and accurate pharmacovigilance reporting
           to regulatory authorities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Signal Detection Algorithms:</span>{" "}
           Implementation of signal detection algorithms that analyze
           pharmacovigilance data, identify potential safety signals, and
           prioritize further investigation for drug safety assessment and risk
           management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Collaboration Platforms:</span>{" "}
           Integration with collaboration platforms that facilitate communication
           and information sharing among pharmaceutical companies, regulatory
@@ -3197,40 +3197,40 @@ export const Pharmaceuticals = [
     title: "Patient Engagement and Healthcare Access",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Patient Engagement and Healthcare Access
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Patient education and medication adherence support
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Remote patient monitoring and telemedicine services
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Access to affordable and innovative healthcare solutions
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized medicine and treatment options
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Patient Education Platforms:</span>{" "}
           Deployment of patient education platforms that provide information,
           resources, and support to patients regarding their medications,
           treatment options, and healthcare conditions, promoting medication
           adherence and patient empowerment.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Remote Monitoring Systems:</span>{" "}
           Implementation of remote monitoring systems that enable healthcare
           providers to monitor patients' health status, vital signs, and
           medication adherence remotely, facilitating early intervention and
           personalized care management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Telemedicine Solutions:</span> Integration
           with telemedicine solutions that enable virtual consultations, remote
           diagnosis, and electronic prescriptions, improving access to
@@ -3255,20 +3255,20 @@ export const Manufacturing = [
     title: "Enhanced Production Efficiency",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Production Efficiency
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined production processes</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined production processes</li>
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of manufacturing operations
           </li>
-          <li className="text-[20px]">Minimization of downtime</li>
-          <li className="text-[20px]">Optimization of resource utilization</li>
+          <li className="text-[18px] font-roboto">Minimization of downtime</li>
+          <li className="text-[18px] font-roboto">Optimization of resource utilization</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Manufacturing Execution Systems (MES):
           </span>{" "}
@@ -3276,14 +3276,14 @@ export const Manufacturing = [
           work-in-progress, and ensure real-time tracking of production
           activities, enhancing overall efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Tools:</span>{" "}
           Deployment of IoT-enabled monitoring tools that provide real-time
           visibility into production processes, machine performance, and
           operational status, enabling proactive maintenance and reducing
           downtime.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Maintenance Solutions:</span>{" "}
           Integration of predictive maintenance solutions that analyze machine
           data to predict failures before they occur, minimizing unplanned
@@ -3302,30 +3302,30 @@ export const Manufacturing = [
     title: "Quality Control and Assurance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Quality Control and Assurance</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Quality Control and Assurance</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Consistent product quality</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Consistent product quality</li>
+          <li className="text-[18px] font-roboto">
             Compliance with industry standards and regulations
           </li>
-          <li className="text-[20px]">Automated quality inspections</li>
-          <li className="text-[20px]">Reduction of defects and rework</li>
+          <li className="text-[18px] font-roboto">Automated quality inspections</li>
+          <li className="text-[18px] font-roboto">Reduction of defects and rework</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Quality Management Systems (QMS):</span>{" "}
           Deployment of QMS that standardize quality control processes, manage
           compliance with industry standards such as ISO, and ensure consistent
           product quality.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Automated Inspection Systems:</span>{" "}
           Implementation of automated inspection systems using AI and machine
           vision to perform real-time quality checks, detect defects, and ensure
           high-quality output.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Statistical Process Control (SPC) Tools:
           </span>{" "}
@@ -3346,16 +3346,16 @@ export const Manufacturing = [
     title: "Supply Chain Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Supply Chain Optimization</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Supply Chain Optimization</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient supply chain management</li>
-          <li className="text-[20px]">Real-time inventory tracking</li>
-          <li className="text-[20px]">Demand forecasting and planning</li>
-          <li className="text-[20px]">Supplier collaboration and management</li>
+          <li className="text-[18px] font-roboto">Efficient supply chain management</li>
+          <li className="text-[18px] font-roboto">Real-time inventory tracking</li>
+          <li className="text-[18px] font-roboto">Demand forecasting and planning</li>
+          <li className="text-[18px] font-roboto">Supplier collaboration and management</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Supply Chain Management (SCM) Systems:
           </span>{" "}
@@ -3363,13 +3363,13 @@ export const Manufacturing = [
           management, and logistics, ensuring smooth and efficient supply chain
           operations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Management Tools:</span>{" "}
           Implementation of inventory management tools that provide real-time
           visibility into inventory levels, optimize stock replenishment, and
           prevent stockouts or overstock situations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Demand Forecasting Solutions:</span>{" "}
           Integration of demand forecasting solutions that use advanced
           analytics to predict market demand, enabling accurate production
@@ -3388,26 +3388,26 @@ export const Manufacturing = [
     title: "Innovation and Product Development",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Innovation and Product Development
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accelerated product development cycles
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of design and engineering data
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration across departments and with partners
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of customer feedback into product design
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Product Lifecycle Management (PLM) Systems:
           </span>{" "}
@@ -3415,13 +3415,13 @@ export const Manufacturing = [
           product from concept to production, ensuring efficient handling of
           design, engineering, and manufacturing data.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Collaborative Design Tools:</span>{" "}
           Implementation of collaborative design tools that enable
           cross-functional teams to work together on product development,
           enhancing innovation and reducing time-to-market.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Feedback Integration:</span>{" "}
           Development of platforms that integrate customer feedback into the
           product development process, ensuring that products meet market needs
@@ -3440,34 +3440,34 @@ export const Manufacturing = [
     title: "Regulatory Compliance and Safety",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Safety
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adherence to safety regulations and standards
           </li>
-          <li className="text-[20px]">Efficient compliance management</li>
-          <li className="text-[20px]">Risk assessment and mitigation</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Efficient compliance management</li>
+          <li className="text-[18px] font-roboto">Risk assessment and mitigation</li>
+          <li className="text-[18px] font-roboto">
             Employee training and safety management
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Deployment of compliance management systems that automate compliance
           tracking, reporting, and documentation, ensuring adherence to industry
           regulations and standards.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Management Systems:</span>{" "}
           Implementation of safety management systems that monitor workplace
           safety, track incidents, and enforce safety protocols, promoting a
           safe working environment.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Tools:</span> Integration
           of risk management tools that identify, assess, and mitigate risks
           associated with manufacturing operations, enhancing overall safety and
@@ -3489,20 +3489,20 @@ export const Retails = [
     title: "Enhanced Customer Experience",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Enhanced Customer Experience</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Enhanced Customer Experience</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized shopping experiences</li>
-          <li className="text-[20px]">Seamless omnichannel interactions</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized shopping experiences</li>
+          <li className="text-[18px] font-roboto">Seamless omnichannel interactions</li>
+          <li className="text-[18px] font-roboto">
             Efficient customer service and support
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insight into customer preferences and behavior
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:
           </span>{" "}
@@ -3510,13 +3510,13 @@ export const Retails = [
           view of customers, enabling personalized marketing, tailored
           recommendations, and improved customer engagement.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Omnichannel Retail Platforms:</span>{" "}
           Development of omnichannel retail platforms that integrate online and
           offline shopping experiences, ensuring a seamless and consistent
           customer journey across all touchpoints.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Service Solutions:</span>{" "}
           Deployment of AI-powered chatbots and customer service tools that
           offer instant support, answer queries, and resolve issues, enhancing
@@ -3535,26 +3535,26 @@ export const Retails = [
     title: "Efficient Inventory and Supply Chain Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Efficient Inventory and Supply Chain Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Real-time inventory visibility</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Real-time inventory visibility</li>
+          <li className="text-[18px] font-roboto">
             Optimized stock levels and replenishment
           </li>
-          <li className="text-[20px]">Efficient logistics and distribution</li>
-          <li className="text-[20px]">Supplier collaboration and management</li>
+          <li className="text-[18px] font-roboto">Efficient logistics and distribution</li>
+          <li className="text-[18px] font-roboto">Supplier collaboration and management</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Management Systems:</span>{" "}
           Deployment of inventory management systems that provide real-time
           visibility into stock levels, automate replenishment processes, and
           reduce stockouts and overstock situations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Supply Chain Management (SCM) Solutions:
           </span>{" "}
@@ -3562,7 +3562,7 @@ export const Retails = [
           distribution networks, and ensure efficient supply chain operations
           from supplier to customer.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Demand Forecasting Tools:</span>{" "}
           Integration of demand forecasting tools that use advanced analytics to
           predict customer demand, enabling accurate inventory planning and
@@ -3581,22 +3581,22 @@ export const Retails = [
     title: "Data-Driven Decision Making",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Data-Driven Decision Making</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Data-Driven Decision Making</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insights into sales and performance metrics
           </li>
-          <li className="text-[20px]">Data-driven marketing strategies</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven marketing strategies</li>
+          <li className="text-[18px] font-roboto">
             Identification of market trends and opportunities
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of pricing and promotions
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Business Intelligence (BI) Platforms:
           </span>{" "}
@@ -3604,13 +3604,13 @@ export const Retails = [
           dashboards and reports on sales, performance metrics, and market
           trends, supporting informed decision-making.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marketing Analytics Tools:</span>{" "}
           Deployment of marketing analytics tools that analyze campaign
           performance, customer engagement, and ROI, helping retailers refine
           their marketing strategies and maximize impact.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Pricing Optimization Solutions:</span>{" "}
           Integration of pricing optimization tools that use data analytics to
           determine optimal pricing strategies, manage promotions, and maximize
@@ -3629,36 +3629,36 @@ export const Retails = [
     title: "Advanced E-commerce Capabilities",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced E-commerce Capabilities
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Robust and scalable e-commerce platforms
           </li>
-          <li className="text-[20px]">Secure payment processing</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Secure payment processing</li>
+          <li className="text-[18px] font-roboto">
             Integration with marketplaces and social media
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient order fulfillment and delivery
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">E-commerce Platforms:</span> Deployment of
           robust e-commerce platforms that offer a seamless and scalable online
           shopping experience, supporting various business models and
           transaction types.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Payment Gateway Integration:</span>{" "}
           Implementation of secure payment processing solutions that support
           multiple payment methods, ensure transaction security, and protect
           customer data.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marketplace Integration:</span>{" "}
           Development of tools that integrate retail operations with major
           marketplaces (e.g., Amazon, eBay) and social media platforms,
@@ -3677,34 +3677,34 @@ export const Retails = [
     title: "Regulatory Compliance and Data Security",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Data Security
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Protection of customer data</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Protection of customer data</li>
+          <li className="text-[18px] font-roboto">
             Compliance with data privacy regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Secure handling of financial transactions
           </li>
-          <li className="text-[20px]">Risk management and fraud prevention</li>
+          <li className="text-[18px] font-roboto">Risk management and fraud prevention</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Security Solutions:</span> Deployment
           of data security solutions that protect customer data through
           encryption, access controls, and continuous monitoring, ensuring
           compliance with data privacy regulations like GDPR and CCPA.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Implementation of compliance management systems that automate
           compliance tracking, reporting, and documentation, helping retailers
           adhere to industry standards and regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Tools:</span> Integration
           of fraud detection tools that analyze transaction data to identify and
           prevent fraudulent activities, ensuring secure handling of financial
@@ -3726,37 +3726,37 @@ export const Railways = [
     title: "Operational Efficiency and Schedule Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Schedule Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Punctual and reliable train services</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Punctual and reliable train services</li>
+          <li className="text-[18px] font-roboto">
             Optimization of train schedules and routes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of train operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Capacity management and resource allocation
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Train Schedule Optimization:</span>{" "}
           Deployment of train schedule optimization software that analyzes
           passenger demand, track availability, and infrastructure capacity to
           optimize train schedules and minimize delays.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-time Monitoring Systems:</span>{" "}
           Implementation of real-time monitoring systems that track train
           locations, speeds, and performance metrics, providing operators with
           actionable insights to improve on-time performance and service
           reliability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Capacity Management Tools:</span>{" "}
           Integration with capacity management tools that monitor passenger
           volumes, seat availability, and ticket sales data to optimize train
@@ -3776,40 +3776,40 @@ export const Railways = [
     title: "Passenger Experience Enhancement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Passenger Experience Enhancement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Comfortable and convenient travel experiences
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamless booking and ticketing processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Access to passenger amenities and services
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized travel recommendations and assistance
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Integrated Booking Platforms:</span>{" "}
           Deployment of integrated booking platforms that offer seamless
           ticketing, seat reservations, and travel itinerary management across
           multiple rail operators, enhancing the booking experience for
           passengers.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Passenger Information Systems:</span>{" "}
           Implementation of passenger information systems that provide real-time
           updates on train schedules, platform changes, and service disruptions
           via digital displays, announcements, and mobile apps, keeping
           passengers informed and reducing anxiety.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Onboard Entertainment and Services:</span>{" "}
           Integration with onboard entertainment and services platforms that
           offer Wi-Fi access, streaming media, and catering services to enhance
@@ -3829,36 +3829,36 @@ export const Railways = [
     title: "Safety and Security Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Safety and Security Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with railway safety regulations
           </li>
-          <li className="text-[20px]">Prevention of accidents and incidents</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Prevention of accidents and incidents</li>
+          <li className="text-[18px] font-roboto">
             Detection and mitigation of security threats
           </li>
-          <li className="text-[20px]">Emergency response preparedness</li>
+          <li className="text-[18px] font-roboto">Emergency response preparedness</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Management Systems:</span>{" "}
           Deployment of safety management systems that identify hazards, assess
           risks, and implement safety measures to ensure compliance with railway
           safety regulations and standards, reducing the likelihood of accidents
           and incidents.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Security Surveillance Solutions:</span>{" "}
           Implementation of security surveillance solutions that use video
           analytics, sensors, and threat detection algorithms to monitor railway
           infrastructure, identify security threats, and alert authorities to
           potential risks in real-time.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Emergency Response Systems:</span>{" "}
           Integration with emergency response systems that facilitate
           communication, coordination, and response efforts during emergency
@@ -3879,38 +3879,38 @@ export const Railways = [
     title: "Infrastructure Maintenance and Asset Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Infrastructure Maintenance and Asset Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Maintenance of railway tracks, signals, and rolling stock
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Asset lifecycle management and optimization
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive maintenance to prevent breakdowns
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Minimization of maintenance costs and downtime
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Asset Management Systems:</span>{" "}
           Deployment of asset management systems that centralize asset data,
           track maintenance schedules, and monitor equipment health, enabling
           proactive maintenance and optimization of asset performance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Maintenance Software:</span>{" "}
           Implementation of predictive maintenance software that analyzes
           equipment sensor data, predicts failure patterns, and schedules
           maintenance activities to minimize downtime and extend asset lifespan.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Infrastructure Inspection Solutions:
           </span>{" "}
@@ -3933,24 +3933,24 @@ export const Railways = [
     title: "Environmental Sustainability Initiatives",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Environmental Sustainability Initiatives
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Reduction of environmental footprint</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Reduction of environmental footprint</li>
+          <li className="text-[18px] font-roboto">
             Adoption of green technologies and practices
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Energy efficiency and emissions reduction
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of sustainable transportation solutions
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Environmental Impact Assessment Tools:
           </span>{" "}
@@ -3959,14 +3959,14 @@ export const Railways = [
           improvement, and implement strategies to minimize environmental
           impact.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Green Technology Integration:</span>{" "}
           Implementation of green technology solutions such as regenerative
           braking, energy-efficient lighting, and renewable energy generation to
           reduce energy consumption, lower operating costs, and mitigate
           greenhouse gas emissions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Waste Management Systems:</span>{" "}
           Integration with waste management systems that optimize waste
           segregation, recycling, and disposal processes, diverting waste from
@@ -3989,40 +3989,40 @@ export const Fisheries = [
     title: "Fisheries Management and Regulation Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Fisheries Management and Regulation Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Sustainable management of fish stocks and marine resources
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with fisheries regulations and quotas
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring of fishing activities and vessel operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data collection and reporting for fisheries management
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fisheries Management Software:</span>{" "}
           Deployment of fisheries management software that integrates data from
           various sources, such as vessel monitoring systems (VMS), satellite
           imagery, and catch reporting, to monitor fish stocks, assess fishing
           impacts, and enforce regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Monitoring Tools:</span>{" "}
           Implementation of compliance monitoring tools that track vessel
           positions, fishing activities, and catch data in real time, enabling
           authorities to enforce fisheries regulations, manage quotas, and
           prevent illegal fishing practices.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Collection Platforms:</span>{" "}
           Integration with data collection platforms that facilitate data
           collection, validation, and reporting for fisheries management,
@@ -4043,37 +4043,37 @@ export const Fisheries = [
     title: "Fleet Management and Vessel Operations",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Fleet Management and Vessel Operations
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient fleet management and vessel operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of fishing routes and fishing gear deployment
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of vessel performance and safety
           </li>
-          <li className="text-[20px]">Crew management and safety compliance</li>
+          <li className="text-[18px] font-roboto">Crew management and safety compliance</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Vessel Tracking Systems:</span> Deployment
           of vessel tracking systems that monitor vessel positions, speeds, and
           trajectories in real time, enabling fleet managers to track vessel
           movements, optimize fishing routes, and ensure compliance with fishing
           regulations and safety standards.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fleet Management Software:</span>{" "}
           Implementation of fleet management software that centralizes vessel
           data, manages fishing licenses, and tracks maintenance schedules,
           streamlining fleet operations and ensuring regulatory compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Monitoring Solutions:</span>{" "}
           Integration with safety monitoring solutions that monitor vessel
           conditions, detect emergencies, and provide alerts for crew safety,
@@ -4092,40 +4092,40 @@ export const Fisheries = [
     title: "Catch Documentation and Traceability",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Catch Documentation and Traceability
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Documentation and reporting of catch data and fishing activities
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Traceability of seafood products from catch to consumer
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Verification of sustainable fishing practices and product origin
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with seafood certification and labeling standards
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Catch Documentation Systems:</span>{" "}
           Deployment of catch documentation systems that capture and record
           catch data, including species, quantities, and locations, at the point
           of landing, enabling traceability and verification of catch origin and
           legality.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Seafood Traceability Platforms:</span>{" "}
           Implementation of seafood traceability platforms that track seafood
           products from catch to processing to distribution, providing consumers
           with transparency and assurance of product quality, sustainability,
           and safety.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Certification Management Tools:</span>{" "}
           Integration with certification management tools that manage seafood
           certification processes, verify compliance with seafood sustainability
@@ -4146,40 +4146,40 @@ export const Fisheries = [
     title: "Resource Monitoring and Environmental Conservation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Resource Monitoring and Environmental Conservation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring of marine ecosystems and habitat conservation
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Assessment of fishery impacts on biodiversity and ecosystem health
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of marine protected areas and conservation measures
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration with stakeholders for sustainable fisheries management
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Ecosystem Monitoring Systems:</span>{" "}
           Deployment of ecosystem monitoring systems that collect data on marine
           biodiversity, habitat health, and ecosystem dynamics, enabling
           scientists and managers to assess fishery impacts and implement
           conservation measures.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fishery Impact Assessment Tools:</span>{" "}
           Implementation of fishery impact assessment tools that analyze fishing
           data, satellite imagery, and habitat maps to quantify the ecological
           footprint of fisheries and prioritize conservation actions to mitigate
           adverse impacts.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marine Protected Area Management:</span>{" "}
           Integration with marine protected area management systems that
           establish and manage marine reserves, no-take zones, and habitat
@@ -4201,40 +4201,40 @@ export const Fisheries = [
     title: "Market Access and Value Chain Integration",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Market Access and Value Chain Integration
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Access to markets and distribution channels for seafood products
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of supply chains for efficient seafood trade
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Branding and marketing strategies for seafood products
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Certification and quality assurance for seafood exports
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Market Access Platforms:</span> Deployment
           of market access platforms that connect fishermen and seafood
           exporters with buyers, distributors, and retailers in domestic and
           international markets, facilitating seafood trade and market
           expansion.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supply Chain Integration Solutions:</span>{" "}
           Implementation of supply chain integration solutions that streamline
           seafood supply chains, from catch to consumer, by digitizing
           documentation, automating logistics, and optimizing inventory
           management, reducing costs and improving traceability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Brand Management Tools:</span> Integration
           with brand management tools that develop branding strategies, create
           marketing materials, and promote seafood products to target markets,
@@ -4258,24 +4258,24 @@ export const Healthcare = [
     title: "Enhanced Patient Care and Experience",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Patient Care and Experience
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized patient care</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized patient care</li>
+          <li className="text-[18px] font-roboto">
             Efficient appointment scheduling and management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamless communication between patients and healthcare providers
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Accessible and secure patient health records
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Electronic Health Records (EHR) Systems:
           </span>{" "}
@@ -4283,13 +4283,13 @@ export const Healthcare = [
           enabling healthcare providers to access and update patient records
           securely.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Patient Engagement Platforms:</span>{" "}
           Development of patient engagement platforms that allow patients to
           schedule appointments, communicate with healthcare providers, and
           access their health records online.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Telemedicine Solutions:</span>{" "}
           Implementation of telemedicine platforms that enable remote
           consultations and virtual visits, improving access to care and patient
@@ -4307,20 +4307,20 @@ export const Healthcare = [
     title: "Efficient Clinical Operations and Workflow",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Efficient Clinical Operations and Workflow
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined clinical workflows</li>
-          <li className="text-[20px]">Efficient resource allocation</li>
-          <li className="text-[20px]">Automation of administrative tasks</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined clinical workflows</li>
+          <li className="text-[18px] font-roboto">Efficient resource allocation</li>
+          <li className="text-[18px] font-roboto">Automation of administrative tasks</li>
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of patient status
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Clinical Decision Support Systems (CDSS):
           </span>{" "}
@@ -4328,13 +4328,13 @@ export const Healthcare = [
           evidence-based recommendations and alerts, improving clinical
           decision-making and patient outcomes.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Healthcare Analytics Platforms:</span>{" "}
           Implementation of analytics platforms that analyze clinical data to
           identify trends, optimize resource allocation, and improve operational
           efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Workflow Automation Tools:</span>{" "}
           Development of workflow automation tools that streamline
           administrative tasks such as appointment scheduling, billing, and
@@ -4353,24 +4353,24 @@ export const Healthcare = [
     title: "Secure Health Information Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Secure Health Information Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Protection of patient health information
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with healthcare regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Secure data sharing among healthcare providers
           </li>
-          <li className="text-[20px]">Disaster recovery and data backup</li>
+          <li className="text-[18px] font-roboto">Disaster recovery and data backup</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Health Information Exchange (HIE) Platforms:
           </span>{" "}
@@ -4378,7 +4378,7 @@ export const Healthcare = [
           among healthcare providers while ensuring compliance with HIPAA and
           other healthcare regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Data Encryption and Access Controls:
           </span>{" "}
@@ -4386,7 +4386,7 @@ export const Healthcare = [
           patient health information from unauthorized access and ensure
           compliance with data protection regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Disaster Recovery Solutions:</span>{" "}
           Provision of disaster recovery solutions that ensure the availability
           and integrity of patient health records in the event of a natural
@@ -4405,22 +4405,22 @@ export const Healthcare = [
     title: "Remote Patient Monitoring and Telehealth",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Remote Patient Monitoring and Telehealth
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Remote monitoring of patient health metrics
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Virtual care delivery and telemedicine
           </li>
-          <li className="text-[20px]">Management of chronic conditions</li>
-          <li className="text-[20px]">Patient education and support</li>
+          <li className="text-[18px] font-roboto">Management of chronic conditions</li>
+          <li className="text-[18px] font-roboto">Patient education and support</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Remote Patient Monitoring (RPM) Systems:
           </span>{" "}
@@ -4428,13 +4428,13 @@ export const Healthcare = [
           blood pressure, glucose levels, and heart rate remotely, enabling
           proactive management of chronic conditions and early intervention.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Telehealth Platforms:</span> Development
           of telehealth platforms that support virtual consultations, remote
           diagnosis, and treatment planning, improving access to care and
           reducing healthcare disparities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Chronic Disease Management Tools:</span>{" "}
           Implementation of chronic disease management tools that provide
           patients with personalized care plans, medication reminders, and
@@ -4454,20 +4454,20 @@ export const Healthcare = [
     title: "Healthcare Analytics and Predictive Modeling",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Healthcare Analytics and Predictive Modeling
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Data-driven decision-making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision-making</li>
+          <li className="text-[18px] font-roboto">
             Predictive analytics for disease management
           </li>
-          <li className="text-[20px]">Population health management</li>
-          <li className="text-[20px]">Resource planning and allocation</li>
+          <li className="text-[18px] font-roboto">Population health management</li>
+          <li className="text-[18px] font-roboto">Resource planning and allocation</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Healthcare Data Analytics Platforms:
           </span>{" "}
@@ -4476,13 +4476,13 @@ export const Healthcare = [
           insights, supporting data-driven decision-making and improving patient
           outcomes.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Modeling Tools:</span>{" "}
           Implementation of predictive modeling tools that forecast disease
           outbreaks, patient readmissions, and healthcare resource utilization,
           enabling proactive interventions and resource planning.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Population Health Management Systems:
           </span>{" "}
@@ -4510,34 +4510,34 @@ export const Mining = [
     title: "Asset Management and Maintenance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Asset Management and Maintenance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of mining equipment and infrastructure
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive maintenance to minimize downtime
           </li>
-          <li className="text-[20px]">Compliance with safety regulations</li>
-          <li className="text-[20px]">Optimization of asset lifecycle</li>
+          <li className="text-[18px] font-roboto">Compliance with safety regulations</li>
+          <li className="text-[18px] font-roboto">Optimization of asset lifecycle</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Asset Management Systems:</span>{" "}
           Deployment of asset management systems that centralize asset data,
           track maintenance schedules, and monitor equipment health, enabling
           proactive maintenance and optimization of asset performance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Maintenance Software:</span>{" "}
           Implementation of predictive maintenance software that analyzes
           equipment sensor data, predicts failure patterns, and schedules
           maintenance activities to minimize downtime and extend asset lifespan.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Compliance Tools:</span>{" "}
           Integration with safety compliance tools that ensure adherence to
           regulatory standards, automate safety inspections, and monitor
@@ -4558,39 +4558,39 @@ export const Mining = [
     title: "Production Optimization and Efficiency",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Production Optimization and Efficiency
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Maximization of mineral extraction rates
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of production costs and inefficiencies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of production operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Identification of production bottlenecks
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Production Optimization Software:</span>{" "}
           Deployment of production optimization software that analyzes
           production data, identifies optimization opportunities, and recommends
           operational changes to maximize extraction rates and minimize costs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Systems:</span>{" "}
           Implementation of real-time monitoring systems that capture production
           data from sensors and equipment, providing continuous visibility into
           production operations and enabling timely interventions to address
           issues.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Production Analytics Tools:</span>{" "}
           Integration with production analytics tools that analyze production
           performance metrics, identify trends and patterns, and provide
@@ -4611,39 +4611,39 @@ export const Mining = [
     title: "Environmental Compliance and Sustainability",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Environmental Compliance and Sustainability
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with environmental regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring and mitigation of environmental impacts
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of carbon emissions and waste
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of sustainable mining practices
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Environmental Compliance Software:</span>{" "}
           Deployment of environmental compliance software that tracks regulatory
           requirements, automates environmental reporting, and monitors
           emissions, spills, and waste management activities to ensure
           compliance and mitigate environmental risks.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Environmental Monitoring Systems:</span>{" "}
           Implementation of environmental monitoring systems that collect data
           on air quality, water quality, and soil contamination, enabling early
           detection of environmental impacts and prompt remediation actions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Carbon Management Solutions:</span>{" "}
           Integration with carbon management solutions that measure, monitor,
           and report carbon emissions from mining operations, enabling companies
@@ -4664,36 +4664,36 @@ export const Mining = [
     title: "Supply Chain Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Supply Chain Optimization</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Supply Chain Optimization</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined procurement and logistics</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined procurement and logistics</li>
+          <li className="text-[18px] font-roboto">
             Optimization of inventory and warehouse management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of supply chain costs and lead times
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration with suppliers and vendors
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supply Chain Management Systems:</span>{" "}
           Deployment of supply chain management systems that optimize
           procurement processes, automate inventory management, and track
           shipments, ensuring timely delivery of materials and equipment while
           minimizing costs and lead times.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Optimization Software:</span>{" "}
           Implementation of inventory optimization software that uses demand
           forecasting and inventory modeling to optimize inventory levels,
           reduce stockouts and excess inventory, and improve supply chain
           efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Logistics Optimization Solutions:</span>{" "}
           Integration with logistics optimization solutions that optimize
           transportation routes, mode selection, and carrier selection, reducing
@@ -4713,34 +4713,34 @@ export const Mining = [
     title: "Data Analytics and Decision Support",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Data Analytics and Decision Support
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Data-driven decision-making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision-making</li>
+          <li className="text-[18px] font-roboto">
             Insights into production performance and trends
           </li>
-          <li className="text-[20px]">Risk assessment and management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Risk assessment and management</li>
+          <li className="text-[18px] font-roboto">
             Strategic planning and investment analysis
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics Platforms:</span>{" "}
           Deployment of data analytics platforms that integrate production,
           financial, and operational data, providing insights into production
           performance, trends, and opportunities for improvement.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Analytics Software:</span>{" "}
           Implementation of predictive analytics software that forecasts
           production trends, identifies risks, and recommends mitigation
           strategies, enabling proactive decision-making and risk management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Tools:</span> Integration
           with risk management tools that assess operational, financial, and
           regulatory risks, prioritize risks based on severity and likelihood,
@@ -4763,30 +4763,30 @@ export const CapitalMarkets = [
     title: "Trading and Investment Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Trading and Investment Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient trading execution</li>
-          <li className="text-[20px]">Real-time market data analysis</li>
-          <li className="text-[20px]">Portfolio management and optimization</li>
-          <li className="text-[20px]">Risk assessment and management</li>
+          <li className="text-[18px] font-roboto">Efficient trading execution</li>
+          <li className="text-[18px] font-roboto">Real-time market data analysis</li>
+          <li className="text-[18px] font-roboto">Portfolio management and optimization</li>
+          <li className="text-[18px] font-roboto">Risk assessment and management</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Algorithmic Trading Platforms:</span>{" "}
           Deployment of algorithmic trading platforms that automate trading
           strategies, execute orders at high speeds, and optimize trade
           execution for better returns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Market Data Analytics Tools:</span>{" "}
           Implementation of market data analytics tools that analyze real-time
           market data, identify trends, and provide insights for informed
           investment decisions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Portfolio Management Systems:</span>{" "}
           Integration of portfolio management systems that track and manage
           investments, optimize asset allocation, and rebalance portfolios to
@@ -4805,32 +4805,32 @@ export const CapitalMarkets = [
     title: "Regulatory Compliance and Reporting",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Reporting
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
-          <li className="text-[20px]">Automated reporting and documentation</li>
-          <li className="text-[20px]">Monitoring of regulatory changes</li>
-          <li className="text-[20px]">Prevention of fraud and market abuse</li>
+          <li className="text-[18px] font-roboto">Automated reporting and documentation</li>
+          <li className="text-[18px] font-roboto">Monitoring of regulatory changes</li>
+          <li className="text-[18px] font-roboto">Prevention of fraud and market abuse</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Deployment of compliance management systems that automate compliance
           tracking, reporting, and documentation, ensuring adherence to
           regulatory requirements such as MiFID II and Dodd-Frank.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Regulatory Reporting Software:</span>{" "}
           Implementation of regulatory reporting software that generates and
           submits required reports to regulatory authorities, ensuring accuracy
           and timeliness in compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Regulatory Change Management Tools:</span>{" "}
           Integration of regulatory change management tools that monitor
           regulatory developments, assess impacts on business operations, and
@@ -4851,34 +4851,34 @@ export const CapitalMarkets = [
     title: "Data Management and Analytics",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Data Management and Analytics</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Data Management and Analytics</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of financial data
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Advanced data analytics for decision-making
           </li>
-          <li className="text-[20px]">Integration of disparate data sources</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Integration of disparate data sources</li>
+          <li className="text-[18px] font-roboto">
             Protection of sensitive financial information
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Integration Platforms:</span>{" "}
           Deployment of data integration platforms that consolidate and
           harmonize financial data from multiple sources, enabling comprehensive
           analysis and reporting.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Analytics Tools:</span>{" "}
           Implementation of advanced analytics tools that utilize machine
           learning and predictive modeling to uncover insights, identify
           investment opportunities, and optimize trading strategies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Security Solutions:</span>{" "}
           Integration of data security solutions that encrypt sensitive
           financial data, enforce access controls, and monitor data usage to
@@ -4897,28 +4897,28 @@ export const CapitalMarkets = [
     title: "Wealth Management and Client Services",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Wealth Management and Client Services
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized wealth management services
           </li>
-          <li className="text-[20px]">Client relationship management</li>
-          <li className="text-[20px]">Investment advisory and planning</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Client relationship management</li>
+          <li className="text-[18px] font-roboto">Investment advisory and planning</li>
+          <li className="text-[18px] font-roboto">
             Digital self-service and mobile access
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Wealth Management Platforms:</span>{" "}
           Deployment of wealth management platforms that offer personalized
           investment advice, financial planning tools, and portfolio tracking
           capabilities to meet individual client needs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Client Relationship Management (CRM) Systems:
           </span>{" "}
@@ -4926,7 +4926,7 @@ export const CapitalMarkets = [
           client interactions, enabling personalized service and targeted
           marketing campaigns.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Digital Advisory Platforms:</span>{" "}
           Integration of digital advisory platforms that combine robo-advisors
           with human advisors to deliver tailored investment recommendations and
@@ -4945,32 +4945,32 @@ export const CapitalMarkets = [
     title: "Technology Innovation and Integration",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Technology Innovation and Integration
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Adoption of emerging technologies</li>
-          <li className="text-[20px]">Integration of legacy systems</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Adoption of emerging technologies</li>
+          <li className="text-[18px] font-roboto">Integration of legacy systems</li>
+          <li className="text-[18px] font-roboto">
             Scalability and flexibility in IT infrastructure
           </li>
-          <li className="text-[20px]">Collaboration with fintech partners</li>
+          <li className="text-[18px] font-roboto">Collaboration with fintech partners</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fintech Integration Solutions:</span>{" "}
           Deployment of fintech integration solutions that connect with
           innovative fintech platforms and services, enabling access to new
           products, markets, and technologies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Legacy System Modernization:</span>{" "}
           Implementation of legacy system modernization strategies that migrate
           legacy applications to modern architectures, ensuring compatibility,
           scalability, and agility in IT infrastructure.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cloud-Based Solutions:</span> Integration
           of cloud-based solutions that provide scalable and flexible computing
           resources, enabling cost-effective and efficient delivery of IT
@@ -4994,32 +4994,32 @@ export const Insurance = [
     title: "Efficient Claims Processing",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Efficient Claims Processing</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Efficient Claims Processing</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Streamlined claims intake and processing
           </li>
-          <li className="text-[20px]">Automated claims adjudication</li>
-          <li className="text-[20px]">Fraud detection and prevention</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Automated claims adjudication</li>
+          <li className="text-[18px] font-roboto">Fraud detection and prevention</li>
+          <li className="text-[18px] font-roboto">
             Enhanced customer communication and satisfaction
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Claims Management Systems:</span>{" "}
           Deployment of comprehensive claims management systems that automate
           the claims intake process, facilitate efficient claims processing, and
           provide real-time updates to customers.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Claims Adjudication Software:</span>{" "}
           Implementation of claims adjudication software that uses rules-based
           algorithms and AI to assess claims eligibility, reducing manual
           intervention and speeding up claims processing.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Tools:</span> Integration
           of fraud detection tools that analyze claims data for suspicious
           patterns and anomalies, enabling early detection and prevention of
@@ -5038,32 +5038,32 @@ export const Insurance = [
     title: "Advanced Risk Assessment and Underwriting",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Risk Assessment and Underwriting
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Accurate risk assessment</li>
-          <li className="text-[20px]">Automated underwriting processes</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Accurate risk assessment</li>
+          <li className="text-[18px] font-roboto">Automated underwriting processes</li>
+          <li className="text-[18px] font-roboto">
             Integration of data analytics and predictive modeling
           </li>
-          <li className="text-[20px]">Customized insurance products</li>
+          <li className="text-[18px] font-roboto">Customized insurance products</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Assessment Software:</span>{" "}
           Deployment of risk assessment software that leverages data analytics
           and predictive modeling to evaluate risk factors, determine premiums,
           and customize insurance policies based on individual needs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Automated Underwriting Systems:</span>{" "}
           Implementation of automated underwriting systems that use rules-based
           algorithms and AI to assess applicant risk and eligibility, reducing
           manual underwriting efforts and improving efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics Platforms:</span>{" "}
           Integration of data analytics platforms that analyze historical claims
           data, market trends, and demographic information to identify emerging
@@ -5083,22 +5083,22 @@ export const Insurance = [
     title: "Enhanced Customer Engagement and Experience",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Customer Engagement and Experience
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized customer interactions</li>
-          <li className="text-[20px]">Seamless omni-channel experiences</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized customer interactions</li>
+          <li className="text-[18px] font-roboto">Seamless omni-channel experiences</li>
+          <li className="text-[18px] font-roboto">
             Proactive customer support and education
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Transparent policy information and billing
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:
           </span>{" "}
@@ -5106,7 +5106,7 @@ export const Insurance = [
           interactions, track policyholder preferences, and provide personalized
           service across multiple channels.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Omni-Channel Communication Platforms:
           </span>{" "}
@@ -5115,7 +5115,7 @@ export const Insurance = [
           mobile apps, websites, social media, and live chat, ensuring seamless
           communication and support.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Proactive Support Tools:</span>{" "}
           Integration of proactive support tools that use AI and predictive
           analytics to anticipate customer needs, offer relevant information and
@@ -5135,32 +5135,32 @@ export const Insurance = [
     title: "Regulatory Compliance and Risk Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Risk Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
-          <li className="text-[20px]">Risk assessment and mitigation</li>
-          <li className="text-[20px]">Data security and privacy</li>
-          <li className="text-[20px]">Audit and reporting capabilities</li>
+          <li className="text-[18px] font-roboto">Risk assessment and mitigation</li>
+          <li className="text-[18px] font-roboto">Data security and privacy</li>
+          <li className="text-[18px] font-roboto">Audit and reporting capabilities</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Deployment of compliance management systems that monitor regulatory
           changes, automate compliance processes, and ensure adherence to
           industry standards and regulations such as GDPR, HIPAA, and SOX.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Software:</span>{" "}
           Implementation of risk management software that assesses and mitigates
           operational, financial, and reputational risks, identifies compliance
           gaps, and implements corrective actions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Security Solutions:</span>{" "}
           Integration of data security solutions that encrypt sensitive
           information, manage access controls, and monitor for unauthorized
@@ -5180,33 +5180,33 @@ export const Insurance = [
     title: "Claims Fraud Detection and Prevention",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Claims Fraud Detection and Prevention
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Early detection of fraudulent claims</li>
-          <li className="text-[20px]">Prevention of insurance fraud schemes</li>
-          <li className="text-[20px]">Reduction of fraudulent losses</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Early detection of fraudulent claims</li>
+          <li className="text-[18px] font-roboto">Prevention of insurance fraud schemes</li>
+          <li className="text-[18px] font-roboto">Reduction of fraudulent losses</li>
+          <li className="text-[18px] font-roboto">
             Protection of insurer reputation and trust
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Detection Systems:</span> Deployment
           of fraud detection systems that use advanced analytics, machine
           learning, and AI to analyze claims data for suspicious patterns,
           identify potential fraud indicators, and flag high-risk claims for
           further investigation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Modeling Tools:</span>{" "}
           Implementation of predictive modeling tools that forecast claim
           behavior, detect anomalies, and prioritize suspicious claims for
           review, enabling early intervention and fraud prevention.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Fraud Prevention Strategies:</span>{" "}
           Integration of fraud prevention strategies such as authentication
           protocols, identity verification, and fraud alerts to deter fraudulent
@@ -5229,24 +5229,24 @@ export const LifeScience = [
     title: "Streamlined Research and Development (R&D)",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Streamlined Research and Development (R&D)
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of clinical trials
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data integration from multiple sources
           </li>
-          <li className="text-[20px]">Real-time monitoring and analysis</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Real-time monitoring and analysis</li>
+          <li className="text-[18px] font-roboto">
             Compliance with regulatory requirements
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Clinical Trial Management Systems (CTMS):
           </span>{" "}
@@ -5254,14 +5254,14 @@ export const LifeScience = [
           management of clinical trials, ensuring efficiency and compliance with
           regulatory standards.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Integration Platforms:</span>{" "}
           Implementation of data integration platforms that aggregate and
           harmonize data from various sources such as electronic health records
           (EHRs), lab results, and wearable devices, facilitating comprehensive
           data analysis.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Tools:</span>{" "}
           Development of real-time monitoring tools that provide researchers
           with up-to-date information on trial progress, patient enrollment, and
@@ -5281,18 +5281,18 @@ export const LifeScience = [
     title: "Enhanced Drug Development and Manufacturing",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Drug Development and Manufacturing
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient drug development processes</li>
-          <li className="text-[20px]">Quality control and assurance</li>
-          <li className="text-[20px]">Scalable manufacturing operations</li>
-          <li className="text-[20px]">Integration of advanced technologies</li>
+          <li className="text-[18px] font-roboto">Efficient drug development processes</li>
+          <li className="text-[18px] font-roboto">Quality control and assurance</li>
+          <li className="text-[18px] font-roboto">Scalable manufacturing operations</li>
+          <li className="text-[18px] font-roboto">Integration of advanced technologies</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Laboratory Information Management Systems (LIMS):
           </span>{" "}
@@ -5300,13 +5300,13 @@ export const LifeScience = [
           and data management, enhancing efficiency and accuracy in drug
           development.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Quality Management Systems (QMS):</span>{" "}
           Implementation of QMS that ensure compliance with Good Manufacturing
           Practices (GMP), streamline quality control processes, and maintain
           high standards in drug production.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Manufacturing Execution Systems (MES):
           </span>{" "}
@@ -5327,34 +5327,34 @@ export const LifeScience = [
     title: "Improved Patient Engagement and Support",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Improved Patient Engagement and Support
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized patient care and support</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized patient care and support</li>
+          <li className="text-[18px] font-roboto">
             Effective patient communication and education
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Remote monitoring and telehealth capabilities
           </li>
-          <li className="text-[20px]">Patient data privacy and security</li>
+          <li className="text-[18px] font-roboto">Patient data privacy and security</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Patient Engagement Platforms:</span>{" "}
           Development of patient engagement platforms that offer personalized
           health information, medication reminders, and support resources,
           enhancing patient adherence and outcomes.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Telehealth Solutions:</span>{" "}
           Implementation of telehealth solutions that enable remote
           consultations, follow-ups, and monitoring, increasing accessibility
           and convenience for patients.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Mobile Health Applications:</span>{" "}
           Provision of mobile health applications that facilitate communication
           between patients and healthcare providers, offer educational content,
@@ -5375,35 +5375,35 @@ export const LifeScience = [
     title: "Advanced Analytics and Data Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Advanced Analytics and Data Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of large datasets
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Advanced analytics for decision support
           </li>
-          <li className="text-[20px]">Predictive modeling and forecasting</li>
-          <li className="text-[20px]">Data governance and integrity</li>
+          <li className="text-[18px] font-roboto">Predictive modeling and forecasting</li>
+          <li className="text-[18px] font-roboto">Data governance and integrity</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Big Data Analytics Platforms:</span>{" "}
           Implementation of big data analytics platforms that manage and analyze
           large datasets from various sources, providing insights to drive
           decision-making in research, development, and patient care.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Analytics Tools:</span>{" "}
           Deployment of predictive analytics tools that use machine learning
           algorithms to forecast trends, identify potential outcomes, and
           support proactive decision-making in clinical trials and drug
           development.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Governance Frameworks:</span>{" "}
           Development of data governance frameworks that ensure data quality,
           consistency, and integrity, facilitating reliable data-driven research
@@ -5422,34 +5422,34 @@ export const LifeScience = [
     title: "Regulatory Compliance and Risk Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Regulatory Compliance and Risk Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adherence to global regulatory standards
           </li>
-          <li className="text-[20px]">Efficient compliance management</li>
-          <li className="text-[20px]">Risk assessment and mitigation</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Efficient compliance management</li>
+          <li className="text-[18px] font-roboto">Risk assessment and mitigation</li>
+          <li className="text-[18px] font-roboto">
             Transparent reporting and documentation
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Systems:</span>{" "}
           Deployment of compliance management systems that automate compliance
           tracking, reporting, and documentation, ensuring adherence to
           regulatory requirements from agencies like the FDA, EMA, and WHO.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Tools:</span>{" "}
           Implementation of risk management tools that identify, assess, and
           mitigate risks throughout the drug development and manufacturing
           processes, enhancing safety and reliability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Document Management Systems (DMS):</span>{" "}
           Development of DMS that streamline the creation, storage, and
           retrieval of regulatory documents, facilitating efficient and
@@ -5470,32 +5470,32 @@ export const Media = [
     title: "Content Management and Distribution",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Content Management and Distribution
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient content creation and management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamless distribution across multiple channels
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time content updates and versioning
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration with digital platforms and social media
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Content Management Systems (CMS):</span>{" "}
           Deployment of CMS that streamline content creation, editing, and
           publishing workflows, enabling efficient management of digital assets
           and multimedia content.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Multi-Channel Distribution Platforms:
           </span>{" "}
@@ -5503,7 +5503,7 @@ export const Media = [
           content across various channels, including websites, mobile apps,
           social media, and OTT platforms, ensuring broad audience reach.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Content Updates:</span>{" "}
           Integration of real-time content update features that enable instant
           updates and versioning of content across all channels, ensuring
@@ -5522,38 +5522,38 @@ export const Media = [
     title: "Audience Engagement and Monetization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Audience Engagement and Monetization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Enhanced audience engagement and retention
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monetization of content through various revenue streams
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Personalized content recommendations and experiences
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data-driven advertising and sponsorship opportunities
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Audience Engagement Platforms:</span>{" "}
           Deployment of audience engagement platforms that offer interactive
           features, community-building tools, and personalized content
           recommendations to increase user engagement and retention.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Monetization Strategies:</span>{" "}
           Implementation of monetization strategies that leverage subscription
           models, advertising revenue, pay-per-view, and sponsorships,
           maximizing revenue opportunities while balancing user experience.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Personalization Engines:</span>{" "}
           Integration of personalization engines that analyze user data and
           behavior to deliver tailored content recommendations, promotions, and
@@ -5575,26 +5575,26 @@ export const Media = [
     title: "Digital Rights Management (DRM) and Copyright Protection",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Digital Rights Management (DRM) and Copyright Protection
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Protection of intellectual property rights
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Prevention of piracy and unauthorized distribution
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Secure content distribution and access control
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with copyright laws and regulations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Digital Rights Management (DRM) Systems:
           </span>{" "}
@@ -5602,14 +5602,14 @@ export const Media = [
           control access permissions, and prevent unauthorized copying and
           distribution, ensuring content security and compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Watermarking and Forensic Tracking:</span>{" "}
           Implementation of watermarking and forensic tracking technologies that
           embed invisible identifiers into digital content, enabling
           traceability and identification of unauthorized distribution and
           piracy.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Content Access Control Solutions:</span>{" "}
           Integration of access control solutions that authenticate and
           authorize users to access protected content, enforcing licensing
@@ -5628,39 +5628,39 @@ export const Media = [
     title: "Analytics and Performance Tracking",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Analytics and Performance Tracking
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insights into audience behavior and content performance
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data-driven decision-making for content creation and distribution
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Optimization of marketing and promotional strategies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Measurement of ROI for advertising and sponsorship campaigns
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Audience Analytics Platforms:</span>{" "}
           Deployment of audience analytics platforms that track user behavior,
           engagement metrics, and content consumption patterns, providing
           insights for content optimization and audience targeting.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Content Performance Tracking Tools:</span>{" "}
           Implementation of content performance tracking tools that measure key
           performance indicators (KPIs) such as views, shares, and conversions,
           enabling data-driven decision-making for content strategy and
           distribution.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Marketing Analytics Solutions:</span>{" "}
           Integration of marketing analytics solutions that analyze campaign
           performance, audience segmentation, and ROI metrics, optimizing
@@ -5683,38 +5683,38 @@ export const Media = [
     title: "Collaboration and Workflow Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Collaboration and Workflow Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Streamlined collaboration among content creators and teams
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient workflow management and project tracking
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Version control and asset management for multimedia content
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration with production tools and platforms
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Collaboration Platforms:</span> Deployment
           of collaboration platforms that facilitate communication, file
           sharing, and task management among content creators and teams,
           improving productivity and collaboration efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Workflow Management Systems:</span>{" "}
           Implementation of workflow management systems that automate content
           creation, review, and approval processes, ensuring efficient project
           tracking and timely delivery of content.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Version Control and Asset Management:
           </span>{" "}
@@ -5739,22 +5739,22 @@ export const ConsumerGoods = [
     title: "Enhanced Supply Chain Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Supply Chain Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient inventory management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Efficient inventory management</li>
+          <li className="text-[18px] font-roboto">
             Streamlined logistics and distribution
           </li>
-          <li className="text-[20px]">Real-time tracking and visibility</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Real-time tracking and visibility</li>
+          <li className="text-[18px] font-roboto">
             Supplier coordination and collaboration
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Supply Chain Management (SCM) Software:
           </span>{" "}
@@ -5762,7 +5762,7 @@ export const ConsumerGoods = [
           and distribution processes, ensuring timely and cost-effective
           operations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Tracking Tools:</span>{" "}
           Implementation of IoT-based solutions and real-time tracking systems
           to provide visibility across the supply chain, improving transparency
@@ -5780,22 +5780,22 @@ export const ConsumerGoods = [
     title: "Improved Customer Experience and Engagement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Improved Customer Experience and Engagement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Personalized customer interactions</li>
-          <li className="text-[20px]">Seamless omnichannel experiences</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Personalized customer interactions</li>
+          <li className="text-[18px] font-roboto">Seamless omnichannel experiences</li>
+          <li className="text-[18px] font-roboto">
             Effective customer relationship management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Insightful customer feedback mechanisms
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:
           </span>{" "}
@@ -5803,12 +5803,12 @@ export const ConsumerGoods = [
           enabling personalized customer interactions and efficient service
           management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Omnichannel Solutions:</span> Development
           of integrated solutions that provide a seamless shopping experience
           across various channels, including online, mobile, and in-store.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Customer Feedback Tools:</span>{" "}
           Implementation of tools to gather and analyze customer feedback,
           helping businesses understand customer needs and improve service
@@ -5821,35 +5821,35 @@ export const ConsumerGoods = [
     title: "Digital Transformation and E-Commerce",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Digital Transformation and E-Commerce
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Modernized digital infrastructure</li>
-          <li className="text-[20px]">Robust e-commerce platforms</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Modernized digital infrastructure</li>
+          <li className="text-[18px] font-roboto">Robust e-commerce platforms</li>
+          <li className="text-[18px] font-roboto">
             Enhanced online presence and marketing
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration with emerging technologies
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">E-Commerce Platform Development:</span>{" "}
           Building scalable and user-friendly e-commerce platforms that cater to
           the specific needs of consumer goods companies, enhancing online sales
           and customer satisfaction.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Digital Infrastructure Modernization:
           </span>{" "}
           Assisting in the modernization of digital infrastructure to support
           new technologies and improve operational efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Digital Marketing Solutions:</span>{" "}
           Implementation of digital marketing tools and strategies to enhance
           online presence, drive traffic, and increase sales.
@@ -5868,33 +5868,33 @@ export const ConsumerGoods = [
     title: "Data-Driven Decision Making and Analytics",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Data-Driven Decision Making and Analytics
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Comprehensive data analysis</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Comprehensive data analysis</li>
+          <li className="text-[18px] font-roboto">
             Insights into market trends and consumer behavior
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive analytics for demand forecasting
           </li>
-          <li className="text-[20px]">Enhanced business intelligence</li>
+          <li className="text-[18px] font-roboto">Enhanced business intelligence</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Analytics Platforms:</span>{" "}
           Deployment of analytics platforms that provide deep insights into
           market trends, consumer behavior, and operational performance,
           facilitating data-driven decision-making.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Analytics Tools:</span>{" "}
           Development of predictive analytics models to forecast demand,
           optimize inventory levels, and plan marketing strategies.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Business Intelligence (BI) Solutions:
           </span>{" "}
@@ -5909,33 +5909,33 @@ export const ConsumerGoods = [
     title: "Sustainable Practices and Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Sustainable Practices and Compliance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of sustainable practices
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with environmental regulations
           </li>
-          <li className="text-[20px]">Efficient resource management</li>
-          <li className="text-[20px]">Transparent reporting and monitoring</li>
+          <li className="text-[18px] font-roboto">Efficient resource management</li>
+          <li className="text-[18px] font-roboto">Transparent reporting and monitoring</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Sustainability Management Software:</span>{" "}
           Development of software solutions to track and manage sustainability
           initiatives, ensuring compliance with environmental regulations and
           efficient resource use.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Tracking Tools:</span>{" "}
           Implementation of tools to monitor and ensure adherence to industry
           standards and regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Resource Management Solutions:</span>{" "}
           Providing platforms to optimize the use of resources, reduce waste,
           and improve overall sustainability.
@@ -5956,39 +5956,39 @@ export const Robotics = [
     title: "Robotics Design and Development",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Robotics Design and Development
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient design and prototyping of robotic systems
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Simulation and testing of robotic functionalities
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of sensors, actuators, and control systems
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration and version control in design processes
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Robotics Design Software:</span>{" "}
           Deployment of robotics design software that provides CAD
           (Computer-Aided Design) tools, simulation capabilities, and virtual
           prototyping environments for designing and visualizing robotic
           systems.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Simulation Platforms:</span>{" "}
           Implementation of simulation platforms that enable engineers to
           simulate and test robotic functionalities, predict system behavior,
           and optimize design parameters before physical prototyping.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Sensor Integration Tools:</span>{" "}
           Integration with sensor integration tools that support the integration
           of various sensors, such as LiDAR, cameras, and IMUs (Inertial
@@ -6009,38 +6009,38 @@ export const Robotics = [
     title: "Robotics Control and Motion Planning",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Robotics Control and Motion Planning
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time control and coordination of robotic movements
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Path planning and trajectory optimization for robotic manipulators
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of motion control algorithms and PID controllers
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Adaptive control strategies for dynamic environments
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Motion Control Software:</span> Deployment
           of motion control software that provides algorithms for trajectory
           planning, motion interpolation, and feedback control of robotic
           manipulators, ensuring smooth and accurate motion execution.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Path Planning Algorithms:</span>{" "}
           Implementation of path planning algorithms that generate
           collision-free paths and optimize trajectory waypoints for robotic
           arms, mobile robots, and drones in complex environments.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">PID Controller Libraries:</span>{" "}
           Integration with PID controller libraries that implement
           proportional-integral-derivative (PID) control algorithms for
@@ -6061,36 +6061,36 @@ export const Robotics = [
     title: "Robot Perception and Sensing",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Robot Perception and Sensing</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Robot Perception and Sensing</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Perception and sensing capabilities for environment awareness
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of vision systems, LiDAR, and depth sensors
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Object detection, recognition, and tracking algorithms
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Fusion of sensor data for multi-modal perception
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Sensor Fusion Software:</span> Deployment
           of sensor fusion software that integrates data from multiple sensors,
           such as cameras, LiDAR, and radar, to create a comprehensive
           perception model of the robot's environment.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Computer Vision Libraries:</span>{" "}
           Implementation of computer vision libraries that provide algorithms
           for object detection, recognition, and tracking using image processing
           and machine learning techniques.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">LiDAR and Depth Sensor Integration:</span>{" "}
           Integration with LiDAR and depth sensor systems that enable 3D
           mapping, obstacle detection, and navigation in indoor and outdoor
@@ -6109,40 +6109,40 @@ export const Robotics = [
     title: "Autonomous Navigation and Localization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Autonomous Navigation and Localization
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Autonomous navigation in dynamic and unstructured environments
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Localization and mapping for robot positioning
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Path planning and obstacle avoidance for mobile robots
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of SLAM (Simultaneous Localization and Mapping)
             techniques
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Navigation Software:</span> Deployment of
           navigation software that provides algorithms for localization,
           mapping, path planning, and obstacle avoidance to enable autonomous
           navigation of mobile robots and drones in indoor and outdoor
           environments.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">SLAM Algorithms:</span> Implementation of
           SLAM algorithms that simultaneously estimate the robot's pose and map
           the surrounding environment using sensor data, enabling real-time
           localization and mapping without prior knowledge of the environment.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Obstacle Avoidance Techniques:</span>{" "}
           Integration with obstacle avoidance techniques that use sensor data
           and motion planning algorithms to detect and avoid obstacles in the
@@ -6162,40 +6162,40 @@ export const Robotics = [
     title: "Robot Collaboration and Human-Robot Interaction",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Robot Collaboration and Human-Robot Interaction
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaborative robotics for human-robot teamwork
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Safe interaction between robots and human operators
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Integration of robot control interfaces and HMI (Human-Machine
             Interface)
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Task allocation and coordination in multi-robot systems
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Collaborative Robotics Frameworks:</span>{" "}
           Deployment of collaborative robotics frameworks that enable safe and
           intuitive interaction between robots and human operators, supporting
           tasks such as co-manipulation, handover, and shared workspace.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Features and Compliance:</span>{" "}
           Implementation of safety features and compliance standards, such as
           safety-rated control systems, collision detection, and force limiting,
           to ensure safe operation and interaction in collaborative robot
           environments.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">HMI Design Tools:</span> Integration with
           HMI design tools that enable the development of user-friendly
           interfaces for robot control, monitoring, and task programming,
@@ -6219,29 +6219,29 @@ export const Government = [
     title: "Enhanced Public Service Delivery",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Public Service Delivery
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Efficient citizen service management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Efficient citizen service management</li>
+          <li className="text-[18px] font-roboto">
             Streamlined permit and licensing processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Effective communication channels with constituents
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Transparent and accessible government information
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Citizen Service Management Systems:</span>{" "}
           Deployment of comprehensive systems for efficient handling of
           inquiries, requests, and complaints from constituents.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Digital Permit and Licensing Platforms:
           </span>{" "}
@@ -6249,7 +6249,7 @@ export const Government = [
           permits and licenses, streamlining the approval process and reducing
           paperwork.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Integrated Communication Solutions:</span>{" "}
           Implementation of platforms providing citizens with multiple channels
           to interact with government agencies, including websites, mobile apps,
@@ -6267,39 +6267,39 @@ export const Government = [
     title: "Public Safety and Emergency Management",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Public Safety and Emergency Management
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Effective emergency response coordination
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time incident monitoring and reporting
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Disaster preparedness and recovery planning
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Community engagement in public safety initiatives
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Emergency Management Systems:</span>{" "}
           Deployment of systems facilitating coordination among response
           agencies, real-time incident tracking, and effective resource
           allocation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Incident Reporting and Monitoring Tools:
           </span>{" "}
           Development of mobile apps and reporting tools for citizens to report
           incidents and enhance situational awareness for responders.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Disaster Preparedness Platforms:</span>{" "}
           Creation of online platforms providing resources and information for
           citizens and businesses to prepare for emergencies.
@@ -6317,34 +6317,34 @@ export const Government = [
     title: "Efficient Governance and Administration",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Efficient Governance and Administration
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined administrative processes</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined administrative processes</li>
+          <li className="text-[18px] font-roboto">
             Transparent decision-making and governance
           </li>
-          <li className="text-[20px]">Data-driven policy development</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven policy development</li>
+          <li className="text-[18px] font-roboto">
             Collaboration and knowledge sharing among agencies
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Enterprise Resource Planning (ERP) Systems:
           </span>{" "}
           Implementation of systems to streamline administrative processes such
           as budgeting, procurement, and human resources management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Open Government Platforms:</span>{" "}
           Development of platforms providing citizens access to government data,
           policies, and decisions for transparency and accountability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Policy Development Tools:</span> Provision
           of data analytics and visualization tools supporting data-driven
           policy development and decision-making.
@@ -6361,37 +6361,37 @@ export const Government = [
     title: "Cybersecurity and Data Protection",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Cybersecurity and Data Protection
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Protection of government networks and systems
           </li>
-          <li className="text-[20px]">Secure handling of sensitive data</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Secure handling of sensitive data</li>
+          <li className="text-[18px] font-roboto">
             Compliance with data protection regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Rapid response to cybersecurity threats
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cybersecurity Solutions:</span>{" "}
           Implementation of measures like firewalls, intrusion detection
           systems, and SIEM solutions to protect government networks and
           systems.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Data Encryption and Access Controls:
           </span>{" "}
           Deployment of encryption and access control measures ensuring secure
           handling of sensitive information and compliance with regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Tools:</span>{" "}
           Development of tools automating compliance reporting and audits for
           adherence to cybersecurity and data protection regulations.
@@ -6409,36 +6409,36 @@ export const Government = [
     title: "Civic Engagement and Participation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Civic Engagement and Participation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Citizen engagement in policymaking</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Citizen engagement in policymaking</li>
+          <li className="text-[18px] font-roboto">
             Transparent and inclusive decision-making processes
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Opportunities for public feedback and input
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration between government and civil society organizations
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Online Consultation Platforms:</span>{" "}
           Development of platforms for public consultations and feedback
           gathering, enabling citizen participation in policymaking and
           government initiatives.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Transparent Decision-Making Tools:</span>{" "}
           Implementation of tools providing transparency into government
           decision-making processes, helping citizens understand and track
           policy decisions.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Community Engagement Initiatives:</span>{" "}
           Deployment of initiatives such as town hall meetings and citizen
           advisory committees fostering collaboration between government
@@ -6460,34 +6460,34 @@ export const EnergyUtilities = [
     title: "Enhanced Grid Management and Smart Infrastructure",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Enhanced Grid Management and Smart Infrastructure
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Smart grid implementation</li>
-          <li className="text-[20px]">Real-time monitoring and control</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Smart grid implementation</li>
+          <li className="text-[18px] font-roboto">Real-time monitoring and control</li>
+          <li className="text-[18px] font-roboto">
             Integration of renewable energy sources
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive maintenance for infrastructure
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Smart Grid Solutions:</span> Development
           and implementation of smart grid solutions including advanced metering
           infrastructure (AMI), distribution automation, and demand response
           systems to enhance grid reliability and efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Systems:</span>{" "}
           Deployment of IoT-based systems for real-time visibility and control
           over grid operations, enabling quick response to issues and improved
           grid stability.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Renewable Energy Integration:</span>{" "}
           Assistance in integrating solar, wind, and other renewable energy
           sources into the grid, optimizing their use through energy management
@@ -6506,20 +6506,20 @@ export const EnergyUtilities = [
     title: "Improved Customer Experience and Engagement",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Improved Customer Experience and Engagement
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Enhanced customer service</li>
-          <li className="text-[20px]">Personalized energy solutions</li>
-          <li className="text-[20px]">Effective communication channels</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Enhanced customer service</li>
+          <li className="text-[18px] font-roboto">Personalized energy solutions</li>
+          <li className="text-[18px] font-roboto">Effective communication channels</li>
+          <li className="text-[18px] font-roboto">
             Transparent billing and usage information
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Customer Relationship Management (CRM) Systems:
           </span>{" "}
@@ -6527,12 +6527,12 @@ export const EnergyUtilities = [
           personalized service, efficient query resolution, and improved
           customer engagement.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Energy Management Apps:</span> Development
           of user-friendly apps for customers to monitor usage, receive
           energy-saving tips, and manage accounts.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Omnichannel Communication Solutions:
           </span>{" "}
@@ -6551,32 +6551,32 @@ export const EnergyUtilities = [
     title: "Operational Efficiency and Automation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Automation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined operations</li>
-          <li className="text-[20px]">Automation of routine tasks</li>
-          <li className="text-[20px]">Efficient resource management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined operations</li>
+          <li className="text-[18px] font-roboto">Automation of routine tasks</li>
+          <li className="text-[18px] font-roboto">Efficient resource management</li>
+          <li className="text-[18px] font-roboto">
             Cost reduction through process optimization
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Robotic Process Automation (RPA):</span>{" "}
           Deployment of RPA solutions for tasks such as meter readings and
           customer service, reducing costs and enhancing efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Enterprise Resource Planning (ERP) Systems:
           </span>{" "}
           Implementation of ERP systems integrating business processes from
           supply chain to HR, improving overall efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Asset Management Software:</span>{" "}
           Development of solutions optimizing asset lifecycle management and
           reducing maintenance costs.
@@ -6592,32 +6592,32 @@ export const EnergyUtilities = [
     title: "Operational Efficiency and Automation",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Operational Efficiency and Automation
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined operations</li>
-          <li className="text-[20px]">Automation of routine tasks</li>
-          <li className="text-[20px]">Efficient resource management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined operations</li>
+          <li className="text-[18px] font-roboto">Automation of routine tasks</li>
+          <li className="text-[18px] font-roboto">Efficient resource management</li>
+          <li className="text-[18px] font-roboto">
             Cost reduction through process optimization
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Robotic Process Automation (RPA):</span>{" "}
           Deployment of RPA solutions for tasks such as meter readings and
           customer service, reducing costs and enhancing efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">
             Enterprise Resource Planning (ERP) Systems:
           </span>{" "}
           Implementation of ERP systems integrating business processes from
           supply chain to HR, improving overall efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Asset Management Software:</span>{" "}
           Development of solutions optimizing asset lifecycle management and
           reducing maintenance costs.
@@ -6633,26 +6633,26 @@ export const EnergyUtilities = [
     title: "Data Security and Compliance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Data Security and Compliance</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Data Security and Compliance</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Robust cybersecurity measures</li>
-          <li className="text-[20px]">Protection of critical infrastructure</li>
-          <li className="text-[20px]">Compliance with industry regulations</li>
-          <li className="text-[20px]">Secure data management and privacy</li>
+          <li className="text-[18px] font-roboto">Robust cybersecurity measures</li>
+          <li className="text-[18px] font-roboto">Protection of critical infrastructure</li>
+          <li className="text-[18px] font-roboto">Compliance with industry regulations</li>
+          <li className="text-[18px] font-roboto">Secure data management and privacy</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Cybersecurity Solutions:</span>{" "}
           Implementation of strategies including threat detection, encryption,
           and access controls to protect infrastructure and data.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Compliance Management Tools:</span>{" "}
           Development of tools for automating compliance with regulations like
           NERC CIP, GDPR, and CCPA.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Privacy Solutions:</span> Deployment
           of systems ensuring privacy and security of customer data, complying
           with data protection laws.
@@ -6669,32 +6669,32 @@ export const EnergyUtilities = [
     title: "Sustainability and Environmental Impact",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Sustainability and Environmental Impact
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of sustainable practices
           </li>
-          <li className="text-[20px]">Reduction of carbon footprint</li>
-          <li className="text-[20px]">Efficient resource utilization</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Reduction of carbon footprint</li>
+          <li className="text-[18px] font-roboto">Efficient resource utilization</li>
+          <li className="text-[18px] font-roboto">
             Transparent reporting on sustainability initiatives
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Sustainability Management Software:</span>{" "}
           Development of solutions tracking and managing sustainability
           initiatives, ensuring compliance and efficient resource use.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Carbon Footprint Reduction Tools:</span>{" "}
           Implementation of tools for monitoring and reducing emissions and
           promoting renewable energy use.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Resource Optimization Platforms:</span>{" "}
           Platforms for optimizing natural resource use and enhancing
           environmental performance.
@@ -6714,33 +6714,33 @@ export const OilGas = [
     title: "Asset Management and Maintenance",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Asset Management and Maintenance
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Efficient management of oil and gas assets
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Predictive maintenance to minimize downtime
           </li>
-          <li className="text-[20px]">Compliance with safety regulations</li>
-          <li className="text-[20px]">Optimization of asset lifecycle</li>
+          <li className="text-[18px] font-roboto">Compliance with safety regulations</li>
+          <li className="text-[18px] font-roboto">Optimization of asset lifecycle</li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Asset Management Systems:</span>{" "}
           Deployment of systems centralizing asset data, tracking maintenance
           schedules, and monitoring equipment health for proactive maintenance
           and performance optimization.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Maintenance Software:</span>{" "}
           Implementation of software analyzing equipment sensor data to predict
           failures, schedule maintenance, and extend asset lifespan.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Safety Compliance Tools:</span>{" "}
           Integration with tools ensuring adherence to safety regulations,
           automating inspections, and monitoring compliance to mitigate risks
@@ -6759,37 +6759,37 @@ export const OilGas = [
     title: "Production Optimization and Efficiency",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Production Optimization and Efficiency
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Maximization of oil and gas production
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of production costs and inefficiencies
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-time monitoring of production operations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Identification of production bottlenecks
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Production Optimization Software:</span>{" "}
           Deployment of software analyzing production data, identifying
           opportunities, and recommending changes to maximize rates and minimize
           costs.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Monitoring Systems:</span>{" "}
           Implementation of systems capturing data for continuous visibility and
           timely interventions in production operations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Production Analytics Tools:</span>{" "}
           Integration with tools analyzing performance metrics, identifying
           trends, and providing insights for process optimization and efficiency
@@ -6809,37 +6809,37 @@ export const OilGas = [
     title: "Environmental Compliance and Sustainability",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Environmental Compliance and Sustainability
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Compliance with environmental regulations
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Monitoring and mitigation of environmental impacts
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of carbon emissions and waste
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of sustainable practices
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Environmental Compliance Software:</span>{" "}
           Deployment of software tracking regulatory requirements, automating
           reporting, and monitoring emissions, spills, and waste management for
           compliance and risk mitigation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Environmental Monitoring Systems:</span>{" "}
           Implementation of systems collecting data on air, water, and soil
           quality for early detection of impacts and prompt remediation.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Carbon Management Solutions:</span>{" "}
           Integration with solutions measuring, monitoring, and reporting carbon
           emissions to set reduction targets and implement offset initiatives.
@@ -6857,32 +6857,32 @@ export const OilGas = [
     title: "Supply Chain Optimization",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Supply Chain Optimization</h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <h2 className="font-bold text-[32px] font-roboto">Supply Chain Optimization</h2>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Streamlined procurement and logistics</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Streamlined procurement and logistics</li>
+          <li className="text-[18px] font-roboto">
             Optimization of inventory and warehouse management
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Reduction of supply chain costs and lead times
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Collaboration with suppliers and vendors
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Supply Chain Management Systems:</span>{" "}
           Deployment of systems optimizing procurement, automating inventory,
           and tracking shipments for timely delivery and cost reduction.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Inventory Optimization Software:</span>{" "}
           Implementation of software using forecasting and modeling to optimize
           levels, reduce stockouts, and improve efficiency.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Logistics Optimization Solutions:</span>{" "}
           Integration with solutions optimizing routes, mode selection, and
           carrier choices to cut costs and enhance reliability.
@@ -6899,34 +6899,34 @@ export const OilGas = [
     title: "Data Analytics and Decision Support",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Data Analytics and Decision Support
         </h2>
-        <p className="text-[25px] mb-5">Industry Needs</p>
+        <p className="text-[24px] font-roboto mb-5">Industry Needs</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">Data-driven decision-making</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Data-driven decision-making</li>
+          <li className="text-[18px] font-roboto">
             Insights into production performance and trends
           </li>
-          <li className="text-[20px]">Risk assessment and management</li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">Risk assessment and management</li>
+          <li className="text-[18px] font-roboto">
             Strategic planning and investment analysis
           </li>
         </ul>
-        <p className="text-[25px] mb-4">Mandlac Solutions</p>
-        <div className="mb-3">
+        <p className="text-[24px] font-roboto mb-4">Mandlac Solutions</p>
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Data Analytics Platforms:</span>{" "}
           Deployment of platforms integrating production, financial, and
           operational data for insights into performance and improvement
           opportunities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Predictive Analytics Software:</span>{" "}
           Implementation of software forecasting trends, identifying risks, and
           recommending strategies for proactive decision-making and risk
           management.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Risk Management Tools:</span> Integration
           with tools assessing and prioritizing operational, financial, and
           regulatory risks for mitigation and protection.
@@ -6946,51 +6946,51 @@ export const BigData = [
     title: "Navigating the Challenges of Data Deluge",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Navigating the Challenges of Data Deluge
         </h2>
-        <p className="text-[25px] mb-5">Challenges</p>
+        <p className="text-[24px] font-roboto mb-5">Challenges</p>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data Overload: Coping with the sheer volume, velocity, and variety
             of data generated daily.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Complexity: Managing and integrating diverse data sources and
             formats.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Privacy & Security Concerns: Safeguarding sensitive information
             against breaches and regulatory compliance.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Talent Shortage: Recruiting skilled professionals capable of
             analyzing and deriving insights from complex datasets.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             ROI Uncertainty: Ensuring that investments in Big Data initiatives
             translate into tangible business value.
           </li>
         </ul>
-        <p className="text-[25px] mb-4">
+        <p className="text-[24px] font-roboto mb-4">
           Our Solutions to Your Big Data Challenges
         </p>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Data Management:</span>{" "}
           Efficiently handle large volumes of data with scalable storage and
           robust processing capabilities.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Integration Expertise:</span> Seamlessly
           manage and integrate diverse data sources and formats for a unified
           view.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Enhanced Security:</span> Implement
           stringent security measures and ensure compliance with data privacy
           regulations.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Skilled Team:</span> Our team of
           experienced data scientists and engineers brings the expertise needed
           to analyze complex datasets.
@@ -7007,56 +7007,56 @@ export const BigData = [
     title: "Industry Needs and Our Big Data Solutions",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">Industry Needs</h2>
+        <h2 className="font-bold text-[32px] font-roboto">Industry Needs</h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Scalable Data Solutions: The ability to store and process vast
             amounts of data efficiently.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Real-Time Analytics: Immediate insights to drive quick, informed
             decision-making.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data Integration: Seamless integration of data from various sources
             for comprehensive analysis.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Data Security: Robust measures to protect sensitive information and
             ensure compliance.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Skilled Talent: Access to professionals who can extract actionable
             insights from complex datasets.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Cost Efficiency: Maximizing the return on investment from Big Data
             initiatives.
           </li>
         </ul>
-        <p className="text-[25px] mb-4">
+        <p className="text-[24px] font-roboto mb-4">
           Our Big Data Solutions to Meet Industry Needs
         </p>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Scalable Infrastructure:</span> Our
           solutions provide flexible, scalable storage and processing
           capabilities to handle large data volumes.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Real-Time Processing:</span> Utilize
           cutting-edge technologies for real-time data analytics and insights.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Comprehensive Integration:</span> Expert
           integration of diverse data sources into a unified platform for better
           analysis.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Advanced Security:</span> Implement
           industry-leading security protocols to protect your data and ensure
           regulatory compliance.
         </div>
-        <div className="mb-3">
+        <div className="mb-3 font-roboto font-[18px]">
           <span className="font-bold">Expert Team:</span> A dedicated team of
           skilled data scientists and engineers ready to turn complex data into
           valuable insights.
@@ -7075,35 +7075,35 @@ export const AIML = [
     title: "Navigating the Challenges of AI/ML Adoption",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Navigating the Challenges of AI/ML Adoption
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Developing and deploying AI/ML models that are sophisticated yet
             interpretable.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring the accuracy, relevance, and completeness of the data used
             for training models.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Scaling AI/ML solutions to handle large datasets and high-throughput
             environments.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Addressing issues related to bias, transparency, and fairness in AI
             algorithms.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamlessly integrating AI/ML models into existing business processes
             and systems.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Finding and retaining skilled professionals capable of developing
             and managing AI/ML solutions.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring that AI/ML investments yield tangible and measurable
             business value.
           </li>
@@ -7115,33 +7115,33 @@ export const AIML = [
     title: "Our Solutions to Your AI/ML Challenges",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Our Solutions to Your AI/ML Challenges
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implement rigorous data quality checks and preprocessing techniques.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Develop sophisticated AI/ML models tailored to specific business
             needs.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Design AI/ML frameworks that scale to handle large datasets and
             high-volume processing.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Prioritize fairness, transparency, and accountability in AI
             solutions.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensure smooth integration of AI/ML models into existing systems and
             workflows.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Leverage our experienced team of data scientists and engineers.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Focus on delivering actionable insights that drive measurable ROI.
           </li>
         </ul>
@@ -7155,29 +7155,29 @@ export const CloudSolution = [
     title: "Navigating the Challenges of Cloud Adoption",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Navigating the Challenges of Cloud Adoption
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Transferring existing systems and data to the cloud can be complex
             and disruptive.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring the safety and compliance of data in the cloud is critical.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Controlling and optimizing cloud expenditure can be challenging.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamlessly integrating cloud services with existing IT
             infrastructure requires expertise.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Minimizing downtime and ensuring reliable cloud performance are
             crucial.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Finding and retaining skilled professionals to manage cloud
             infrastructure.
           </li>
@@ -7189,30 +7189,30 @@ export const CloudSolution = [
     title: "Our Solutions to Your Cloud Challenges",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Our Solutions to Your Cloud Challenges
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             End-to-end support for migrating systems and data to the cloud with
             minimal disruption.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of advanced security protocols and compliance
             management to safeguard data.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Strategies to monitor and control cloud spending, optimizing ROI.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Expertise in integrating cloud services seamlessly with existing IT
             infrastructure.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring high availability and reliability of cloud services to
             minimize downtime.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ongoing support and management by experienced cloud professionals.
           </li>
         </ul>
@@ -7226,29 +7226,29 @@ export const WebAppDevelopment = [
     title: "Navigating the Challenges of Cloud Adoption",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Navigating the Challenges of Cloud Adoption
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Transferring existing systems and data to the cloud can be complex
             and disruptive.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring the safety and compliance of data in the cloud is critical.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Controlling and optimizing cloud expenditure can be challenging.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Seamlessly integrating cloud services with existing IT
             infrastructure requires expertise.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Minimizing downtime and ensuring reliable cloud performance are
             crucial.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Finding and retaining skilled professionals to manage cloud
             infrastructure.
           </li>
@@ -7260,30 +7260,30 @@ export const WebAppDevelopment = [
     title: "Our Solutions to Your Cloud Challenges",
     content: (
       <>
-        <h2 className="font-bold text-[30px]">
+        <h2 className="font-bold text-[32px] font-roboto">
           Our Solutions to Your Cloud Challenges
         </h2>
         <ul className="list-disc mb-5 ml-5">
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             End-to-end support for migrating systems and data to the cloud with
             minimal disruption.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Implementation of advanced security protocols and compliance
             management to safeguard data.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Strategies to monitor and control cloud spending, optimizing ROI.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Expertise in integrating cloud services seamlessly with existing IT
             infrastructure.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ensuring high availability and reliability of cloud services to
             minimize downtime.
           </li>
-          <li className="text-[20px]">
+          <li className="text-[18px] font-roboto">
             Ongoing support and management by experienced cloud professionals.
           </li>
         </ul>

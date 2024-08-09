@@ -125,7 +125,7 @@ function Home() {
 
   return (
     <div className="w-full h-auto">
-      <div className="w-full h-full bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-24 flex lg:relative justify-center">
+      <div className="w-full h-full bg-gradient-to-b from-[rgba(255,204,0,0.42)] to-[rgba(255,204,0,0)] mt-20 flex lg:relative justify-center">
         <div className="mt-10 flex flex-col items-center">
           <div className="flex items-center gap-2 px-3 py-1 justify-center bg-[#fff6ce] rounded-[20px] my-2 lg:w-[474px] lg:h-12">
             <img src={star} alt="star" className="h-3 w-3 lg:h-4 lg:w-4" />
@@ -205,11 +205,10 @@ function Home() {
                   {article.title}
                 </h3>
                 <p
-                  className={`text-base font-normal font-roboto mt-3 ${
-                    technologiesexpanded[index]
-                      ? "line-clamp-none"
-                      : "line-clamp-3"
-                  }`}
+                  className={`text-base font-normal font-roboto mt-3 ${technologiesexpanded[index]
+                    ? "line-clamp-none"
+                    : "line-clamp-3"
+                    }`}
                 >
                   {article.contant}
                 </p>
@@ -233,10 +232,10 @@ function Home() {
           services, ensuring that our products seamlessly integrate into your{" "}
           <br /> operations while meeting your specific requirements.
         </p>
-        <Slider {...industriesSlide} className="py-4">
+        <Slider {...industriesSlide} className="">
           {Industries.map((data, i) => (
-            <div key={i} className="p-5">
-              <div className="flex flex-col gap-10 items-center justify-center h-full p-4 bg-[#F7F7F7] hover:border border-yellow-300 hover:shadow-md">
+            <div key={i} className="p-3 cursor-pointer">
+              <div className="flex flex-col gap-5 items-center justify-center h-full min-h-[200px] bg-[#F7F7F7] hover:border border-yellow-300 hover:shadow-md">
                 <img
                   src={data.img}
                   alt={data.title}
@@ -298,9 +297,8 @@ function Home() {
                   </div>
                   <div className="flex justify-between mx-auto w-[90%]">
                     <p
-                      className={`text-base font-roboto font-normal mt-10 text-[#222120] w-[50%] ${
-                        expanded[i] ? "line-clamp-none" : "line-clamp-5"
-                      }`}
+                      className={`text-base font-roboto font-normal mt-10 text-[#222120] w-[50%] ${expanded[i] ? "line-clamp-none" : "line-clamp-5"
+                        }`}
                     >
                       {data.contant}
                     </p>

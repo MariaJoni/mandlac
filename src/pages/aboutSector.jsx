@@ -70,7 +70,7 @@ function AboutSector() {
 
   return (
     <div className="w-full">
-      <div className="w-full mt-24">
+      <div className="w-full mt-20">
         <img src={history} alt="companyhistory" className="w-full" />
       </div>
       <div className="w-full my-10 flex flex-col items-center text-center">

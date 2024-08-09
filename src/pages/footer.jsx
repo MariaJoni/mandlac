@@ -51,13 +51,19 @@ function Footer() {
               Who we are
             </li>
             <li
-              onClick={() => navigate("/blog")}
+              onClick={() => {
+                navigate("/blog");
+                window.scrollTo(0, 0);
+              }}
               className="pb-2 cursor-pointer hover:text-amber-300"
             >
               Blog
             </li>
             <li
-              onClick={() => navigate("/contact")}
+              onClick={() => {
+                navigate("/contact"),
+                  window.scrollTo(0, 0);
+              }}
               className="pb-2 cursor-pointer hover:text-amber-300"
             >
               Contact
