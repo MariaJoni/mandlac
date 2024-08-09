@@ -250,11 +250,11 @@ function Home() {
           ))}
         </Slider>
       </div>
-      <div className="bg-transparent bg-gradient-to-b from-[#FFCC006B] to-[#FFCC0000] h-auto">
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold ">
+      <div className="bg-transparent bg-gradient-to-b from-[#FFCC006B] to-[#FFCC0000]">
+        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center font-mulish font-extrabold">
           Mandlac Product Range
         </h2>
-        <p className="text-center mt-5 font-medium text-[18px] font-serif mb-5">
+        <p className="text-center mt-5 font-normal text-[18px] font-roboto mb-5">
           Step into the future with our IoT products! Transform your home into a
           smart, efficient haven. Explore now!
         </p>
@@ -277,7 +277,7 @@ function Home() {
         </div>
       </div>
       <div className="mb-10">
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-bold">
+        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] text-center mt-10 font-extrabold font-mulish">
           Happy Client Stories
         </h2>
         <div className="w-[90%] mx-auto">
@@ -286,7 +286,7 @@ function Home() {
               <div key={i} className="px-4 mt-10 mb-10">
                 <div className="bg-white shadow-md rounded-md h-full">
                   <div className="relative bg-[#D0A600]">
-                    <h3 className="text-[24px] ml-10 z-20 text-white py-4 font-semibold relative">
+                    <h3 className="text-[24px] ml-10 z-20 text-white py-4 font-bold font-roboto relative">
                       {data.name}
                     </h3>
                     <div className="slide-shape absolute w-[200px] h-[100px] lg:w-[250px] lg:h-[100px] bg-[#D0A600] top-8 right-0 z-10"></div>
@@ -298,7 +298,7 @@ function Home() {
                   </div>
                   <div className="flex justify-between mx-auto w-[90%]">
                     <p
-                      className={`text-[15px] font-semibold mt-10 text-[#222120] w-[50%] ${
+                      className={`text-base font-roboto font-normal mt-10 text-[#222120] w-[50%] ${
                         expanded[i] ? "line-clamp-none" : "line-clamp-5"
                       }`}
                     >
@@ -318,7 +318,7 @@ function Home() {
                     </div>
                   </div>
                   <button
-                    className="text-black text-[18px] cursor-pointer font-semibold mt-2 ml-5 lg:ml-10 mb-5"
+                    className=" text-black text-lg cursor-pointer font-roboto font-semibold my-5 ml-7"
                     onClick={() => handleReadMore(i)}
                   >
                     {expanded[i] ? "Read Less" : "Read More"}

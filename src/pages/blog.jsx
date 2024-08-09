@@ -7,6 +7,7 @@ import { news } from './contents';
 import { Button } from '@/components/ui/button';
 import person from "../assets/person.png";
 import calander from "../assets/calander.png";
+import ExploreSolution from './exploreSolution';
 
 function Blog() {
   useEffect(() => {
@@ -28,7 +29,7 @@ function Blog() {
         </div>
       </div>
       <div className='mt-20 flex flex-col'>
-        <h2 className='text-[30px] font-semibold text-center mt-5 md:mt-0'> News & Articles</h2>
+        <h2 className='text-[30px] font-semibold text-center mt-5 md:pb-5'> News & Articles</h2>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-2 w-[90%] ml-auto mr-auto mb-10">
           {news.map((article, index) => (
             <div data-aos="fade-left -z-10" key={index} className=" bg-gray-50 border border-gray-200 hover:border-2 hover:border-yellow-400 group p-3">
@@ -55,6 +56,7 @@ function Blog() {
           ))}
         </div>
       </div>
+      <ExploreSolution />
     </div>
   );
 }

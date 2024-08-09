@@ -213,7 +213,7 @@ export const services = [
 
 export const Hospitality = [
   {
-    title: "Reservation and Booking Management",
+    title: "Reservation and Booking Management",  
     content: (
       <>
         <h2 className="font-bold text-[30px]">
