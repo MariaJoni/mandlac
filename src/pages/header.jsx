@@ -17,6 +17,7 @@ import {
 import { industrySectors, Products, Research, Services } from "./contents";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { cn } from "@/lib/utils";
+import { AboutUsSector } from "./selfContents";
 
 function Header() {
   const navigate = useNavigate();
@@ -40,19 +41,12 @@ function Header() {
     setActiveSection(section);
   };
 
-  const handleNavigateIndustry = (sector) => {
-    navigate(`/Industries/${sector}`);
+  const handleNavigate = (type, sector) => {
+    navigate(`/${type}/${sector}`);
     setMenuOpen(false);
-    location.reload();
   };
 
-  const handleNavigateServices = (service) => {
-    navigate(`/Services/${service}`);
-    setMenuOpen(false);
-    location.reload();
-  };
-
-  const handleNavigate = (path) => {
+  const handleNavigateMenu = (path) => {
     setHeaderWhite(true);
     navigate(path);
   };
@@ -65,6 +59,11 @@ function Header() {
   const handleBackHome = () => {
     navigate("/");
     setHeaderWhite(false);
+  };
+
+  const handleNavigateOverview = () => {
+    navigate("/SectorOverview");
+    setMenuOpen(false);
   };
 
   return (
@@ -115,7 +114,7 @@ function Header() {
               </PopoverTrigger>
               <PopoverContent className="w-screen h-80 mt-8">
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
-                  <div className="w-[30%] border-r-2">
+                  <div className="w-[25%] border-r-2">
                     <div
                       className={`${
                         activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
@@ -192,21 +191,21 @@ function Header() {
                       )}
                     </div>
                   </div>
-                  <div className="w-[70%] h-full ml-8">
+                  <div className="w-[75%] h-full ml-8">
                     {activeSection === "Overview" && (
                       <div>
-                        <p className="text-[24px] mt-4 font-light">
+                        <p className="text-2xl font-roboto mt-4 font-light">
                           Mandlac is a comprehensive platform designed to
                           facilitate the deployment, management, and operation
                           of IoT systems
                         </p>
-                        <p className="mt-4 text-[14px]">
+                        <p className="mt-4 text-base font-roboto font-light">
                           Our customizable solutions encompass both hardware and
                           software services, ensuring that our products
                           seamlessly integrate into your operations while
                           meeting your specific requirements.
                         </p>
-                        <div className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded cursor-pointer">
+                        <div className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded cursor-pointer hover:bg-[#D0A600] hover:text-white">
                           Discover More
                         </div>
                       </div>
@@ -218,7 +217,7 @@ function Header() {
                           .map((sector, index) => (
                             <li
                               onClick={() =>
-                                handleNavigateIndustry(sector.navigate)
+                                handleNavigate("Industries", sector.navigate)
                               }
                               className="md:text-sm lg:text-base text-left font-light font-roboto cursor-pointer hover:text-[#D0A600]"
                               key={index}
@@ -235,7 +234,7 @@ function Header() {
                         ).map((service, index) => (
                           <li
                             onClick={() =>
-                              handleNavigateServices(service.navigate)
+                              handleNavigate("Services", service.navigate)
                             }
                             className="md:text-sm lg:text-base text-left font-light font-roboto cursor-pointer hover:text-[#D0A600]"
                             key={index}
@@ -292,8 +291,8 @@ function Header() {
                 </li>
               </PopoverTrigger>
               <PopoverContent className="w-screen h-80 mt-8">
-                <div className="flex items-center w-[85%] mt-5 mb-5 ml-auto mr-auto">
-                  <div className="w-[30%] border-r-2">
+                <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
+                  <div className="w-[25%] border-r-2">
                     <div
                       className={`${
                         activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
@@ -355,20 +354,57 @@ function Header() {
                       )}
                     </div>
                   </div>
-                <div className="w-[70%] h-full bg-slate-200">
-
-                </div>
+                  <div className="w-[75%] h-full ml-8">
+                    {activeSection === "Overview" && (
+                      <div className="w-[90%]">
+                        <p className="text-2xl font-roboto mt-4 font-light">
+                          Mandlac is a comprehensive platform designed to
+                          facilitate the deployment, management, and operation
+                          of IoT systems
+                        </p>
+                        <p className="mt-4 font-roboto font-light text-base">
+                          Welcome to Mandlac, where we leverage IoT technology
+                          to transform businesses. With custom solutions
+                          tailored to your needs, we enhance efficiency and
+                          connectivity, paving the way for a smarter future.
+                        </p>
+                        <div
+                          className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded cursor-pointer hover:bg-[#D0A600] hover:text-white"
+                          onClick={() => handleNavigateOverview()}
+                        >
+                          Discover More
+                        </div>
+                      </div>
+                    )}
+                    {activeSection === "AboutUs" && (
+                      <ul className="flex flex-col gap-4">
+                        {AboutUsSector.sort((a, b) =>
+                          a.name.localeCompare(b.name)
+                        ).map((sector, index) => (
+                          <li
+                            onClick={() =>
+                              handleNavigate("AboutUs", sector.navigate)
+                            }
+                            className="md:text-sm lg:text-base text-left font-light font-roboto cursor-pointer hover:text-[#D0A600]"
+                            key={index}
+                          >
+                            {sector.name}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
                 </div>
               </PopoverContent>
             </Popover>
             <li
-              onClick={() => handleNavigate("/blog")}
+              onClick={() => handleNavigateMenu("/blog")}
               className="font-roboto font-medium text-[15px] cursor-pointer"
             >
               Blog
             </li>
             <li
-              onClick={() => handleNavigate("/contact")}
+              onClick={() => handleNavigateMenu("/contact")}
               className="font-roboto font-medium text-[15px] cursor-pointer"
             >
               Contact
@@ -381,7 +417,7 @@ function Header() {
           </span>
           <span
             onClick={() => navigate("/contact")}
-            className="bg-black text-white cursor-pointer font-roboto font-semibold text-[16px] p-1 md:p-2 rounded"
+            className="bg-black text-white cursor-pointer font-roboto font-semibold text-[16px] p-1 md:p-2 rounded hover:bg-[#D0A600]"
           >
             Get Connected
           </span>
@@ -490,7 +526,32 @@ function Header() {
               Back
             </div>
             <div className=" font-semibold mb-2">What We Do</div>
-            <div>Coming Soon...</div>
+            <ul>
+              <li
+                onClick={() => handleSubMenuClick("SectorOverView")}
+                className="flex border-t-2 border-b-2 py-2 justify-between items-center"
+              >
+                OverView <FaArrowRight />
+              </li>
+              <li
+                onClick={() => handleSubMenuClick("AboutUs")}
+                className="flex border-b-2 py-2 justify-between items-center"
+              >
+                About Us <FaArrowRight />
+              </li>
+              <li
+                onClick={() => handleSubMenuClick("Leadership")}
+                className="flex border-t-2 border-b-2 py-2 justify-between items-center"
+              >
+                Leadership <FaArrowRight />
+              </li>
+              <li
+                onClick={() => handleSubMenuClick("Events")}
+                className="flex border-b-2 py-2 justify-between items-center"
+              >
+                Events <FaArrowRight />
+              </li>
+            </ul>
           </div>
         )}
 
@@ -533,7 +594,9 @@ function Header() {
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .map((sector, index) => (
                   <li
-                    onClick={() => handleNavigateIndustry(sector.navigate)}
+                    onClick={() =>
+                      handleNavigate("Industries", sector.navigate)
+                    }
                     className="border-b-2 py-2 flex items-center justify-between"
                     key={index}
                   >
@@ -556,7 +619,7 @@ function Header() {
               {Services.sort((a, b) => a.name.localeCompare(b.name)).map(
                 (service, index) => (
                   <li
-                    onClick={() => handleNavigateServices(service.navigate)}
+                    onClick={() => handleNavigate("Services",service.navigate)}
                     className="border-b-2 py-2 flex items-center justify-between"
                     key={index}
                   >
@@ -610,6 +673,79 @@ function Header() {
                 </li>
               ))}
             </ul>
+          </div>
+        )}
+        {activeSubMenu === "SectorOverView" && (
+          <div className="transition-transform duration-300 transform translate-x-0 w-[90%] mx-auto">
+            <div
+              onClick={() => setActiveSubMenu(null)}
+              className="mb-2 mt-2 py-2 text-gray-800 rounded hover:bg-gray-300 flex items-center gap-4"
+            >
+              <FaArrowLeft />
+              Back
+            </div>
+            <div className="font-semibold">Over View</div>
+            <p className="text-[18px] mt-2 font-semibold">
+              Mandlac is a comprehensive platform designed to facilitate the
+              deployment, management, and operation of IoT systems
+            </p>
+            <p className="mt-4 text-[14px]">
+              Welcome to Mandlac, where we leverage IoT technology to transform
+              businesses. With custom solutions tailored to your needs, we
+              enhance efficiency and connectivity, paving the way for a smarter
+              future.
+            </p>
+            <div className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded" onClick={() => handleNavigateOverview()}>
+              Discover More
+            </div>
+          </div>
+        )}
+        {activeSubMenu === "AboutUs" && (
+          <div className="transition-transform duration-300 transform translate-x-0 w-[90%] mx-auto">
+            <div
+              onClick={() => setActiveSubMenu(null)}
+              className="mb-2 mt-2 py-2 text-gray-800 rounded hover:bg-gray-300 flex items-center gap-4"
+            >
+              <FaArrowLeft />
+              Back
+            </div>
+            <ul>
+              {AboutUsSector.sort((a, b) => a.name.localeCompare(b.name)).map(
+                (sector, index) => (
+                  <li
+                    onClick={() => handleNavigate("AboutUs", sector.navigate)}
+                    className="border-b-2 py-2 flex items-center justify-between"
+                    key={index}
+                  >
+                    {sector.name} <FaArrowRight />
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        )}
+        {activeSubMenu === "Leadership" && (
+          <div className="transition-transform duration-300 transform translate-x-0 w-[90%] mx-auto">
+            <div
+              onClick={() => setActiveSubMenu(null)}
+              className="mb-2 mt-2 py-2 text-gray-800 rounded hover:bg-gray-300 flex items-center gap-4"
+            >
+              <FaArrowLeft />
+              Back
+            </div>
+            <div>Coming soon...</div>
+          </div>
+        )}
+        {activeSubMenu === "Events" && (
+          <div className="transition-transform duration-300 transform translate-x-0 w-[90%] mx-auto">
+            <div
+              onClick={() => setActiveSubMenu(null)}
+              className="mb-2 mt-2 py-2 text-gray-800 rounded hover:bg-gray-300 flex items-center gap-4"
+            >
+              <FaArrowLeft />
+              Back
+            </div>
+            <div>Coming soon...</div>
           </div>
         )}
       </div>

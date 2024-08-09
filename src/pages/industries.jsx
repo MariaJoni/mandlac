@@ -32,10 +32,9 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import ExploreSolution from "./exploreSolution";
 
 function Industries() {
   const { sector } = useParams();
@@ -243,34 +242,34 @@ function Industries() {
     });
   };
 
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.25,
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null,
+  //     rootMargin: '0px',
+  //     threshold: 0.25,
+  //   };
 
-    const callback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setVisibleSection(entry.target.dataset.title);
-        }
-      });
-    };
+  //   const callback = (entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         setVisibleSection(entry.target.dataset.title);
+  //       }
+  //     });
+  //   };
 
-    const observer = new IntersectionObserver(callback, options);
+  //   const observer = new IntersectionObserver(callback, options);
 
-    const currentSectionRefs = sectionRef.current;
-    Object.keys(currentSectionRefs).forEach((key) => {
-      observer.observe(currentSectionRefs[key]);
-    });
+  //   const currentSectionRefs = sectionRef.current;
+  //   Object.keys(currentSectionRefs).forEach((key) => {
+  //     observer.observe(currentSectionRefs[key]);
+  //   });
 
-    return () => {
-      Object.keys(currentSectionRefs).forEach((key) => {
-        observer.unobserve(currentSectionRefs[key]);
-      });
-    };
-  }, []);
+  //   return () => {
+  //     Object.keys(currentSectionRefs).forEach((key) => {
+  //       observer.unobserve(currentSectionRefs[key]);
+  //     });
+  //   };
+  // }, []);
 
   return (
     <div className="w-full">
@@ -322,7 +321,7 @@ function Industries() {
           <DropdownMenu className="">
             <DropdownMenuTrigger className="w-full flex gap-5 justify-between mx-5 items-center">
               <span className="text-base font-roboto font-normal">
-              {visibleSection}
+              {selectedSection}
               </span>
               <IoIosMenu className="text-xl" />
             </DropdownMenuTrigger>
@@ -351,6 +350,7 @@ function Industries() {
           ))}
         </div>
       </div>
+        <ExploreSolution />
     </div>
   );
 }
