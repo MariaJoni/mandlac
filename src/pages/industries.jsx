@@ -230,6 +230,7 @@ function Industries() {
     },
   ];
 
+
   const selectedIndustry = data.find(
     (item) => item.menu.toLowerCase() === sector.toLowerCase()
   );
@@ -238,38 +239,9 @@ function Industries() {
     setSelectedSection(title);
     sectionRef.current[title].scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
     });
   };
-
-  // useEffect(() => {
-  //   const options = {
-  //     root: null,
-  //     rootMargin: '0px',
-  //     threshold: 0.25,
-  //   };
-
-  //   const callback = (entries) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         setVisibleSection(entry.target.dataset.title);
-  //       }
-  //     });
-  //   };
-
-  //   const observer = new IntersectionObserver(callback, options);
-
-  //   const currentSectionRefs = sectionRef.current;
-  //   Object.keys(currentSectionRefs).forEach((key) => {
-  //     observer.observe(currentSectionRefs[key]);
-  //   });
-
-  //   return () => {
-  //     Object.keys(currentSectionRefs).forEach((key) => {
-  //       observer.unobserve(currentSectionRefs[key]);
-  //     });
-  //   };
-  // }, []);
 
   return (
     <div className="w-full">
@@ -293,21 +265,20 @@ function Industries() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row w-full h-full bg-transparent bg-gradient-to-b from-[#EDF8EB00] to-[#edf8eb] mt-5">
-        <div className="hidden md:w-2/5 h-80 sticky top-24 md:flex flex-col items-center">
+        <div className="hidden md:w-2/5 h-80 sticky top-20 md:flex flex-col items-center">
           {SectorComponent.map((section) => (
             <div
               key={section.title}
               onClick={() => handleSectionClick(section.title)}
-              className={`${
-                selectedSection === section.title ? "bg-[#E4ECE2]" : ""
-              }p-3 h-12 rounded-sm cursor-pointer md:flex w-full md:w-[80%] relative items-center`}
+              className={`${selectedSection === section.title ? "font-bold bg-[#E4ECE2]" : ""
+                } p-3 h-12 rounded-sm cursor-pointer md:flex w-full md:w-[80%] relative items-center`}
+
             >
               <span
-                className={`${
-                  selectedSection === section.title
-                    ? "text-lg font-roboto font-medium"
-                    : "text-[17px] font-roboto font-normal"
-                } ml-3`}
+                className={`${selectedSection === section.title
+                  ? "text-lg font-roboto font-medium"
+                  : "text-[17px] font-roboto font-normal"
+                  } ml-3`}
               >
                 {section.title}
               </span>
@@ -317,11 +288,11 @@ function Industries() {
             </div>
           ))}
         </div>
-        <div className="flex w-full justify-center h-16 top-24 sticky md:hidden bg-slate-300">
+        <div className="flex w-full justify-center h-16 top-20 sticky md:hidden bg-slate-300">
           <DropdownMenu className="">
             <DropdownMenuTrigger className="w-full flex gap-5 justify-between mx-5 items-center">
               <span className="text-base font-roboto font-normal">
-              {selectedSection}
+                {selectedSection}
               </span>
               <IoIosMenu className="text-xl" />
             </DropdownMenuTrigger>
@@ -350,7 +321,7 @@ function Industries() {
           ))}
         </div>
       </div>
-        <ExploreSolution />
+      <ExploreSolution />
     </div>
   );
 }

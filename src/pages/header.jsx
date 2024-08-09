@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import nipponLogo from "../assets/MandlacLogo.png";
 import {
   IoIosArrowDown,
@@ -52,6 +52,7 @@ function Header() {
   };
 
   const handlePopoverOpen = (popoverName) => {
+    setActiveSection("Overview")
     setPopoverOpen((prev) => (prev === popoverName ? null : popoverName));
     setHeaderWhite(false);
   };
@@ -70,7 +71,7 @@ function Header() {
     <div className="relative w-full">
       <div
         className={cn(
-          "flex flex-col md:flex-row w-full justify-between items-center border-b-1 border-gray-300 shadow-sm p-2 h-24 fixed z-50",
+          "flex flex-col md:flex-row w-full justify-between items-center border-b-1 border-gray-300 shadow-sm p-2 h-20 fixed z-50",
           popoverOpen || headerWhite ? "bg-white" : "bg-[#ffeb9b]"
         )}
       >
@@ -78,7 +79,7 @@ function Header() {
           <img
             onClick={handleBackHome}
             src={nipponLogo}
-            className=" w-20 h-16 mb-2 md:mb-0 cursor-pointer lg:ml-[100px]"
+            className=" w-16 h-[56px] lg:w-20 lg:h-16 mt-1 mb-2 ml-[20px] md:mb-0 cursor-pointer lg:ml-[100px]"
             alt="Logo"
           />
           <button
@@ -112,13 +113,12 @@ function Header() {
                   />
                 </li>
               </PopoverTrigger>
-              <PopoverContent className="w-screen h-80 mt-8">
+              <PopoverContent className="w-screen h-80 mt-6">
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${
-                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -131,9 +131,8 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Industries" ? "bg-yellow-50" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Industries" ? "bg-yellow-50" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Industries")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -146,9 +145,8 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Services" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Services" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Services")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -161,9 +159,8 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Products" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Products" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Products")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -176,9 +173,8 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Research" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Research" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Research")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -290,13 +286,12 @@ function Header() {
                   />
                 </li>
               </PopoverTrigger>
-              <PopoverContent className="w-screen h-80 mt-8">
+              <PopoverContent className="w-screen h-80 mt-6">
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${
-                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -309,9 +304,8 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "AboutUs" ? "bg-yellow-50" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "AboutUs" ? "bg-yellow-50" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("AboutUs")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -324,24 +318,22 @@ function Header() {
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("LeaderShip")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
-                        LeaderShip
+                        Leader Ship
                       </span>
                       {(isHovered || activeSection === "LeaderShip") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Events" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Events" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Events")}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -411,7 +403,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div className="absolute top-10 right-12 lg:mr-[100px] sm:static flex items-center gap-4">
+        <div className="absolute top-7 right-12 lg:mr-[100px] sm:static flex items-center gap-4">
           <span className="text-lg">
             <IoSearchOutline />
           </span>
@@ -424,15 +416,13 @@ function Header() {
         </div>
       </div>
       <div
-        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${
-          menuOpen ? "translate-x-0" : "-translate-x-full"
-        } md:hidden`}
+        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? "translate-x-0" : "-translate-x-full"
+          } md:hidden`}
         style={{ width: "100%", transition: "transform 0.3s ease-in-out" }}
       >
         <ul
-          className={`mb-32 mt-5 w-[90%] mx-auto ${
-            activeMenu ? "hidden" : "block"
-          }`}
+          className={`mb-32 mt-5 w-[90%] mx-auto ${activeMenu ? "hidden" : "block"
+            }`}
         >
           <li
             onClick={() => handleMenuClick("whatWeDo")}
@@ -466,9 +456,8 @@ function Header() {
 
         {activeMenu === "whatWeDo" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
-              activeSubMenu ? "hidden" : "block"
-            }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
+              }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
@@ -514,9 +503,8 @@ function Header() {
         )}
         {activeMenu === "whoWeAre" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
-              activeSubMenu ? "hidden" : "block"
-            }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
+              }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
@@ -525,7 +513,7 @@ function Header() {
               <FaArrowLeft />
               Back
             </div>
-            <div className=" font-semibold mb-2">What We Do</div>
+            <div className=" font-semibold mb-2">Who We Are</div>
             <ul>
               <li
                 onClick={() => handleSubMenuClick("SectorOverView")}
@@ -541,7 +529,7 @@ function Header() {
               </li>
               <li
                 onClick={() => handleSubMenuClick("Leadership")}
-                className="flex border-t-2 border-b-2 py-2 justify-between items-center"
+                className="flex border-b-2 py-2 justify-between items-center"
               >
                 Leadership <FaArrowRight />
               </li>
@@ -619,7 +607,7 @@ function Header() {
               {Services.sort((a, b) => a.name.localeCompare(b.name)).map(
                 (service, index) => (
                   <li
-                    onClick={() => handleNavigate("Services",service.navigate)}
+                    onClick={() => handleNavigate("Services", service.navigate)}
                     className="border-b-2 py-2 flex items-center justify-between"
                     key={index}
                   >
