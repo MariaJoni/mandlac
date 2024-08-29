@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { MdEmail } from "react-icons/md";
 import { GiRotaryPhone } from "react-icons/gi";
+import { FaMobileAlt } from "react-icons/fa";
 import {
   FaFacebookSquare,
   FaYoutube,
@@ -61,8 +62,7 @@ function Footer() {
             </li>
             <li
               onClick={() => {
-                navigate("/contact"),
-                  window.scrollTo(0, 0);
+                navigate("/contact"), window.scrollTo(0, 0);
               }}
               className="pb-2 cursor-pointer hover:text-amber-300"
             >
@@ -82,19 +82,31 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-xl font-roboto font-semibold mb-3">Contact Us</h2>
-          <h4>Corporate Office</h4>
+          <h4>CORPORATE ADDRESS</h4>
           <p className="text-[13px] mt-2 mb-2">
-            HD-127 ,RMZ Latitude, 9th floor, WeWork, Hebbal, Bengaluru,
-            Karnataka - 560024
+            Mandlac Technologies Private Limited HD-127,
+            <br />
+            RMZ Latitude, 9th Floor, WeWork Hebbal, Bengaluru,
+            <br />
+            Karnataka – 560024, India
           </p>
-          <h4>Registered Office</h4>
+          <h4>Registered Address</h4>
           <p className="text-[13px] mt-2 mb-2">
-            543 / 2, Vandipettai, NH Main Road, Kadayanallur, Tamilnadu, India -
-            627751.
+            Mandlac Technologies Private Limited 543/2, Vandipettai, NH Main
+            Road, Kadayanallur, Tamilnadu – 627751, India
           </p>
+          <h4>AUSTRALIA ADDRESS</h4>
+          <p className="text-[13px] mt-2 mb-2">
+            22, Canterburry Drive, Willetton 6155, Australia
+          </p>
+          <h4>REACH US</h4>
           <div className="flex items-center gap-2">
             <MdEmail className="w-5 h-5 text-amber-400" />
-            info@mandlac.com
+            reachus@mandlac.com
+          </div>
+          <div className="flex items-center gap-2">
+            <FaMobileAlt className="w-5 h-5 text-amber-400" />
+            +91-9791245607
           </div>
           <div className="flex items-center gap-2">
             <GiRotaryPhone className="w-5 h-5 text-amber-400" />

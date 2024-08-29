@@ -42,8 +42,76 @@ function Industries() {
   const [selectedSection, setSelectedSection] = useState(
     SectorComponent[0].title
   );
-  const [visibleSection, setVisibleSection] = useState(SectorComponent[0].title);
   const sectionRef = useRef({});
+  const currentVisibleSection = useRef(selectedSection);
+
+  const handleSectionClick = (title) => {
+    setSelectedSection(title);
+    currentVisibleSection.current = title;
+    sectionRef.current[title].scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+    });
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const title = entry.target.dataset.title;
+            if (currentVisibleSection.current !== title) {
+              currentVisibleSection.current = title;
+              setSelectedSection(title);
+            }
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: window.innerWidth <= 768 ? "0px 0px -40% 0px" : "0px 0px -20% 0px",
+        threshold: window.innerWidth <= 768 ? 0.3 : 0.4, // Adjusted for mobile
+      }
+    );
+  
+    // Observe sections
+    SectorComponent.forEach((section, index) => {
+      const element = sectionRef.current[section.title];
+      if (element) observer.observe(element);
+  
+      // Handle last section separately
+      if (index === SectorComponent.length - 1) {
+        const lastElement = sectionRef.current[section.title];
+        if (lastElement) {
+          const lastObserver = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  setSelectedSection(section.title);
+                }
+              });
+            },
+            {
+              root: null,
+              rootMargin: window.innerWidth <= 768 ? "0px 0px -20% 0px" : "0px 0px -10% 0px",
+              threshold: 1.0,
+            }
+          );
+          lastObserver.observe(lastElement);
+        }
+      }
+    });
+  
+    // Cleanup
+    return () => {
+      SectorComponent.forEach((section) => {
+        const element = sectionRef.current[section.title];
+        if (element) observer.unobserve(element);
+      });
+    };
+  }, [SectorComponent]);
+  
+
 
   const data = [
     {
@@ -234,14 +302,7 @@ function Industries() {
   const selectedIndustry = data.find(
     (item) => item.menu.toLowerCase() === sector.toLowerCase()
   );
-
-  const handleSectionClick = (title) => {
-    setSelectedSection(title);
-    sectionRef.current[title].scrollIntoView({
-      behavior: "smooth",
-      block: "end",
-    });
-  };
+  
 
   return (
     <div className="w-full">
@@ -265,7 +326,7 @@ function Industries() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row w-full h-full bg-transparent bg-gradient-to-b from-[#EDF8EB00] to-[#edf8eb] mt-5">
-        <div className="hidden md:w-2/5 h-80 sticky top-20 md:flex flex-col items-center">
+        <div className="hidden md:w-2/5 h-80 sticky top-24 md:flex flex-col items-center">
           {SectorComponent.map((section) => (
             <div
               key={section.title}
@@ -313,8 +374,9 @@ function Industries() {
           {SectorComponent.map((section) => (
             <div
               key={section.title}
+              data-title= {section.title}
               ref={(el) => (sectionRef.current[section.title] = el)}
-              className="p-3 md:w-[90%]"
+              className="p-3 md:w-[90%] min-h-auto"
             >
               {section.content}
             </div>

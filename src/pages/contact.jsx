@@ -51,11 +51,11 @@ function Contact() {
             </p>
             <span className="flex gap-2 items-center ml-4">
               <ImMail4 className="text-amber-200 h-8 w-5" />
-              <p className="text-gray-400 text-sm">info@mandlac.com</p>
+              <p className="text-base">info@mandlac.com</p>
             </span>
             <span className="flex gap-2 items-center ml-4 my-2">
               <GiRotaryPhone className="text-amber-200 h-8 w-5" />
-              <p className="text-gray-400 text-sm">1800-309-8980</p>
+              <p className="text-base">1800-309-8980</p>
             </span>
           </div>
         </div>

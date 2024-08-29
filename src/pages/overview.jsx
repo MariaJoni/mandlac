@@ -107,7 +107,7 @@ function Overview() {
           </span>
           <div className="w-full flex flex-col-reverse md:flex-row md:items-start">
             <Tabs
-              defaultValue="vision"
+              defaultValue={overviewContent[selectedTab].title.toLowerCase().replace(" ", "")}
               className="w-full md:w-1/2 flex flex-col justify-center md:items-start my-5"
             >
               <TabsList className="">
@@ -116,7 +116,7 @@ function Overview() {
                     key={index}
                     className="font-roboto font-normal text-lg"
                     value={item.title.toLowerCase().replace(" ", "")}
-                    onClick={() => setSelectedTab(index)}
+                    onClick={() => setSelectedTab(index)} 
                   >
                     {item.title}
                   </TabsTrigger>

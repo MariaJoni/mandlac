@@ -25,7 +25,7 @@ function Header() {
   const [activeSection, setActiveSection] = useState("Overview");
   const [activeMenu, setActiveMenu] = useState(null);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(null);
   const [popoverOpen, setPopoverOpen] = useState(false);
   const [headerWhite, setHeaderWhite] = useState(false);
 
@@ -44,6 +44,7 @@ function Header() {
   const handleNavigate = (type, sector) => {
     navigate(`/${type}/${sector}`);
     setMenuOpen(false);
+    window.location.reload();
   };
 
   const handleNavigateMenu = (path) => {
@@ -52,7 +53,7 @@ function Header() {
   };
 
   const handlePopoverOpen = (popoverName) => {
-    setActiveSection("Overview")
+    setActiveSection("Overview");
     setPopoverOpen((prev) => (prev === popoverName ? null : popoverName));
     setHeaderWhite(false);
   };
@@ -65,6 +66,14 @@ function Header() {
   const handleNavigateOverview = () => {
     navigate("/SectorOverview");
     setMenuOpen(false);
+  };
+
+  const handleMouseEnter = (section) => {
+    setIsHovered(section);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(null);
   };
 
   return (
@@ -95,7 +104,10 @@ function Header() {
         </div>
         <div className={`hidden md:flex flex-row gap-4 md:gap-8 items-center`}>
           <ul className="flex flex-row gap-4 md:gap-8 items-center">
-            <Popover onOpenChange={() => handlePopoverOpen("whatWeDo")}>
+            <Popover
+              open={popoverOpen === "whatWeDo"}
+              onOpenChange={() => handlePopoverOpen("whatWeDo")}
+            >
               <PopoverTrigger asChild>
                 <li
                   className={cn(
@@ -117,72 +129,82 @@ function Header() {
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${
+                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Overview")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Overview
                       </span>
-                      {(isHovered || activeSection === "Overview") && (
+                      {(isHovered === "Overview" ||
+                        activeSection === "Overview") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "Industries" ? "bg-yellow-50" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${
+                        activeSection === "Industries" ? "bg-yellow-50" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Industries")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Industries")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Industries
                       </span>
-                      {(isHovered || activeSection === "Industries") && (
+                      {(isHovered === "Industries" ||
+                        activeSection === "Industries") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "Services" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${
+                        activeSection === "Services" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Services")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Services")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Services
                       </span>
-                      {(isHovered || activeSection === "Services") && (
+                      {(isHovered === "Services" ||
+                        activeSection === "Services") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "Products" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${
+                        activeSection === "Products" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Products")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Products")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Products
                       </span>
-                      {(isHovered || activeSection === "Products") && (
+                      {(isHovered === "Products" ||
+                        activeSection === "Products") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "Research" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${
+                        activeSection === "Research" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Research")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Research")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Research and innovation
                       </span>
-                      {(isHovered || activeSection === "Research") && (
+                      {(isHovered === "Research" ||
+                        activeSection === "Research") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
@@ -290,58 +312,66 @@ function Header() {
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${
+                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Overview")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Overview
                       </span>
-                      {(isHovered || activeSection === "Overview") && (
+                      {(isHovered === "Overview" ||
+                        activeSection === "Overview") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "AboutUs" ? "bg-yellow-50" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${
+                        activeSection === "AboutUs" ? "bg-yellow-50" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("AboutUs")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("AboutUs")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         About Us
                       </span>
-                      {(isHovered || activeSection === "AboutUs") && (
+                      {(isHovered === "AboutUs" ||
+                        activeSection === "AboutUs") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${
+                        activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("LeaderShip")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("LeaderShip")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Leader Ship
                       </span>
-                      {(isHovered || activeSection === "LeaderShip") && (
+                      {(isHovered === "LeaderShip" ||
+                        activeSection === "LeaderShip") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
                     <div
-                      className={`${activeSection === "Events" ? "bg-[#FFFCEE]" : ""
-                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${
+                        activeSection === "Events" ? "bg-[#FFFCEE]" : ""
+                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Events")}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
+                      onMouseEnter={() => handleMouseEnter("Events")}
+                      onMouseLeave={handleMouseLeave}
                     >
                       <span className="font-roboto font-normal text-lg group-hover:text-[#D0A600]">
                         Events
                       </span>
-                      {(isHovered || activeSection === "Events") && (
+                      {(isHovered === "Events" ||
+                        activeSection === "Events") && (
                         <IoIosArrowForward className="text-[#D0A600]" />
                       )}
                     </div>
@@ -416,13 +446,15 @@ function Header() {
         </div>
       </div>
       <div
-        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? "translate-x-0" : "-translate-x-full"
-          } md:hidden`}
+        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${
+          menuOpen ? "translate-x-0" : "-translate-x-full"
+        } md:hidden`}
         style={{ width: "100%", transition: "transform 0.3s ease-in-out" }}
       >
         <ul
-          className={`mb-32 mt-5 w-[90%] mx-auto ${activeMenu ? "hidden" : "block"
-            }`}
+          className={`mb-32 mt-5 w-[90%] mx-auto ${
+            activeMenu ? "hidden" : "block"
+          }`}
         >
           <li
             onClick={() => handleMenuClick("whatWeDo")}
@@ -456,8 +488,9 @@ function Header() {
 
         {activeMenu === "whatWeDo" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
-              }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
+              activeSubMenu ? "hidden" : "block"
+            }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
@@ -503,8 +536,9 @@ function Header() {
         )}
         {activeMenu === "whoWeAre" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
-              }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
+              activeSubMenu ? "hidden" : "block"
+            }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
@@ -683,7 +717,10 @@ function Header() {
               enhance efficiency and connectivity, paving the way for a smarter
               future.
             </p>
-            <div className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded" onClick={() => handleNavigateOverview()}>
+            <div
+              className="border border-amber-300 text-amber-400 text-center p-1 mt-5 w-[140px] rounded"
+              onClick={() => handleNavigateOverview()}
+            >
               Discover More
             </div>
           </div>
