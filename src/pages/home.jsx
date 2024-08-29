@@ -142,9 +142,9 @@ function Home() {
               Experience the Future of IoT
             </span>
           </div>
-          <div className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%]">
+          <div className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%] md:w-[60%]">
             At the forefront of innovation, Mandlac is dedicated to
-            revolutionizing the way we interact with technology. <br />
+            revolutionizing the way we interact with technology. 
             Leveraging cutting-edge IoT technologies, we empower businesses to
             optimize operations, enhance efficiency, and drive growth in today’s
             increasingly connected world.
@@ -177,14 +177,14 @@ function Home() {
             Advanced Technologies
           </span>
         </div>
-        <p className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%]">
+        <p className="font-roboto font-normal text-[15px] lg:text-[18px] text-center mt-5 w-[80%] md:w-[75%]">
           We’re pioneers in the field of IoT, harnessing the latest advancements
           in technology to develop cutting-edge solutions that drive
-          efficiency,sustainability, <br /> and growth. From smart monitoring to
+          efficiency,sustainability, and growth. From smart monitoring to
           precise controlling and seamless management systems, we specialize in
-          revolutionizing how industries operate in <br /> the digital age.At
+          revolutionizing how industries operate in the digital age.At
           Mandlac, our clients are at the center of everything we do. We believe
-          in delivering on our promises, exceeding expectations, and <br />
+          in delivering on our promises, exceeding expectations, and
           building long-lasting partnerships based on trust, integrity, and
           mutual success.
         </p>

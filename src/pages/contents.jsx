@@ -5,33 +5,28 @@ import client_2 from "../assets/clients/client_2.png";
 import software_services from "../assets/Software_Services.png";
 import IoT_Services from "../assets/IoT_Services.png";
 import Geo_Spatial from "../assets/Geo_Spatial.png";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 
 const PreviousArrow = ({ className, style, onClick }) => (
-  <FaArrowLeft
+  <MdOutlineKeyboardArrowLeft
     className={className}
     style={{
       ...style,
-      color: "white",
-      fontSize: "24px",
-      backgroundColor: "black",
-      borderRadius: "5px",
-      marginLeft: "10px",
+      color: "#D0A600",
+      height:'20px'
     }}
     onClick={onClick}
   />
 );
 
 const NextArrow = ({ className, style, onClick }) => (
-  <FaArrowRight
+  <MdOutlineKeyboardArrowRight
     className={className}
     style={{
       ...style,
-      color: "white",
-      fontSize: "24px",
-      backgroundColor: "black",
-      borderRadius: "5px",
-      marginRight: "10px",
+      color: "#D0A600",
+      fontSize:'40px !important'
     }}
     onClick={onClick}
   />
