@@ -70,16 +70,14 @@ function Industries() {
       {
         root: null,
         rootMargin: window.innerWidth <= 768 ? "0px 0px -40% 0px" : "0px 0px -20% 0px",
-        threshold: window.innerWidth <= 768 ? 0.3 : 0.4, // Adjusted for mobile
+        threshold: window.innerWidth <= 768 ? 0.3 : 0.4,
       }
     );
-  
-    // Observe sections
+
     SectorComponent.forEach((section, index) => {
       const element = sectionRef.current[section.title];
       if (element) observer.observe(element);
-  
-      // Handle last section separately
+
       if (index === SectorComponent.length - 1) {
         const lastElement = sectionRef.current[section.title];
         if (lastElement) {
@@ -101,8 +99,7 @@ function Industries() {
         }
       }
     });
-  
-    // Cleanup
+
     return () => {
       SectorComponent.forEach((section) => {
         const element = sectionRef.current[section.title];
@@ -110,7 +107,7 @@ function Industries() {
       });
     };
   }, [SectorComponent]);
-  
+
 
 
   const data = [
@@ -302,7 +299,7 @@ function Industries() {
   const selectedIndustry = data.find(
     (item) => item.menu.toLowerCase() === sector.toLowerCase()
   );
-  
+
 
   return (
     <div className="w-full">
@@ -374,7 +371,7 @@ function Industries() {
           {SectorComponent.map((section) => (
             <div
               key={section.title}
-              data-title= {section.title}
+              data-title={section.title}
               ref={(el) => (sectionRef.current[section.title] = el)}
               className="p-3 md:w-[90%] min-h-auto"
             >

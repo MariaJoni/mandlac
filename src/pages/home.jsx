@@ -58,8 +58,11 @@ import {
 } from "./contents";
 import { Button } from "@/components/ui/button";
 import "../index.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     AOS.init({
       duration: 500,
@@ -87,31 +90,31 @@ function Home() {
 
   const Industries = [
     { img: Advertising, title: "Advertising" },
-    { img: Airport, title: "Airport" },
-    { img: Aviation, title: "Aviation" },
-    { img: Automotive, title: "Automotive" },
-    { img: Banking, title: "Banking" },
-    { img: Bio_technology, title: "Bio-technology" },
-    { img: Capital_Markets, title: "Capital Markets" },
-    { img: Consumer_Goods, title: "Consumer Goods" },
-    { img: Distribution, title: "Distribution" },
-    { img: Energy_Utilities, title: "Energy & Utilities" },
-    { img: Fisheries, title: "Fisheries" },
-    { img: Government, title: "Government" },
-    { img: Healthcare, title: "Healthcare" },
-    { img: Hospitality, title: "Hospitality" },
-    { img: Institutions, title: "Institutions" },
-    { img: Life_Sciences, title: "Life Sciences" },
-    { img: Manufacturing, title: "Manufacturing" },
-    { img: Media, title: "Media" },
-    { img: Mining, title: "Mining" },
-    { img: Oil_Gas, title: "Oil & Gas" },
-    { img: Pharmaceuticals, title: "Pharmaceuticals" },
-    { img: Railways, title: "Railways" },
-    { img: Retails, title: "Retails" },
-    { img: Robot, title: "Robotics" },
-    { img: Tele_Communications, title: "Tele Communications" },
-    { img: Travel, title: "Travel" },
+    { img: Airport, title: "Airport", navigate: "Airports" },
+    { img: Aviation, title: "Aviation", navigate: "Retails" },
+    { img: Automotive, title: "Automotive", navigate: "Automotive" },
+    { img: Banking, title: "Banking", navigate: "Banking" },
+    { img: Bio_technology, title: "Bio-technology", navigate: "Biotechnology" },
+    { img: Capital_Markets, title: "Capital Markets", navigate: "CapitalMarkets" },
+    { img: Consumer_Goods, title: "Consumer Goods", navigate: "ConsumerGoods" },
+    { img: Distribution, title: "Distribution", navigate: "Distribution" },
+    { img: Energy_Utilities, title: "Energy & Utilities", navigate: "EnergyUtilities" },
+    { img: Fisheries, title: "Fisheries", navigate: "Fisheries" },
+    { img: Government, title: "Government", navigate: "Government" },
+    { img: Healthcare, title: "Healthcare", navigate: "Healthcare" },
+    { img: Hospitality, title: "Hospitality", navigate: "Hospitality" },
+    { img: Institutions, title: "Institutions", navigate: "Institutions" },
+    { img: Life_Sciences, title: "Life Sciences", navigate: "Lifescience" },
+    { img: Manufacturing, title: "Manufacturing", navigate: "Manufacturing" },
+    { img: Media, title: "Media", navigate: "Media" },
+    { img: Mining, title: "Mining", navigate: "Mining" },
+    { img: Oil_Gas, title: "Oil & Gas", navigate: "OilGas" },
+    { img: Pharmaceuticals, title: "Pharmaceuticals", navigate: "Pharmaceuticals" },
+    { img: Railways, title: "Railways", navigate: "Railways" },
+    { img: Retails, title: "Retails", navigate: "Retails" },
+    { img: Robot, title: "Robotics", navigate: "Robotics" },
+    { img: Tele_Communications, title: "Tele Communications", navigate: "Telecommunications" },
+    { img: Travel, title: "Travel", navigate: "Travel" },
   ];
 
   const projects = [
@@ -144,7 +147,7 @@ function Home() {
           </div>
           <div className="flex flex-col font-roboto font-normal leading-[27px] text-[15px] lg:text-[18px] items-center text-center mt-5 w-[80%] md:w-[60%]">
             At the forefront of innovation, Mandlac is dedicated to
-            revolutionizing the way we interact with technology. 
+            revolutionizing the way we interact with technology.
             Leveraging cutting-edge IoT technologies, we empower businesses to
             optimize operations, enhance efficiency, and drive growth in today’s
             increasingly connected world.
@@ -235,10 +238,11 @@ function Home() {
         <Slider {...industriesSlide} className="">
           {Industries.map((data, i) => (
             <div key={i} className="p-3 cursor-pointer">
-              <div className="flex flex-col gap-5 items-center justify-center h-full min-h-[200px] bg-[#F7F7F7] hover:border border-yellow-300 hover:shadow-md">
+              <div onClick={() => { navigate(`/Industries/${data.navigate}`); window.location.reload(); }} className="flex flex-col gap-5 items-center justify-center h-full min-h-[200px] bg-[#F7F7F7] hover:border border-yellow-300 hover:shadow-md">
                 <img
                   src={data.img}
                   alt={data.title}
+
                   className="w-14 h-12 my-4"
                 />
                 <h3 className="font-roboto font-medium text-xl text-center">

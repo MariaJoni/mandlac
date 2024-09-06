@@ -60,6 +60,7 @@ function Header() {
 
   const handleBackHome = () => {
     navigate("/");
+    window.location.reload();
     setHeaderWhite(false);
   };
 
@@ -129,9 +130,8 @@ function Header() {
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${
-                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
                       onMouseEnter={() => handleMouseEnter("Overview")}
                       onMouseLeave={handleMouseLeave}
@@ -141,13 +141,12 @@ function Header() {
                       </span>
                       {(isHovered === "Overview" ||
                         activeSection === "Overview") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Industries" ? "bg-yellow-50" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Industries" ? "bg-yellow-50" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Industries")}
                       onMouseEnter={() => handleMouseEnter("Industries")}
                       onMouseLeave={handleMouseLeave}
@@ -157,13 +156,12 @@ function Header() {
                       </span>
                       {(isHovered === "Industries" ||
                         activeSection === "Industries") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Services" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Services" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Services")}
                       onMouseEnter={() => handleMouseEnter("Services")}
                       onMouseLeave={handleMouseLeave}
@@ -173,13 +171,12 @@ function Header() {
                       </span>
                       {(isHovered === "Services" ||
                         activeSection === "Services") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Products" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Products" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Products")}
                       onMouseEnter={() => handleMouseEnter("Products")}
                       onMouseLeave={handleMouseLeave}
@@ -189,13 +186,12 @@ function Header() {
                       </span>
                       {(isHovered === "Products" ||
                         activeSection === "Products") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Research" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Research" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Research")}
                       onMouseEnter={() => handleMouseEnter("Research")}
                       onMouseLeave={handleMouseLeave}
@@ -205,8 +201,8 @@ function Header() {
                       </span>
                       {(isHovered === "Research" ||
                         activeSection === "Research") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                   </div>
                   <div className="w-[75%] h-full ml-8">
@@ -312,9 +308,8 @@ function Header() {
                 <div className="flex items-start w-[85%] mt-5 mb-5 ml-auto mr-auto">
                   <div className="w-[25%] border-r-2">
                     <div
-                      className={`${
-                        activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "Overview" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("Overview")}
                       onMouseEnter={() => handleMouseEnter("Overview")}
                       onMouseLeave={handleMouseLeave}
@@ -324,13 +319,12 @@ function Header() {
                       </span>
                       {(isHovered === "Overview" ||
                         activeSection === "Overview") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "AboutUs" ? "bg-yellow-50" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
+                      className={`${activeSection === "AboutUs" ? "bg-yellow-50" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer hover:bg-[#FFFCEE] group`}
                       onClick={() => handleClick("AboutUs")}
                       onMouseEnter={() => handleMouseEnter("AboutUs")}
                       onMouseLeave={handleMouseLeave}
@@ -340,13 +334,12 @@ function Header() {
                       </span>
                       {(isHovered === "AboutUs" ||
                         activeSection === "AboutUs") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "LeaderShip" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("LeaderShip")}
                       onMouseEnter={() => handleMouseEnter("LeaderShip")}
                       onMouseLeave={handleMouseLeave}
@@ -356,13 +349,12 @@ function Header() {
                       </span>
                       {(isHovered === "LeaderShip" ||
                         activeSection === "LeaderShip") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                     <div
-                      className={`${
-                        activeSection === "Events" ? "bg-[#FFFCEE]" : ""
-                      } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
+                      className={`${activeSection === "Events" ? "bg-[#FFFCEE]" : ""
+                        } flex font-semibold p-2 text-[20px] justify-between items-center cursor-pointer group`}
                       onClick={() => handleClick("Events")}
                       onMouseEnter={() => handleMouseEnter("Events")}
                       onMouseLeave={handleMouseLeave}
@@ -372,8 +364,8 @@ function Header() {
                       </span>
                       {(isHovered === "Events" ||
                         activeSection === "Events") && (
-                        <IoIosArrowForward className="text-[#D0A600]" />
-                      )}
+                          <IoIosArrowForward className="text-[#D0A600]" />
+                        )}
                     </div>
                   </div>
                   <div className="w-[75%] h-full ml-8">
@@ -420,13 +412,13 @@ function Header() {
               </PopoverContent>
             </Popover>
             <li
-              onClick={() => handleNavigateMenu("/blog")}
+              onClick={() => { handleNavigateMenu("/blog"), window.location.reload(); }}
               className="font-roboto font-medium text-[15px] cursor-pointer"
             >
               Blog
             </li>
             <li
-              onClick={() => handleNavigateMenu("/contact")}
+              onClick={() => { handleNavigateMenu("/contact"), window.location.reload(); }}
               className="font-roboto font-medium text-[15px] cursor-pointer"
             >
               Contact
@@ -438,7 +430,7 @@ function Header() {
             <IoSearchOutline />
           </span>
           <span
-            onClick={() => navigate("/contact")}
+            onClick={() => { navigate("/contact"), window.location.reload(); }}
             className="bg-black text-white cursor-pointer font-roboto font-semibold text-[16px] p-1 md:p-2 rounded hover:bg-[#D0A600]"
           >
             Get Connected
@@ -446,15 +438,13 @@ function Header() {
         </div>
       </div>
       <div
-        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${
-          menuOpen ? "translate-x-0" : "-translate-x-full"
-        } md:hidden`}
+        className={`fixed mt-24 z-30 overflow-y-auto top-0 left-0 h-full bg-white transition-transform transform ${menuOpen ? "translate-x-0" : "-translate-x-full"
+          } md:hidden`}
         style={{ width: "100%", transition: "transform 0.3s ease-in-out" }}
       >
         <ul
-          className={`mb-32 mt-5 w-[90%] mx-auto ${
-            activeMenu ? "hidden" : "block"
-          }`}
+          className={`mb-32 mt-5 w-[90%] mx-auto ${activeMenu ? "hidden" : "block"
+            }`}
         >
           <li
             onClick={() => handleMenuClick("whatWeDo")}
@@ -470,7 +460,7 @@ function Header() {
           </li>
           <li
             onClick={() => {
-              navigate("/blog"), setMenuOpen(false);
+              navigate("/blog"), setMenuOpen(false); window.location.reload();
             }}
             className="cursor-pointer flex justify-between border-b-2 py-2"
           >
@@ -478,7 +468,7 @@ function Header() {
           </li>
           <li
             onClick={() => {
-              navigate("/contact"), setMenuOpen(false);
+              navigate("/contact"), setMenuOpen(false); window.location.reload();
             }}
             className="cursor-pointer flex justify-between border-b-2 py-2"
           >
@@ -488,9 +478,8 @@ function Header() {
 
         {activeMenu === "whatWeDo" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
-              activeSubMenu ? "hidden" : "block"
-            }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
+              }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
@@ -536,9 +525,8 @@ function Header() {
         )}
         {activeMenu === "whoWeAre" && (
           <div
-            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${
-              activeSubMenu ? "hidden" : "block"
-            }`}
+            className={`mb-32 w-[90%] mx-auto transition-transform duration-300 transform translate-x-0 ${activeSubMenu ? "hidden" : "block"
+              }`}
           >
             <div
               onClick={() => setActiveMenu(null)}
