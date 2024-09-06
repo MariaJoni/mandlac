@@ -8,8 +8,10 @@ import { Button } from '@/components/ui/button';
 import person from "../assets/person.png";
 import calander from "../assets/calander.png";
 import ExploreSolution from './exploreSolution';
+import { useLocation } from 'react-router-dom';
 
 function Blog() {
+  const location = useLocation();
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -17,6 +19,10 @@ function Blog() {
       once: true,
     });
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <div className='w-full mt-20'>

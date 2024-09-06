@@ -39,34 +39,27 @@ function Footer() {
         <div>
           <h2 className="text-xl font-roboto font-semibold mb-3">Explore</h2>
           <ul>
-            <li
-              onClick={() => navigate("/")}
-              className="pb-2 cursor-pointer hover:text-amber-300"
-            >
-              What we do
+            <li className="mb-2">
+              <span onClick={() => { navigate("/"), window.location.reload(); }}
+                className="pb-2 cursor-pointer hover:text-amber-300">What we do</span>
             </li>
-            <li
-              onClick={() => navigate("/")}
-              className="pb-2 cursor-pointer hover:text-amber-300"
-            >
-              Who we are
+            <li className="mb-2">
+              <span onClick={() => { navigate("/"), window.location.reload(); }}
+                className="pb-2 cursor-pointer hover:text-amber-300"> Who we are</span>
             </li>
-            <li
-              onClick={() => {
+            <li className="mb-2">
+              <span className="pb-2 cursor-pointer hover:text-amber-300" onClick={() => {
                 navigate("/blog");
+                window.location.reload();
                 window.scrollTo(0, 0);
-              }}
-              className="pb-2 cursor-pointer hover:text-amber-300"
-            >
-              Blog
+              }}> Blog</span>
             </li>
-            <li
-              onClick={() => {
+            <li className="mb-2">
+              <span onClick={() => {
                 navigate("/contact"), window.scrollTo(0, 0);
+                window.location.reload();
               }}
-              className="pb-2 cursor-pointer hover:text-amber-300"
-            >
-              Contact
+                className="pb-2 cursor-pointer hover:text-amber-300">Contact</span>
             </li>
           </ul>
         </div>

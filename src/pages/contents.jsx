@@ -14,7 +14,9 @@ const PreviousArrow = ({ className, style, onClick }) => (
     style={{
       ...style,
       color: "#D0A600",
-      height:'20px'
+      height: '35px',
+      width: "35px",
+      cursor: 'pointer',
     }}
     onClick={onClick}
   />
@@ -26,11 +28,14 @@ const NextArrow = ({ className, style, onClick }) => (
     style={{
       ...style,
       color: "#D0A600",
-      fontSize:'40px !important'
+      height: '35px',
+      width: "35px",
+      cursor: 'pointer',
     }}
     onClick={onClick}
   />
 );
+
 
 export const clientSlide = {
   dots: false,
