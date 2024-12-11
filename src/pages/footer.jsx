@@ -61,6 +61,14 @@ function Footer() {
               }}
                 className="pb-2 cursor-pointer hover:text-amber-300">Contact</span>
             </li>
+            <li className="mb-2">
+              <span className="pb-2 cursor-pointer hover:text-amber-300" onClick={() => {
+                navigate("/PrivacyPolicy");
+                window.location.reload();
+                window.scrollTo(0, 0);
+              }}>Privacy Policy
+              </span>
+            </li>
           </ul>
         </div>
         <div>
